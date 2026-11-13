@@ -79,7 +79,34 @@ function hydrateBooks(): BookProject[] {
     null
   );
   if (savedBooks && Array.isArray(savedBooks) && savedBooks.length > 0) {
-    return savedBooks;
+    return savedBooks.map((b) => {
+      if (b.id === MASTER_BOOK_PROJECT.id) {
+        return {
+          ...b,
+          chapters: b.chapters.map((ch) => {
+            const initial = INITIAL_CHAPTERS.find((init) => init.id === ch.id);
+            if (initial && (!ch.content || ch.content.trim() === "") && initial.content) {
+              return {
+                ...ch,
+                content: initial.content,
+                revisions: [
+                  {
+                    id: "rev-1",
+                    label: "Rev 1",
+                    content: initial.content,
+                    createdAt: Date.now(),
+                    note: "Seeded narrative",
+                  },
+                ],
+                activeRevisionId: "rev-1",
+              };
+            }
+            return ch;
+          }),
+        };
+      }
+      return b;
+    });
   }
   const legacy = loadJsonFromStorage<Partial<ChapterData>[] | null>(
     STORAGE_KEYS.legacyChapters,

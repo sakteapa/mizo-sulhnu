@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "motion/react";
 
 export interface ClickableEntity {
   id: string;
@@ -114,8 +115,18 @@ function renderInlineFormatting(
 }
 
 interface ParsedBlock {
-  type: "h2" | "h3" | "thlirzauna" | "quote" | "hr" | "list" | "paragraph";
+  type:
+    | "h2"
+    | "h3"
+    | "thlirzauna"
+    | "quote"
+    | "hr"
+    | "list"
+    | "paragraph"
+    | "image";
   text: string;
+  src?: string;
+  title?: string;
   lines?: string[];
 }
 
@@ -134,6 +145,18 @@ function parseMarkdownBlocks(raw: string): ParsedBlock[] {
 
     if (/^---+$/.test(line) || /^\*\*\*+$/.test(line)) {
       blocks.push({ type: "hr", text: "" });
+      i++;
+      continue;
+    }
+
+    const imgMatch = line.match(/^!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]+)")?\)$/);
+    if (imgMatch) {
+      blocks.push({
+        type: "image",
+        text: imgMatch[1],
+        src: imgMatch[2],
+        title: imgMatch[3] || imgMatch[1],
+      });
       i++;
       continue;
     }
@@ -257,6 +280,33 @@ export const MizoProseRenderer: React.FC<MizoProseRendererProps> = ({
               <span className="text-xs tracking-[0.35em]">✦</span>
               <span className="h-px w-16 bg-[var(--border-hairline)]" />
             </div>
+          );
+        }
+
+        if (block.type === "image" && block.src) {
+          return (
+            <motion.figure
+              key={idx}
+              initial={{ opacity: 0, y: 18 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.65, ease: "easeOut" }}
+              className="my-10 mx-auto max-w-2xl rounded-2xl overflow-hidden border border-[var(--border-hairline)] bg-[var(--bg-surface)] shadow-md print-avoid-break group"
+            >
+              <div className="relative overflow-hidden aspect-[16/10] bg-stone-900/10">
+                <img
+                  src={block.src}
+                  alt={block.text || "Mizo history illustration"}
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  loading="lazy"
+                />
+              </div>
+              {block.text && (
+                <figcaption className="p-3.5 text-center text-xs sm:text-sm italic font-ui text-[var(--text-muted)] border-t border-[var(--border-hairline)] bg-[var(--bg-card)]">
+                  {block.text}
+                </figcaption>
+              )}
+            </motion.figure>
           );
         }
 
