@@ -8,7 +8,7 @@
     }
   },
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/index" },
+    { "source": "/api/(.*)", "destination": "/api" },
     { "source": "/((?!api/|assets/|manifest\\.json|sw\\.js|workbox-|icon\\.svg|favicon\\.ico|apple-touch-icon\\.png|pwa-).*)", "destination": "/index.html" }
   ],
   "headers": [

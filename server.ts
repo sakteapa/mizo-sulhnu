@@ -149,6 +149,21 @@ export function createApiApp(): express.Express {
   const app = express();
   app.use(express.json({ limit: "25mb" }));
 
+  // Normalize path across local dev and Vercel serverless environments
+  app.use((req: Request, _res: Response, next) => {
+    let url = req.url || "/";
+    if (url.startsWith("/api/index")) {
+      url = url.replace(/^\/api\/index/, "/api");
+    }
+    if (url === "/api" || url === "/api/" || url === "/" || !url) {
+      url = "/api/health";
+    } else if (!url.startsWith("/api/")) {
+      url = "/api" + (url.startsWith("/") ? url : "/" + url);
+    }
+    req.url = url;
+    next();
+  });
+
   app.get("/api/health", (_req: Request, res: Response) => {
     res.json({ ok: true });
   });
@@ -779,6 +794,13 @@ Reconstruct a plausible, historically grounded step-by-step reverse lineage chai
     }
   });
 
+  // 404 fallback handler for API routes to prevent hangs on serverless runtimes
+  app.use((req: Request, res: Response) => {
+    res.status(404).json({
+      error: `API endpoint not found: ${req.method} ${req.originalUrl || req.url}`,
+    });
+  });
+
   return app;
 }
 
@@ -795,7 +817,7 @@ async function startServer() {
   } else {
     const distDir = path.resolve(__dirname, "dist");
     apiApp.use(express.static(distDir));
-    apiApp.get("/{*path}", (_req: Request, res: Response) => {
+    apiApp.get("*", (_req: Request, res: Response) => {
       res.sendFile(path.join(distDir, "index.html"));
     });
   }
