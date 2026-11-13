@@ -318,11 +318,11 @@ export const PASALTHA_CHAPTERS: ChapterData[] = [
   {
     id: 1,
     bungLabel: "Bung 1",
-    title: "Pasaltha Taitesena — A Tlawmngaihna Leh A Huaisenna Ropui",
+    title: "Pasaltha Taitesena (Ralthatchhûnga) — A Tlawmngaihna Leh A Huaisenna Ropui",
     eraOrTheme: "Tlawmngaihna & Raldo Nun",
     summary:
-      "Ralthatchhunga hmingthanna, sahrâng beihna, leh hmeithai fahrah chhan nana a thutiam ropui.",
-    keyFigures: ["Taitesena", "Kawlthuama"],
+      "Khawrihnim a piang Ralthatchhûnga (Khiangte hnam), Sehrmun a cheng, hmeithai fahrah tan a nun pe tu Mizo tlawmngaihna hmelchhanna ropui.",
+    keyFigures: ["Taitesena", "Khalhvunga", "Dothangi", "Pahanga"],
     content: PASALTHA_BUNG_1_CONTENT,
     customFocus: "Pasaltha Tlawmngaihna",
     updatedAt: Date.now(),
@@ -334,8 +334,8 @@ export const PASALTHA_CHAPTERS: ChapterData[] = [
     title: "Pasaltha Chawngbawla — Ral Hrât leh Chemkalhna Thawnthu",
     eraOrTheme: "Chhak leh Thlang Indo Hun Lai",
     summary:
-      "Chemkalh Chawngbawla huaisenna, Vanhnuailiana pasaltha ber nihna, leh ral thah hlado.",
-    keyFigures: ["Chawngbawla", "Neuva", "Vanhnuailiana"],
+      "Chhakchhuak hnam Chawngbawla, Seipuia khua a mi, 'Ka kawi Chawngbawla a tlan ngai lo' thufing dintu pasaltha ngawichawi leh tawrhchhel.",
+    keyFigures: ["Chawngbawla", "Neuva"],
     content: PASALTHA_BUNG_2_CONTENT,
     customFocus: "Chemkalhna & Ral Do",
     updatedAt: Date.now(),
@@ -347,8 +347,8 @@ export const PASALTHA_CHAPTERS: ChapterData[] = [
     title: "Pasaltha Khuangchera & Ngurbawnga — Changsil Kulh Vengtute",
     eraOrTheme: "1890 British Indo",
     summary:
-      "Changsil kulh beihna, Vai sipaite laka zalenna humna, leh Ngurbawnga thihpui tura a nun hlan dan.",
-    keyFigures: ["Khuangchera", "Ngurbawnga"],
+      "Chhippui a piang Thangṭhiauva fapa Khuangchera (Ralte Kawlni), Parvatui pasaltha, September 13, 1890-a Changsil kulh beihnaa nun hlantu.",
+    keyFigures: ["Khuangchera", "Ngurbawnga", "Thangṭhiauva"],
     content: PASALTHA_BUNG_3_CONTENT,
     customFocus: "Anti-Colonial Resistance",
     updatedAt: Date.now(),
@@ -357,10 +357,10 @@ export const PASALTHA_CHAPTERS: ChapterData[] = [
   {
     id: 4,
     bungLabel: "Bung 4",
-    title: "Pasaltha Neuva — Ral Rel Thiam leh Kalsiam Ropui",
+    title: "Pasaltha Neuva (Hnawncheuva) — Ral Rel Thiam leh Kalsiam Ropui",
     eraOrTheme: "Ral Rel Finna & Khaw Venghimna",
     summary:
-      "Chawngbawla ṭhian zual, ral rel thiam chungchuang, leh Tualte khua a chhanhim dan.",
+      "Chawngbawla ṭhian zual, ral rel thiam leh tawrhchhel chungchuang, Chhim leh Hmar indo laia hmelma lo bum thiamtu pasaltha.",
     keyFigures: ["Neuva", "Chawngbawla"],
     content: PASALTHA_BUNG_4_CONTENT,
     customFocus: "Tactics & Strategy",
@@ -373,8 +373,8 @@ export const PASALTHA_CHAPTERS: ChapterData[] = [
     title: "Pasaltha Vanapa (Thangzachhinga) — Tualte Vengtu Ropui",
     eraOrTheme: "Zawlbuk Pa & Raldona",
     summary:
-      "Thangzachhinga zaidamna leh huaisenna, Vanhnuailiana pasaltha ber, Vanapa Hall hming chawitu.",
-    keyFigures: ["Vanapa", "Vanhnuailiana"],
+      "Thangzachhinga (Hmar Chongthu), Lalsavunga leh Vanhnuailiana pasaltha ber, zaidam zir chhuaktu leh hmeithai thlawhhma kian thiamtu.",
+    keyFigures: ["Vanapa", "Lalsavunga", "Vanhnuailiana", "Chhawnthangi"],
     content: PASALTHA_BUNG_5_CONTENT,
     customFocus: "Noble Warriorhood",
     updatedAt: Date.now(),
@@ -383,11 +383,11 @@ export const PASALTHA_CHAPTERS: ChapterData[] = [
   {
     id: 6,
     bungLabel: "Bung 6",
-    title: "Pasaltha Zampuimanga — Sakap Pasaltha & Sakei Beitu",
+    title: "Pasaltha Zampuimanga (Manga) — Sakei 13 Sat Hlumtu",
     eraOrTheme: "Sakap Pasaltha & Sahrâng Hmachhawnna",
     summary:
-      "Sakei kut lawnga beitu, ramvawh pasaltha, leh Zoram mual tina a hla phuah thawnthu.",
-    keyFigures: ["Zampuimanga"],
+      "Kum 1801-a Zampui khua a piang Manga (Chhakchhuak Hualngo), Thanghuliana fapa, a dam chhunga sakei 13 lai thattu sakap pasaltha.",
+    keyFigures: ["Zampuimanga", "Thanghuliana", "Lalsavunga"],
     content: PASALTHA_BUNG_6_CONTENT,
     customFocus: "Hunter Legends",
     updatedAt: Date.now(),
@@ -396,11 +396,11 @@ export const PASALTHA_CHAPTERS: ChapterData[] = [
   {
     id: 7,
     bungLabel: "Bung 7",
-    title: "Pasaltha Vawmkaia leh Lianchia — Hnam Humhalhtute",
+    title: "Pasaltha Saizahawla & Pasaltha Vawmkaia — Hnam Humhalhtute",
     eraOrTheme: "Zualko Tlan Chak & Ramri Vengtute",
     summary:
-      "Vawmkaia tlan chakna thuruk leh Lianchia khawchhak ral lo dan dan ngaihnawm.",
-    keyFigures: ["Vawmkaia", "Lianchia"],
+      "1858-a piang Saizahawla (Hmar Thiak, Khawruhlian lal puithiam & thirdeng pasaltha) leh Vawmkaia (Lal Nikuala pasaltha).",
+    keyFigures: ["Saizahawla", "Vawmkaia", "Pâwibâwia", "Nikuala"],
     content: PASALTHA_BUNG_7_CONTENT,
     customFocus: "Frontier Guardians",
     updatedAt: Date.now(),
@@ -462,13 +462,14 @@ export const FOLKTALES_CHAPTERS: ChapterData[] = [
   {
     id: 4,
     bungLabel: "Bung 4",
-    title: "Chepahakhama — Ramhuai Palian leh Mizo Pasalthate Inbeihna",
-    eraOrTheme: "Ramhuai Dawi & Hnehna",
+    title:
+      "Chepahakhata — Changêl Hmun, Belte-phai-thei-lo leh Vaiva & Vakul Finfiahna",
+    eraOrTheme: "Mizo Finna & Thluak Hman Dan",
     summary:
-      "Chepahakhama rapthlakzia, mihring tisa ei ṭhin ramhuai palian pasalthate'n remhriatna hmanga an thah dan.",
-    keyFigures: ["Chepahakhama"],
+      "Chepahakhata, changêl hmun khaw ropuia chantir, nupui van lawn, Belte-phai-thei-lo, hmawng lera zeh, leh Vaiva & Vakul finna hmanga Vai Lal hneh dan.",
+    keyFigures: ["Chepahakhata", "Vaiva", "Vakul"],
     content: FOLK_BUNG_4_CONTENT,
-    customFocus: "Demon Slaying Myth",
+    customFocus: "Triumph of Wit & Morality",
     updatedAt: Date.now(),
     ...makeInitialRevision(FOLK_BUNG_4_CONTENT),
   },
@@ -501,13 +502,14 @@ export const FOLKTALES_CHAPTERS: ChapterData[] = [
   {
     id: 7,
     bungLabel: "Bung 7",
-    title: "Lalngoki leh Chawngchilhi — Pi-pute Dawi Thawnthu & Rul Ropuite",
-    eraOrTheme: "Dawi Thuruk & Lunglen Hla",
+    title:
+      "Tualvungi leh Zawlpala, Chawngchilhi & Lianchia — Pi-pute Lunglen Thawnthu",
+    eraOrTheme: "Lunglenna, Hmangaihna & Dawi Thawnthu",
     summary:
-      "Chawngchilhi rul lian hmangaihna lungchhiat thlak leh Lalngoki rinawmna thawnthu.",
-    keyFigures: ["Chawngchilhi", "Lalngoki"],
+      "Tualvungi leh Zawlpala thlan khata inphum dun, Lianchia Mizo tlangval hmelṭha ber boral dan, leh Chawngchilhi rul lian hmangaihna.",
+    keyFigures: ["Tualvungi", "Zawlpala", "Lianchia", "Chawngchilhi"],
     content: FOLK_BUNG_7_CONTENT,
-    customFocus: "Serpent Legends & Lamentations",
+    customFocus: "Serpent Legends & Tragic Love",
     updatedAt: Date.now(),
     ...makeInitialRevision(FOLK_BUNG_7_CONTENT),
   },

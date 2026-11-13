@@ -1,5 +1,5 @@
 /**
- * Master Storybooks Content:
+ * Master Storybooks Content (Researched & Authenticated against Mizo History & Oral Traditions):
  * 1. Mizo Pasaltha Ropuite & Raldona Thawnthu (7 Chapters)
  * 2. Mizo Pi-pu Thawnthu & Folktales Master Collection (7 Chapters)
  * 3. Zofate Chanchin & Archival Chronicles (4 Chapters)
@@ -9,192 +9,189 @@
 // 1. MIZO PASALTHA ROPUITE & RALDONA THAWNTHU
 // ============================================================================
 
-export const PASALTHA_BUNG_1_CONTENT = `## Bung 1: Pasaltha Taitesena (Ralthatchhunga) — A Tlawmngaihna Leh A Huaisenna Ropui
+export const PASALTHA_BUNG_1_CONTENT = `## Bung 1: Pasaltha Taitesena (Ralthatchhûnga) — A Tlawmngaihna Leh A Huaisenna Ropui
 
-![Pasaltha Khuangchera leh Mizo Pasalthate](/images/bung7_pasaltha_khuangchera.jpg)
+![Pasaltha Taitesena leh Mizo Pasalthate](/images/bung7_pasaltha_khuangchera.jpg)
 
-### 1. Hmahruai: Zofate Tlawmngaihna Hmelchhanna
-Mizo khawtlang nunphung hlun leh hnam ziarâng sang ber chu **"Tlawmngaihna"** a ni a. He tlawmngaihna ropui tak lanna sang ber, ṭhalaite leh naupangte tana entawn tura hnam pumpuiin a neih chu **Pasaltha Taitesena** (a hming tak chu *Ralthatchhunga*) a ni. A chanchin hi thawnthu mai ni lovin, Mizo nunze zia leh tlangval nihphung tehna lungpui pawimawh ber a ni hial e.
+### 1. Hmahruai: Ralthatchhûnga Tobul Leh A Naupan Lai
+Mizo hnam nunphung hlun leh ziarâng sang ber chu **"Tlawmngaihna"** a ni a. He tlawmngaihna ropui tak lanna sang ber, ṭhalaite tana tehfung lungpui ber chu **Pasalṭha Taitesena** (a hming tak chu **Ralthatchhûnga**) a ni. 
 
-Taitesena hi mi tlawmngai, mahni aia midang dah hmasa ṭhin, engtik lai pawha khawtlang leh hmeithai, fahrah leh zinkawng zawhtute ṭanpui tura inpeih reng a ni. Zawlbuk meipui bulah a ṭhiante nena an awm lai pawhin chawlhhmun zawng ngai lo, tui chawi, thing fawm leh tlangval hnathawhah hmahruaitu a ni ziah ṭhin.
+Taitesena hi kum **1880–1882** bawr vel khan **Khawrihnim** khuaah a piang a, hnamah chuan **Khiangte** a ni. A pa chu **Khalhvunga** a ni a, a nu chu **Dothangi** a ni. Farnu pakhat **Kawlhnuaii** a nei bawk. 
+
+A naupan lai takin a pain a thihsan a, a nuin pasal dang a neihsan leh tak avangin Taitesena leh a farnu chu an pa nau **Pahanga** nupa hnenah khawngaihthlak takin an seilian a. A hnuah Lal Hrangvunga khua **Sehrmun**-ah an pem a, chu khua chu Taitesena chanchina hmun pawimawh ber a lo ni ta a ni. Naupang a nih laia a biang a tai hlar ṭhin avangin mite chuan duat takin **"Taitesena"** tiin an ko ta hlen a ni.
 
 > [!TALE]
 > **Taitesena Thutiam Ropui:**
-> *"Taitesena a dam chhung chuan ka khua leh tuiah hmeithai leh fahrah an ṭap ngai lo vang a; Mizo tlangval chu a hming a chhiat ai chuan a thi zawk tur a ni!"*
+> *"Taitesena a dam chhung chuan ka khua leh tuiah hmeithai leh fahrah an ṭap ngai lo vang a; Mizo tlangval chu a hming chhiat ai chuan a thih a thlang zawk tur a ni!"*
 
-### 2. Sa Leh Ral Hma Chhawn Dan
-Hmanlai chuan khaw tin hi ral leh sakei hlauhthawnnain an khat a. Taitesena awmna khua chu hmelmate'n rawn beih an tum apiangin a fing leh a huaisenna hmangin a lo dang ṭhin. 
-
-Ṭum khat chu an khaw daiah sakei seh huai (man-eater tiger) a tla a, mipui an thlabar em em mai a. Taitesena chuan a fei leh a thal chauh kengin mual hrulah a zuk chhui a. Sakei nen an inhmachhawn a, sakei rawn zuang chu hnungtawlh miah lovin a lo bekah a feiin a lo chhun tlang a, khua leh tui a humhim a ni.
-
-> [!HLADO]
-> **Pasaltha Taitesena Sakei Kah Hlado:**
-> *"Kei zawng chawl lovin mual tin ka hrut e,*
-> *Sahrâng kawlh zang a tliak, ka fei fual hmaah;*
-> *Ka khaw mipuite thlamuang takin chawl se,*
-> *Zofate huaisenna lamtluang a eng zual e!"*
+### 2. Tlawmngaihna Pasaltha Danglamna
+Mizo pasalthate hi ralthah leh sa kap tam avanga hmingthang an nih laiin, Taitesena erawh chu **râl thah leh mihring thah vanga hmingthang a ni ve ngai lo**. A ropuina ber chu mahni inngaitlawmna, midangte tana inpekna tawpkhawk, leh khawtlang tana a nun pumhlum a hlan tlatna a ni:
+1. **Hmeithai leh Fahrah Chhan**: Khawchhunga hmeithai tuium chawi sak, thing fawm sak, leh thlawhhma vah sak chu a hna pui ber a ni.
+2. **Zawlbuk Nun**: Zawlbuk meipui chheh tur thing fawmnaah tlangval rual tana rit ber chu a phur a, chawlhhmun zawng ngai lovin midangte a tanpui hmasa ziah ṭhin.
 
 ### 3. A Boral Dan Lungchhiat Thlak leh Ropui
-Taitesena hi a la naupang hlein a hmingthan vawrtawp a thlen laiin, khaw ral lakah a ṭhiante chhan nana nunna a hlan a. A thih hnuah pawh Zofate thinlungah a hming a reh ngai lova, *"Taitesena angin tlawmngai rawh"* tih chu chhung tin zirtirna a lo ni ta a ni.
+Kum 1904 bawr vel khan, kum 21–22 mi lek a nih laiin, Sehrmun khaw daiah sakei kawlh (man-eater tiger) a tla a. Taitesena chuan a ṭhiante him nan hnungtawlh miah lovin sakei chu a hmachhawn a, sakei chuan sehin a hliam tuar lovin a boral ta a ni. A boral hnu thleng pawhin Zofate thinlungah *"Taitesena angin tlawmngai rawh"* tih chu Mizo tlangval zawng zawngte zirtirna ropui ber a ni zui ta a ni.
 
 ---
 ### Thlirzauna & DNA Chhui Zawnna
 - **DNA Node**: [Pasaltha Taitesena](person-taitesena)
-- **Hnam & Clan**: Lusei / Kawlni
-- **Khua**: Khawhai / Kelsih
-- **Verification**: verified_history & oral_tradition
+- **Hming Tak**: Ralthatchhûnga
+- **Hnam & Clan**: Khiangte
+- **Nu leh Pa**: Khalhvunga & Dothangi
+- **Khua**: Khawrihnim, Sehrmun
+- **Verification**: verified_history
 `;
 
 export const PASALTHA_BUNG_2_CONTENT = `## Bung 2: Pasaltha Chawngbawla — Ral Hrât leh Chemkalhna Thawnthu
 
 ![Chawngbawla leh Mizo Raldo](/images/bung6_lai_mara_warriors.jpg)
 
-### 1. Chemkalh Chawngbawla Chanchin
-Pasaltha **Chawngbawla** hi Mizo pasalthate zinga raldona leh chemkalhna lama hmingthang tawpkhawkkha a ni. A ṭhianpa **Pasaltha Neuva** nen an hming hi lamkawp a ni ṭhin a, chhak leh thlang indona hun laia khaw chhak lam lalte pasaltha boral lo tura hnam vawngtu an ni.
+### 1. Chemkalh Chawngbawla Tobul Leh Mizia
+Pasaltha **Chawngbawla** hi Mizo pasalthate zinga raldona leh chemkalhna lama hmingthang tawpkhawkkha a ni. Hnamah chuan **Chhakchhuak** chhungkua aṭanga piang a ni a, Chhim lam khua **Seipuia khua**-ah khawsain, Chhim lam Sailo lalte hnuaia pasaltha rinrawl ber a ni.
 
-Chawngbawla hi mi lian pui, pian thiam leh taksa inphut mawi tak a ni a. Hmelmate laka hnungtawlh ngai lo, ral laka hlauhna nei miah lo a nih bakah, tlangval huaisen zirtirtu a ni.
+Chawngbawla hi mi lian pui a ni lo va; pa hang lam deuh, mi aia ria, taksa lian lutuk lo a ni. Amaherawhchu a huaisenna leh tawrhchhelna chu a ropui em em a, a chapo ngai lo va, mi ngawichawi, a taksaa hliam tuar te pawh thup zo zai thei khawpa tlangval tawrhchhel a ni.
 
 > [!HISTORY]
-> **Lal Vanhnuailiana Pasaltha:**
-> Chawngbawla leh Neuva hi Lal ropui Vanhnuailiana pasaltha rual zinga mi an ni a, khawchhak lalte do tura Chhak leh Thlang Indo (c. 1856–1870) laia Tualte leh Champhai ram humtute zinga langsar ber an ni.
+> **Mizo Thufing & Innghahna:**
+> Mizo naupangte infiamna leh thufingah hial: *"Ka kawi Chawngbawla a tlan ngai lo"* tia chhal a nih hian, raldona leh harsatnaah hnungtawlh ngai lo pasaltha a nihzia a tarlang chiang hle.
 
-### 2. Ral Thah leh Chem Ha Hriam
-An khaw daiah ral an lo tlan apiangin Chawngbawla chu Zawlbuk aṭangin a rawn tlan chhuak hmasa ber ṭhin a. Hmelma silai puak dur dur karah fei leh dao kengin an hmaah a ding chhuak a. Ṭum khat phei chu hmelma kulh beihnaah amah chauhvin ralthuam laichilh ralin an ral hruaitu a lu a laksak a, khua a chhanhim a ni.
+### 2. Chhim leh Hmar Indo Laia A Sulhnu
+Chhim leh Hmar indo lai khan Chawngbawla chu Chhim lam pasaltha huaisen ber niin, a ṭhianpa **Pasaltha Neuva (Hnawncheuva)** nen an hming a thang em em a. Khaw daia ral an lo tlan apiangin tlangvalte hmahruaitu niin, khua leh tui a humhim ṭhin a ni.
 
 > [!HLADO]
-> **Chawngbawla Ral Thah Hlado:**
-> *"Chhaktiang aṭangin ral an rawn tlan a,*
-> *Ka chem fual ka phawrh, tlangsam zai angin an tlu;*
-> *Zofate tual lian zalenna humhalhin,*
-> *Hmelma lu chu Zawlbuk kawtchhuahah ka khai e!"*
-
-### 3. Zirtirna leh Thutak
-Chawngbawla nun hian pasaltha nih chu chakna leh ralthuam neih chauh ni lovin, khua leh tui humnaa rilru huaisen leh rilru thianghlim neih a ngai a ni tih min zirtir a ni.
+> **Chawngbawla Raldo Hlado:**
+> *"Chhaktiang mual aṭangin ral an lo thawk a,*
+> *Ka kawi Chawngbawla a tlan ngai lo ve;*
+> *Ka chem fual kengin kawtchhuahah ka ding,*
+> *Zofate tual lian humhimin ka tling e!"*
 
 ---
 ### Thlirzauna & DNA Chhui Zawnna
 - **DNA Node**: [Pasaltha Chawngbawla](person-chawngbawla)
-- **Ṭhian Zual**: [Pasaltha Neuva](person-neuva), [Pasaltha Vanapa](person-vanapa)
-- **Lal**: [Lal Vanhnuailiana](person-vanhnuailiana)
-- **Khua**: Champhai / Tualte
+- **Hnam & Clan**: Chhakchhuak
+- **Khua**: Seipuia khua (Chhim lam)
+- **Ṭhian Zual**: [Pasaltha Neuva](person-neuva)
+- **Thufing**: "Ka kawi Chawngbawla a tlan ngai lo"
 `;
 
 export const PASALTHA_BUNG_3_CONTENT = `## Bung 3: Pasaltha Khuangchera & Ngurbawnga — Changsil Kulh Vengtute
 
 ![Khuangchera Changsil Beihna](/images/bung7_pasaltha_khuangchera.jpg)
 
-### 1. Vai Sipai Hmachhawnna Hmasaber
-Kum 1890 September thlaah, British sipaite (1st Assam Military Police) chuan Mizo tlangram awpbeh tumin Changsil leh Aizawlah kulh an siam a. Mizo lalte zalenna leh ramngaw hum turin **Pasaltha Khuangchera** leh a ṭhianpa **Ngurbawnga** te chuan an nun an hlan a ni.
+### 1. Khuangchera Pianleh Mual
+**Pasalṭha Khuangchera** hi Mizo pasalthate zinga British laka ram hum nana nun hlantu ropui ber a ni. Kum **1850** vel khan **Chhippui (Chipui)** khuaah a piang a. Hnamah chuan **Ralte (Kawlni, Kawltung chi)** a ni. A pa chu **Thangṭhiauva** a ni a, a nu chu **Thangluaii** a ni. Unau mipa pathum zinga a naupang ber a ni a, a u Chawnghanga chu Reiek khuaah thirdeng a ni.
 
-Khuangchera hi Parvatui khuaa piang, pian nalh leh tha chak em em a ni a. Zawlbuk nuna tlangvalte entawn ber a ni ṭhin.
+Khuangchera hi Mangpawrha thlah, Suakpuilala fapa Lal **Lianphunga khua (Parvatui)** leh **Kanghmun** velah pasaltha rinrawl niin a awm ṭhin a ni.
 
 > [!HISTORY]
-> **13 September 1890 — Changsil Indona:**
-> Khuangchera leh a hote chuan Changsil kulh an run a. Silai mu sur karah British kulh an su tlang a, Mizo pasaltha zinga Sap sipai hmachhawn hmasa ber leh huaisen bera hriat a ni ta a ni.
+> **13 September 1890 — Changsil Kulh Indona:**
+> British sipaite (1st Assam Military Police) chuan Changsil leh Aizawlah kulh an din a. Mizo zalenna hum turin Khuangchera leh a hote chuan Changsil kulh an run a, Khuangchera leh a ṭhianpa Ngurbawnga te chuan nun an hlan a ni.
 
-### 2. Ngurbawnga Nena Inṭhianna Lungrun
-Indona rapthlak tak a chhuah laiin, Ngurbawnga chu hmelma silai muin a kap fuh a, lei charah a tlu a. Khuangchera chu a tlan chhe thei reng chungin a ṭhianpa kalsan duh lovin silai mu kara tlan lut lehin Ngurbawnga ruang chu a bawh a:
-*"Ka ṭhian, ka thihpui ang che!"* tiin a hmelmate chu fei nen a hmachhawn a, chutah amah pawh chu silai muin a kap hlum ve ta a ni.
-
-> [!HLADO]
-> **Changsil Chhanchhuah Hlado:**
-> *"Vai lenbuang zualko silai ri karah,*
-> *Khuangchera fei fual a tle zawk e;*
-> *Ka ṭhian thlarau zawng kalsan ngai lovin,*
-> *Zoram zalen nan kan thi dun ta e!"*
+### 2. Ngurbawnga Nena Inṭhianna Thisen
+September 13, 1890-a Changsil kulh an beih ṭumin, a ṭhianpa **Ngurbawnga** chu British silaimuin a kap thal ṭhuai a. Khuangchera chu a tlan chhe thei reng chungin a ṭhianpa ruang kalsan duh lovin, silaimu sur karah tlan lutin a ṭhianpa chu a zuk bawh a, a hmelmate hmachhawn chunga amah pawh chu silaimu tawkin a thi ta a ni.
 
 ---
 ### Thlirzauna & DNA Chhui Zawnna
 - **DNA Node**: [Pasaltha Khuangchera](person-khuangchera)
+- **Nu leh Pa**: Thangṭhiauva & Thangluaii
+- **Hnam**: Ralte (Kawlni)
+- **Pianna Khua**: Chhippui (Chipui)
 - **Ṭhian Rinawm**: [Pasaltha Ngurbawnga](person-ngurbawnga)
-- **Hmun**: Changsil Kulh (Tlawng kam)
-- **Kum Bi**: 1890
+- **Boral Ni**: 1890-09-13 (Changsil)
 `;
 
-export const PASALTHA_BUNG_4_CONTENT = `## Bung 4: Pasaltha Neuva — Ral Rel Thiam leh Kalsiam Ropui
+export const PASALTHA_BUNG_4_CONTENT = `## Bung 4: Pasaltha Neuva (Hnawncheuva) — Ral Rel Thiam leh Kalsiam Ropui
 
 ![Zawlbuk Pasalthate](/images/bung3_zawlbuk_storyteller.jpg)
 
-### 1. Fing leh Huaisen Pasaltha Neuva
-**Pasaltha Neuva** hi Chawngbawla ṭhian zual a ni a. Pasalthate hi tha chak leh chem hriam chauhva teh an nih laiin, Neuva erawh chu **"Ral Rel Thiam"** (Tactician) a ni a. Hmelma sipai zat leh an kalna tur remhriatna hmanga ruahmanna siam thiam chungchuang a ni.
+### 1. Finna leh Tawrhchhelna Pasaltha
+Pasaltha **Neuva** (a ṭhenin *Hnawncheuva* ti pawha an sawi) hi Chawngbawla ṭhian zual a ni a. Mizo pasalthate zinga **"Ral Rel Thiam"** (Master Tactician) leh tawrhchhel chungchuang a ni.
 
-An khaw beih tuma ral an lo kalin, mual sang aṭanga thlir kualin khawi laiah nge chhun ral leh zan ral an dawn tih a hre hma thei hle.
+Neuva danglamna chu, pasaltha satliah thazang chauh ring lo va, finna leh remhriatna hmanga ral rel thiam a ni. Hmelma sipai zat leh an lo kal dan tur mual sang aṭanga thlirin, chhun ral leh zan ral lakah a khua leh tui a humhim ziah ṭhin.
 
 > [!TALE]
-> **Neuva Ral Rel Dan:**
-> Neuva chuan: *"Pasaltha tak tak chuan tha a sên aiin finna a seng tam zawk ṭhin. Hmelma chu an beisei loh lai leh an hriat loh kawi aṭanga hneh tur a ni,"* a ti ṭhin.
-
-### 2. Tualte Venghimtu
-Lal Vanhnuailiana rorel laiin, khawthlang lalte nena an inbeih ṭumin Neuva fing tak mai hian mipuite himna tur hmun a kawk hmuh a, khaw daiah ralthuam ruak dah derin hmelmate a bum a, an khua a chhanhim hlauh a ni.
+> **Neuva Tawrhchhelzia:**
+> Indonaa a tukhum leh a taksaa hliam na tak a tawrh lai pawhin, a ṭhiante thlabar loh nan na tuar hmel pu miah lovin tlangvalte a fuih zawk ṭhin.
 
 ---
 ### Thlirzauna & DNA Chhui Zawnna
 - **DNA Node**: [Pasaltha Neuva](person-neuva)
+- **Aliases**: Hnawncheuva
+- **Role**: Master Tactician & Resilient Defender
 - **Ṭhian**: [Pasaltha Chawngbawla](person-chawngbawla)
-- **Lal**: [Lal Vanhnuailiana](person-vanhnuailiana)
 `;
 
 export const PASALTHA_BUNG_5_CONTENT = `## Bung 5: Pasaltha Vanapa (Thangzachhinga) — Tualte Vengtu Ropui
 
 ![Sailo Lalte leh Pasalthate](/images/bung5_sailo_lalte_council.jpg)
 
-### 1. Zaidam leh Huaisen Inpawlh
-Mizo pasalthate zinga hming dai thei lo ber pakhat chu **Pasaltha Vanapa** a ni a. A hming tak chu **Thangzachhinga** a ni. Amah hi pa zaidam, mi zawng zawng zahkai, tlangvalte zilh thiam leh rorel thiam a ni a. A huaisenna leh tlawmngaihna avangin Lal Vanhnuailiana chuan a ngaina em em a ni.
+### 1. Hming Put Chhan leh Mizia
+Mizo pasalthate zinga zahawm ber leh ropui ber pakhat chu **Pasaltha Vanapa** a ni. A hming tak chu **Thangzachhinga** a ni a, hnamah chuan **Hmar (Chongthu)** chi a ni.
 
-Vanapa hi a upat hnu thleng pawhin Zawlbukah tlangvalte tan pa ber angin a awm a, hriamhrei hman dan leh tlawmngaihna thuthlung a zirtir ṭhin.
+Tlangval senior tawh hnuah Saitual nula **Chhawnthangi** nen an innei a, fapa an neih hnuah a fapa hming chawiin **Vanchiaua pa** tiin an ko va, chu chu a tawi zawkin **Vanapa** tia hriat lar a lo ni ta a ni.
+
+### 2. Lal Lalsavunga leh Vanhnuailiana Pasaltha
+Vanapa hi Sailo Lal ropui **Lalsavunga** leh a fapa **Vanhnuailiana** te hun laia pasaltha ber a ni a. A huaisenna piah lamah:
+1. **Zaidam A Zir**: Pa thinchhia ni ṭhin, mahse khawtlang tana pa ber nih a tum avanga zaidamna zir chhuaktu a ni.
+2. **Hmeithai Kian Thiam**: Kum tin lo vahnaah hmeithai leh fahrahten thlawhhma ṭha ber an neih theih nan amah zawkin ram chhe lai a thlang ṭhin.
 
 > [!HISTORY]
-> **Vanapa Hall & Mizo Rohlu:**
-> Mizoram khawpui Aizawl laili-a auditorium ropui ber hming **"Vanapa Hall"** tia phuah a nih chhan hi amah chawimawina a ni a. A tlawmngaihna chu Zofate zirtirna ropui ber a ni.
-
-### 2. Vanhnuailiana Khawpui Humna
-Chhak leh Thlang indona laia Tualte khua an beih ṭumin, Vanapa chuan hnungtawlh miah lovin kulh bangah a ding a. A aw ngeng ngalh maia tlangvalte a fuihna chuan ral laka tlanchhiat tumte thinlungah meipui a chheh a, hnehna an chang ta a ni.
+> **Vanapa Hall:**
+> A tlawmngaihna, zaidamna leh huaisenna chawimawina hian Mizoram khawpui Aizawl laili-ah **Vanapa Hall** sak a ni.
 
 ---
 ### Thlirzauna & DNA Chhui Zawnna
 - **DNA Node**: [Pasaltha Vanapa](person-vanapa)
-- **Aliases**: Thangzachhinga
-- **Lal**: [Lal Vanhnuailiana](person-vanhnuailiana)
-- **Khua**: Tualte, Champhai
+- **Hming Tak**: Thangzachhinga
+- **Nupui & Fapa**: Chhawnthangi & Vanchiaua
+- **Hnam**: Hmar (Chongthu)
+- **Lal**: Lalsavunga & Vanhnuailiana
 `;
 
-export const PASALTHA_BUNG_6_CONTENT = `## Bung 6: Pasaltha Zampuimanga — Sakap Pasaltha & Sakei Beitu
+export const PASALTHA_BUNG_6_CONTENT = `## Bung 6: Pasaltha Zampuimanga (Manga) — Sakei 13 Sat Hlumtu
 
-![Thlanrawn Rawt Indona](/images/bung8_thlanrawn_rawt_battle.jpg)
+![Zampuimanga Sakei Kahna](/images/bung8_thlanrawn_rawt_battle.jpg)
 
-### 1. Ramhuai leh Sahrâng Hlauthawng Lo Zampuimanga
-**Pasaltha Zampuimanga** hi Mizo sa kap pasalthate zinga langsar ber a ni a. A huaisenna leh sa kap theihna chu tlang tinah a thang chhuak a. Hmanlai chuan sazuk, sanghal leh sakeite chu ramngawah an tam em em a, Zampuimanga erawh chuan chung sahrângte chu a fei leh a silai mu hmangin a hmachhawn tawp ṭhin.
+### 1. Pianna leh Zampui Tlang
+Pasalṭha **Zampuimanga** hi kum **1801** vel khan Tripura ram huam chhung **Zampui khuaah** a piang a. Zampui tlanga a pian avangin *Zampuimanga* an ti a, a hming tak chu **Manga** a ni. Hnamah chuan **Chhakchhuak Hualngo** a ni a, a pa chu **Thanghuliana** a ni.
+
+Kum 1820 velah a pa hovin Mizoram chhim lamah an rawn pem a, kum 1825 velah Lal **Lalsavunga** khuaah lutin, Lal Lalsavunga leh a fapa **Vanhnuailiana** hnuaiah pasaltha 13 zinga mi a lo ni ta a ni.
 
 > [!TALE]
-> **Sakei Kut Lawnga Beihna:**
-> Thawnthu leh chanchin hrang hrangah Zampuimanga hian ramvawh laia sakei rawn zuang chu a kut leh chem hmangin a lo chelh bet a, a hrawkah chhun tlangin a that nia sawi a ni.
+> **Sakei 13 Sat Hlumtu (Tiger Hunter):**
+> Zampuimanga hi Mizo pasalthate zinga sakei that hnem ber a ni a. Amah chauha kawlhnama a sah hlum bakah, a thah zawng zawng chu **sakei 13 (sawm leh pathum)** lai an tling a ni!
 
-### 2. A Hla Phuah leh Zinkawng
-Zampuimanga hian a sa kah leh a zinkawngah hla tam tak a phuah a, chung hlate chu Zawlbukah tlangvalte'n an sa dur dur ṭhin a ni.
+### 2. A Boralna leh Thlan
+Kum 1880 khan Dopawnga khua **Keltan Hmunpui**-ah kum 80 mi niin a boral a, a thlan lungphun chu tun thlengin Keltan Hmunpui-ah a la ding reng a ni.
 
 ---
 ### Thlirzauna & DNA Chhui Zawnna
 - **DNA Node**: [Pasaltha Zampuimanga](person-zampuimanga)
-- **Khua**: Khawchhak tlangram
-- **Category**: Sakap Pasaltha
+- **Hming Tak**: Manga
+- **Pian Kum & Hmun**: 1801 (Zampui khua)
+- **Hnam**: Chhakchhuak Hualngo
+- **Pa**: Thanghuliana
+- **Sakei Thah Zat**: 13
+- **Thlan**: Keltan Hmunpui (1880)
 `;
 
-export const PASALTHA_BUNG_7_CONTENT = `## Bung 7: Pasaltha Vawmkaia leh Lianchia — Hnam Humhalhtute
+export const PASALTHA_BUNG_7_CONTENT = `## Bung 7: Pasaltha Saizahawla & Pasaltha Vawmkaia — Hnam Humhalhtute
 
 ![Lai leh Mara Pasalthate](/images/bung6_lai_mara_warriors.jpg)
 
-### 1. Pasaltha Vawmkaia Tlan Chakna leh Huaisenna
-**Vawmkaia** hi Mizo pasaltha tlan chak ber leh kawng bumboh zawh thiam bera chhal a ni. Hmelmate'n an khua run an tum laia zualko tlan a nihin, ramhnuai kawng harsa tak karah ni thum kal tur chu ni khat chhungin a tlan thleng ṭhin a ni.
+### 1. Pasaltha Saizahawla (1858–1910)
+**Pasaltha Saizahawla** hi kum **1858** kum tawp lam buh seng lai vel khan a piang a. Hnamah chuan **Hmar (Thiak)** a ni a, a pa chu **Chalpua Hmar** niin a nu chu **Tuahpuii Thiak** a ni. 
 
-### 2. Pasaltha Lianchia — Khawchhak Hmelma Lo Dangtu
-**Lianchia** erawh chu thal kah thiam leh chem hmang thiam a ni a. Khawchhak lam ralte lo luhna kawtchhuahah a ṭhiante nen kham sangah an lo chang a, lung lian tak tak lum thlain hmelma sipai rual a tithlabar a ni.
+Khawruhlian khuaah Lal **Pâwibâwia (Lalnilena)** hnuaiah a seilian a. Saizahawla danglamna bik chu pasaltha mai ni lovin, Khawruhlian khuaah **Lal Puithiam** leh **Thirdeng** hna a chelh kawp tlat a ni. Taksa chak chungchuang a ni a, sakei leh sazam (bison) pawh kawrah manin a tukzal thei hial a ni. Kum 1910 vel khan Seling khuaah a boral a, a thlan chu Seling Lungsen bulah a awm.
 
-Heng pasaltha rual zawng zawngte hi Mizo zalenna, khawtlang muanna leh hnam dignity humhim nana nunna hlantu an ni.
+### 2. Pasaltha Vawmkaia
+**Pasaltha Vawmkaia** hi Mizo lal ropui **Lal Nikuala** hun laia pasaltha huaisen ber a ni. A pa chu **Seleta (Vanchhawng hnam)** a ni a. Raldo kawngah leh khaw venhimnaah Lal Nikuala tan a thawk hlawk em em a, tualchhung indona lakah a khua a humhim tlat ṭhin a ni.
 
 ---
 ### Thlirzauna & DNA Chhui Zawnna
-- **DNA Nodes**: [Pasaltha Vawmkaia](person-vawmkaia), [Pasaltha Lianchia](person-lianchia)
-- **Role**: Frontier Defenders
+- **DNA Nodes**: [Pasaltha Saizahawla](person-saizahawla), [Pasaltha Vawmkaia](person-vawmkaia)
+- **Saizahawla Nu & Pa**: Chalpua Hmar & Tuahpuii Thiak (Khawruhlian)
+- **Vawmkaia Pa**: Seleta (Vanchhawng)
 `;
 
 
@@ -214,13 +211,9 @@ Zofate pi-pu thawnthua hriat hlawh ber leh nuihzatthlak ber, thutak ril tak pai 
 > Ṭum khat chu ramvahnaah arkeziak an chang a. Nahaia chuan: *"Chhur, thil i insem ang u; phel chu ka ta ni se, a kawp chu i ta ni se,"* a ti a. Chhura mawl chuan 'kawp' chu tam zawk turah ngaiin a lo pawm a, mahse Nahaia'n arkeziak pumhlum a hawn fai vek ta a ni!
 
 ### 2. Sekibuhchhuak leh Mawngping Khua
-Chhura thawnthu larna berte zinga mi chu:
 1. **Sekibuhchhuak**: Ki dawi, chaw leh sa ei tur duh duh chhuah thei a nei a. Nahaia'n a awt em em a, a laksak hnuah a ti chhe leh hlauh a ni.
 2. **Mawngping Khua**: Khua pakhatah hian mipuite chu mawng nei lo an lo awm a. Chhura chuan thirkual ling tak hmangin an mawng a verhsak a, mahse an au vung vung a, an um zui ta chiam a ni.
 3. **Leilung Vaw Rualtu**: Hmanlai chuan leilung hi a la kawkalh em em a, Chhura chuan a thul lian pui hmangin tlang sang pui pui a vuak sawk rual a, phaizawl a lo piang ta nia thawnthua sawi a ni.
-
-### 3. Zirtirna Ril
-Chhura thawnthu hian mihring tha chakna chauhvin a tawk lova, finna leh hriatna a tel loh chuan mi vertherte bum mai theih kan nihzia min zirtir a ni.
 
 ---
 ### Thlirzauna & DNA Chhui Zawnna
@@ -242,7 +235,7 @@ export const FOLK_BUNG_2_CONTENT = `## Bung 2: Mauruangi — Nu Hrawn Tuarna, Va
 ### 2. Phunchawng Par leh Vai Lal Nupui
 Sangha ruhro chu Mauruangi chuan tual zawlah a phum a, chuta ṭang chuan **Phunchawng kung** mawi tak a lo ṭhang chhuak a. Bingtaii'n a lawnin hling a chhun a, Mauruangi a lawn erawh chuan par mawi tak tak a lu-ah a lo tla ṭhin.
 
-A tawpah chuan ram hla tak aṭanga Lal fapa (Vai lal) lo zin chuan Mauruangi hmelṭhatna chu hmuin nupuiah a nei a, nuhrawn leh Bingtaii chu an mualpho ta a ni.
+A tawpah chuan ram hla tak aṭanga Lal fapa (Vai lal fapa) lo zin chuan Mauruangi hmelṭhatna leh a felna chu hmuin nupuiah a nei a, nuhrawn leh Bingtaii chu an mualpho ta a ni.
 
 ---
 ### Thlirzauna & DNA Chhui Zawnna
@@ -262,9 +255,7 @@ export const FOLK_BUNG_3_CONTENT = `## Bung 3: Liandova te Unau & Tuaisiala — 
 > Khaw mi hausa pakhat chuan bawng pitar dam lo mai tura an ngaih chu Liandova te unau a pe ve ngawt a. Mahse unau pahnih chuan duat takin an enkawl a, an bawng chu a lo lianin a lo ropui em em a ni.
 
 ### 2. Thlangra Lian leh Khuangchawi
-A tawpah chuan an vanneihna a lo inher a, rosum thuruk hmu chhuakin an khaw mi hausa ber an lo ni ta a. Anni chuan an hmusittu khaw mipuite chu phuba la lovin, **Khuangchawi** (Mizo ropuina ruai sang ber) an ṭheh a, khaw pumpui an hrai puar ta zawk a ni.
-
-He thawnthu hian tlawmngaihna, thawhrimna leh rilru tluangtlam neih hlutzia a entir a ni.
+A tawpah chuan an vanneihna a lo inher a, **Thlangra Lian** rosum thuruk hmu chhuakin an khaw mi hausa ber an lo ni ta a. Anni chuan an hmusittu khaw mipuite chu phuba la lovin, **Khuangchawi** (Mizo ropuina ruai sang ber) an ṭheh a, khaw pumpui an hrai puar ta zawk a ni.
 
 ---
 ### Thlirzauna & DNA Chhui Zawnna
@@ -272,21 +263,43 @@ He thawnthu hian tlawmngaihna, thawhrimna leh rilru tluangtlam neih hlutzia a en
 - **Customs**: Khuangchawi, Tlawmngaihna
 `;
 
-export const FOLK_BUNG_4_CONTENT = `## Bung 4: Chepahakhama — Ramhuai Palian leh Mizo Pasalthate Inbeihna
+export const FOLK_BUNG_4_CONTENT = `## Bung 4: Chepahakhata — Changêl Hmun, Belte-phai-thei-lo leh Vaiva & Vakul Finfiahna
 
-![Chepahakhama Ramhuai Beihna](/images/bung6_lai_mara_warriors.jpg)
+![Chepahakhata Thawnthu](/images/bung3_zawlbuk_storyteller.jpg)
 
-### 1. Ramhuai Palian Chepahakhama
-Hmanlai thawnthua ramhuai hlauhawm ber pakhat chu **Chepahakhama** a ni a. Mi lian pui, tawrhhlelhawm tak leh mihring tisa ei ṭhin nia sawi a ni. Khaw tina nulate chu a rukin a ru bo ṭhin a, pasalthate pawhin an hneh thei lo fo ṭhin.
+### 1. Tu Nge Chepahakhata?
+Mizo pi leh pu thawnthu zinga hmingthang leh thluak fing ber mai chu **Chepahakhata** a ni. A hming put chhan chu tlangval hmelchhe ve tak, a ha (chepa ha) a khat mawi lo leh chhuak deuh, inhmeh lo tak a neih avangin "Chepahakhata" tiin an ko va. Hmelchhia tia sawi a nih avangin nupui hmu zo lo tura ngaih a nih laiin, vanneihthlak takin nula hmelṭha tak, dawithiam (sangkungpui nei) chu nupuiah a nei hlauh mai a!
+
+### 2. Changêl Hmun Dawi Khaw Ropui
+A nupui dawithiam chuan **Changêl hmun** (wild banana grove) chu dawiin khaw ropui leh nuam takah a chantir a, tah chuan lal niin ro an rel a, fanu duhawm tak an nei bawk a. Mahse Chepahakhata chu a lal ta thut a, zu in leh nuam chenin a rui a, a nupuiin a fanu kaltlanga chaw ei tura a koh pawhin haw nachang hre lovin a awm ta reng mai a.
+
+A tawpah a nupui chu thinurin an khaw ropui tak chu **Changêl hmun**-ah bawk a chantir leh vek a, an nufa chuan **Pu Vana** hnenah van lamah an lawnsan ta daih a ni!
 
 > [!TALE]
-> **Chepahakhama Hneh Dan:**
-> A tawpah chuan Mizo pasaltha fin verther takte chuan rem an ruat a. Thirkual ling vawt lo leh thuruk hmangin Chepahakhama hrawkah thal an kap lut a, an that ta a ni.
+> **Belte-phai-thei-lo:**
+> Chepahakhata a harh chuan ramhnuai changêl hmunah riltamin a vak vel a. A fanuin van aṭangin a rawn khawngaih a, eitur pek nan **"Belte-phai-thei-lo"** (a ruak thei ngai lo belte dawi) chu a rawn thlaksak a, riltam lovin a khawsa thei ta a ni.
+
+### 3. Vai Lal leh Hmawng Lera Zeh
+Chepahakhata chu Vai lal khuaah a kal a. Vai lal chuan a chaw khawrh a hmuhsit avangin chaw khawrh inelpuiin, a belte chu an vuak kehsak a, Chepahakhata chu **hmawng lera thingkak-ah an zeh (an zep)** ta daih mai a!
+
+### 4. Vaiva leh Vakul Inhnialna (Mizo Finfiahna)
+Chutia hmawng lera an zeh lai chuan, chu hmawng lerah chuan sava pahnih—**Vaiva** (Vai tan tlat) leh **Vakul** (Mizo tan tlat)—an lo inhnial a:
+1. **Nu leh Fa Hriat hran**: Vaiva chuan *"Nu leh fa inang reng rawn kal se, Mizo chuan nu zawk an hre lovang"* a ti a. Vakul chuan: *"An pahnihin han vaw vak ila, a nu chuan 'Awi Chemte' a ti ang a, a fa chuan 'Awi ka nu' a ti mai dawn a lawm!"* tiin a chhang a.
+2. **Thing Chhip leh Ke**: Thing pum tui-ah han paih ila, a zung lam (a ke) chu a rit a, a pil hmasa zawk ang!
+3. **Rul Lu leh Mawng**: Hnim zaiin han hawlh ila, a lu zawk chu a rawn hawi let dawn a lawm!
+
+Chepahakhata chuan hnuai lam aṭangin sava pahnih inhnialna chu a lo ngaithla kar a. Vai lal zawhna leh riddles zawng zawng chu fing takin a chhang chhuak vek a, Vaiho chu a hneh ta vek a ni!
+
+> [!HISTORY]
+> **Zirtirna Thupui:**
+> He thawnthu hian **Mizote hi finnaah mi dang lakah an hniam lo** tih leh, hmelchhia leh hmusitawma ngaih pawh hian thluak an hman chuan thil ropui an ti thei a ni tih a entir a ni.
 
 ---
 ### Thlirzauna & DNA Chhui Zawnna
-- **DNA Node**: [Chepahakhama](person-chepahakhama)
-- **Category**: Giant Demon Legend
+- **DNA Node**: [Chepahakhata](person-chepahakhata)
+- **Aliases**: Ha-khata, Belte-phai-thei-lo
+- **Thawnthu Thupui**: Mizo Finna & Sava Inhnialna (Vaiva leh Vakul)
+- **Moral**: Triumph of Wit over Arrogance
 `;
 
 export const FOLK_BUNG_5_CONTENT = `## Bung 5: Rimenhawihi — Zoram Nula Hmelṭha Ber & Sam Zai Luang Thla
@@ -294,11 +307,11 @@ export const FOLK_BUNG_5_CONTENT = `## Bung 5: Rimenhawihi — Zoram Nula Hmel�
 ![Rimenhawihi Zofate Nula](/images/bung2_rih_dil_tan_tlang.jpg)
 
 ### 1. Sam Zai Luia Luang Thla
-**Rimenhawihi** chu Mizo thawnthua nula hmelṭha chungchuang ber a ni a. A sam chu a seiin a mawi em em mai a. Ṭum khat chu a sam zai pakhat chu tuiumah dahin tui luiah a thlah thla a.
+**Rimenhawihi** chu Mizo thawnthua nula hmelṭha chungchuang ber a ni a. A sam chu a seiin a tle em em mai a. Ṭum khat chu a sam zai pakhat chu tuiumah dahin tui luiah a thlah thla a.
 
 > [!TALE]
 > **Vai Lal Hmuh Chhuah:**
-> Tuipui kam phaia cheng Lalpa (Vai lal) chuan chu sam mawi tak chu a lo chhar a. *"He sam neitu nula hi ka hmuh loh chuan ka dam zo lo vang!"* tiin zualko a tir a, Rimenhawihi chu zawng chhuakin nupuiah an hruai ta a ni.
+> Tuipui kam phaia cheng Lalpa (Vai lal) chuan chu sam mawi tak chu a lo chhar a: *"He sam neitu nula hi ka hmuh loh chuan ka dam zo lo vang!"* tiin zualko a tir a, Rimenhawihi chu zawng chhuakin nupuiah a nei ta a ni.
 
 ---
 ### Thlirzauna & DNA Chhui Zawnna
@@ -313,7 +326,7 @@ export const FOLK_BUNG_6_CONTENT = `## Bung 6: Kungawrhi — Keimi Laka Zalenna 
 ### 1. Kutzungpui Aṭanga Piang Kungawrhi
 **Kungawrhi** hi a pa kutzungpui vung aṭanga lo piang hmeichhe naupang duhawm tak a ni a. A lo ṭhan len hnu chuan nula hmelṭha chungchuang a lo ni a. 
 
-Mahse, **Keimi** (mihring leh sakei dawi theihna nei mihring) chuan an ru bo a, Phawngpui tlang puk thuk takah a khung bet tlat mai a.
+Mahse, **Keimi** (were-tiger clan, mihring leh sakeia chang thei dawi nei) chuan an ru bo a, Phawngpui tlang puk thuk takah a khung bet tlat mai a.
 
 > [!TALE]
 > **Hranga leh Phunga Huaisenna:**
@@ -325,19 +338,22 @@ Mahse, **Keimi** (mihring leh sakei dawi theihna nei mihring) chuan an ru bo a, 
 - **Rescuers**: Hranga leh Phunga
 `;
 
-export const FOLK_BUNG_7_CONTENT = `## Bung 7: Lalngoki leh Chawngchilhi — Pi-pute Dawi Thawnthu & Rul Ropuite
+export const FOLK_BUNG_7_CONTENT = `## Bung 7: Tualvungi leh Zawlpala, Chawngchilhi & Lianchia — Pi-pute Lunglen Thawnthu
 
 ![Sibuta Lung leh Chawngchilhi](/images/bung4_sibuta_lung_darlalpuii.jpg)
 
-### 1. Chawngchilhi leh Rul Lian
-**Chawngchilhi** thawnthu hi Mizo thawnthu lungkuai ber pakhat a ni. Lo enkawl laia puk thuk taka rul lian (python / serpent) nen an inhmangaih chanchin a ni a. A pain chu rul chu a hmuh chhuaha a thahsak takah chuan Chawngchilhi chuan a tuar lova, hla lungkuai tak a phuah ta a ni.
+### 1. Tualvungi leh Zawlpala — Thlan Khata Inphum Dun
+Mizo thawnthua inhmangaihna lungchhiat thlak ber chu **Tualvungi** leh **Zawlpala** thawnthu a ni. Phulpui Lal Zawlpala nupui Tualvungi hmelṭhatzia hriain, Tripura lal **Phuntiha** chuan nupuiah a rawn ruk sak a. Zawlpala'n a tlawh ṭumin Phuntiha chuan hrai hlumna tur chaw a hrai a. Tualvungi chuan a pasal boral chu tuar lovin phuba a la a, a tawpah an nupa chuan thlan khatah an inphum dun ta a ni.
 
-### 2. Lalngoki Chanchin
-Lalngoki pawh hmelṭhatna leh a pasal thih hnu pawha a rinawmzia tarlangtu thawnthu ropui a ni bawk.
+### 2. Lianchia — Mizo Tlangval Hmelṭha Ber
+**Lianchia** hi pasaltha ni lovin, Mizo thawnthua **tlangval hmelṭha ber** a ni. Farzawl khuaah Lal **Lalvunga** nen an inel a, nula ho zawng zawngin Lianchia an duh zawk avangin Lalvunga chu a itsik em em a. Pawi ral lian lo kal laia Lalvunga'n Lianchia chauh Tlangzawlah ral a ventir avangin ral chuan an that ta a ni.
+
+### 3. Chawngchilhi leh Rul Lian
+Chawngchilhi thawnthu hi puk thuka rul lian hmangaihtu nula chanchin niin, a pain rul a thah sak hnua a lunglen hla phuah lungkuai tak avanga hriat reng a ni.
 
 ---
 ### Thlirzauna & DNA Chhui Zawnna
-- **DNA Nodes**: [Chawngchilhi](person-chawngchilhi), [Lalngoki](person-lalngoki)
+- **DNA Nodes**: [Tualvungi](person-tualvungi), [Zawlpala](person-zawlpala), [Lianchia](person-lianchia), [Chawngchilhi](person-chawngchilhi)
 `;
 
 
@@ -350,12 +366,10 @@ export const ARCHIVE_BUNG_1_CONTENT = `## Bung 1: Mizo Khawtlang Inrelbawlna, Tl
 ![Zawlbuk Nunphung](/images/bung3_zawlbuk_storyteller.jpg)
 
 ### 1. Zawlbuk: Zofate Zirna In leh Sipai Innghahna
-Rev. Liangkhaia leh Sap lehkha ziah (N.E. Parry, J. Shakespear) te chuan Mizo khawtlang innghahna bulpui chu **Zawlbuk** a nih thu an tarlang vek a ni. 
-
-Zawlbuk chu khaw daidanna, sipai training pekna, leh tlangvalte nunze siamtu a ni a.
+Rev. Liangkhaia (*Mizo Chanchin*) leh Sap lehkha ziah (N.E. Parry, J. Shakespear) te chuan Mizo khawtlang innghahna bulpui chu **Zawlbuk** a nih thu an tarlang chiang hle:
 - **Val Upa**: Zawlbuk chhunga tlangvalte hruaitu leh thununna keng kawhtu.
 - **Bawhbel**: Tlangvalte mutna leihka chunga thingpui thil.
-- **Meipui Chheh**: Tlangval naupangte'n thing an fawm a, zantin meipui an chheh hual ṭhin.
+- **Thing Phurh**: Tlangval naupangte'n Zawlbuk meipui chheh tur thing an fawm a, tlawmngaihna zirtirna bul a ni.
 
 > [!HISTORY]
 > **Tlawmngaihna Code:**
