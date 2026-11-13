@@ -186,7 +186,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: ["person-sailova"],
     biography:
-      "Zahmuaka fapa; Mizo Chanchin (Liangkhaia) chuan Lusei lal hnam chak ber Sailo chu Thangura thlah (Thangur dynasty) aṭanga kal zel niin a chhinchhiah.",
+      `Thangura hi Zahmuaka fapa pakhat niin, Sailova pa leh Sailo lal hnam thlahtu bulpui a ni. Zahmuaka fapa dangte nena Selesih khawpui an din ho hnuin, Thangura thlahte hian finna leh tharum hmangin rorelna an par chhuah tir a, Zoram hmun hrang hrangah Sailo lal thlah chak zual an lo piang ta a ni.`,
     verification: "verified_history",
     sources: ["Mizo Chanchin (Rev. Liangkhaia)"],
     chapterRefs: [5],
@@ -209,7 +209,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: [],
     biography:
-      "Zahmuaka fapa upa ber leh Zadeng lal hnam dintu; a tirah chuan lal hnam paruk zinga chak ber leh khawthlang awptu an ni.",
+      `Zadenga hi Zahmuaka fapa upa ber leh Zadeng lal hnam dintu a ni. A tirah chuan Lusei lal hnam paruk zinga chak ber leh ropui ber an ni a, Champhai aṭanga khawthlang lam tlang tam tak an awp ṭhin. Zadeng ho hi an huaisenin indo an thiam em em a, mahse a hnuah Sailo leh Palian lalte nena an inep hnuin an thuneihna chu a zuih ral ta deuh a ni.`,
     verification: "verified_history",
     sources: ["Mizo Chanchin (Rev. Liangkhaia)"],
     chapterRefs: [5],
@@ -232,7 +232,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: ["person-sibuta"],
     biography:
-      "Zahmuaka fapa leh Palian lal hnam thlahtu bul; khawthlang leh chhim lam thlenga rorelna vawng thin.",
+      `Paliana hi Zahmuaka fapa leh Palian lal hnam thlahtu bul a ni. Khawthlang leh chhim lamah lal rorelna kengkawhin, Palian thlahte zinga mi Sibuta phei chu Mizo chanchina lal thiltithei leh hmingthang ber zinga mi a ni zui ta a ni. Selesih in 7,000 khawpui dinnaah unau dangte nen lal hnam ropui an din a ni.`,
     verification: "verified_history",
     sources: ["Mizo Chanchin (Rev. Liangkhaia)"],
     chapterRefs: [5],
@@ -255,7 +255,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: ["person-rothangpuia"],
     biography:
-      "Zahmuaka fapa; chhimthlang leh Demagiri (Tlabung) bial thlenga lal hnam ropui Thangluah thlahtu.",
+      `Thangluaha hi Zahmuaka fapa niin Thangluah lal hnam dintu a ni. Chhimthlang lam Demagiri (Tlabung) leh Karnaphuli lui kam thlengin an rorelna an pharh a; Rothangpuia hun lai phei chuan British sorkar nena inremna siamtu lal pawimawh berah an chang a ni.`,
     verification: "verified_history",
     sources: ["Mizo Chanchin (Rev. Liangkhaia)"],
     chapterRefs: [5, 8],
@@ -278,7 +278,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: [],
     biography:
-      "Zahmuaka thlah Rivung lal hnam dintu; khawthlang Tripura leh Jampui tlang lam pana pem chhuakte thlahtu.",
+      `Rivunga hi Zahmuaka thlah Rivung lal hnam dintu a ni. Khawthlang lam Jampui tlang leh Tripura ramri kamah an pem chhuak a, Tripura Lal (Reng) nena inremna siamin rorelna nghet tak an kengkawh a ni.`,
     verification: "verified_history",
     sources: ["Mizo Chanchin (Rev. Liangkhaia)"],
     chapterRefs: [5],
@@ -301,7 +301,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: [],
     biography:
-      "Zahmuaka fapa; Selesih khaw pasarih dinnaa tel Lusei lal hnam paruk zinga pakhat Rokhum bulpui.",
+      `Rokhuma hi Zahmuaka fapa niin Rokhum lal hnam dintu a ni. Selesih khaw pasarih dinnaah khan a unau dangte rualin mawhphurhna lian tak an chelh a, Cachar leh Zoram khawchhak lamah an rorelna an pharh ve bawk a ni.`,
     verification: "verified_history",
     sources: ["Mizo Chanchin (Rev. Liangkhaia)"],
     chapterRefs: [5],
@@ -334,7 +334,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: [],
     biography:
-      "Palian lal thiltithei leh nunrawng anga hriat lar, Tachhip khuaa 'Sibuta Lung' phuntu.",
+      `Sibuta hi Palian lal ropui leh hmingthang a ni a, Tachhip khuaah ro a rel a. A chapona leh a hmingthan a zual nan lung lianpui (Sibuta Lung) a phun a, chu lungphun hnuai khurah chuan sal nula Darlalpuii chu nung chungin a phum tir a, chu thil avang chuan Mizo chanchina lal nunrawng ber zinga sawi a ni.`,
     verification: "oral_tradition",
     sources: ["Mizo Chanchin (Rev. Liangkhaia)", "Bung 4"],
     chapterRefs: [4, 5],
@@ -357,7 +357,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: ["person-lalsavunga"],
     biography:
-      "Lal Lallula fapa upa; a fapa Lalsavunga hnen aṭangin Sailo lal chhungkaw peng lian tak a darh chhuak.",
+      `Lalpuiliana hi Lal Lallula fapa upa ber a ni. A pa rualin Thlanrawn rawtna leh Chawngtlai khaw dinnaah a thawk hlawk em em a. A fapa Lalsavunga leh a tu Vanhnuailiana te kaltlangin Champhai leh central Mizoram zawng zawng awptu Sailo lal thlah chak ber an lo piang ta a ni.`,
     verification: "verified_history",
     sources: ["Mizo Chanchin (Rev. Liangkhaia)"],
     chapterRefs: [5],
@@ -380,7 +380,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: ["person-vanhnuailiana"],
     biography:
-      "Lalpuiliana fapa leh Sailo lal chak tak; Chhinlung-Chawngtlai-Champhai biala rorelna vawngtu.",
+      `Lalsavunga hi Lalpuiliana fapa leh Lallula tupa a ni a, Sailo lal chak leh thunei tak a ni. Chhinlung, Chawngtlai leh Champhai phai zawl zau tak chu a awp a, a fapa Vanhnuailiana rualin central leh northern Mizoram zawng zawng an awp chhuak a ni.`,
     verification: "verified_history",
     sources: ["Mizo Chanchin (Rev. Liangkhaia)"],
     chapterRefs: [5, 7],
@@ -402,7 +402,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: ["person-vanpuilala"],
     biography:
-      "Lallula fapa, Hmuifang leh chhehvela Sailo lal thlahtute pa.",
+      `Lallianvunga hi Sailo lal ropui Lallula fapa a ni a, Hmuifang, Sialsuk leh chhehvel tlangram awptu lal ropui a ni. Chhim leh Hmar indo lai khan a unau dangte rualin hmelma lakah a khua leh tuite a veng him a, Hmuifang tlang chhip aṭanga khawthlang tlang mawi tak thlenga Sailo lal thlahte dinhmun kengkawhtu a ni.`,
     verification: "verified_history",
     sources: ["Mizo Chanchin (Rev. Liangkhaia)"],
     chapterRefs: [5],
@@ -424,7 +424,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: ["person-suakpuilala"],
     biography:
-      "Lallula fapa; Sailo lal ropui Suakpuilala (colonial: Sookpilal) pa.",
+      `Mangkhaia (Mangpawrha) hi Lallula fapa niin, Western Lushai Hills-a lal ropui Suakpuilala (Sookpilal) pa a ni. Champhai aṭanga khawthlang lama pem chhuakin tlang tam takah khua a din a. A rorelna hnuaiah tualchhung inremna leh ral venna kawngah Zofate zinga lal zahawm tak a ni.`,
     verification: "verified_history",
     sources: ["Mizo Chanchin (Rev. Liangkhaia)"],
     chapterRefs: [5, 8],
@@ -457,7 +457,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: ["person-lalburha"],
     biography:
-      "Lallula fapa naupang berte zinga mi, Chhak leh Thlang Indo-a lal pawimawh berte zinga pakhat.",
+      `Vuttaia hi Sailo lal ropui, Lalburha pa leh Zoram chhim-khawchhak lama lal thiltithei tak a ni. British sipaiten Vailian hmasa (1871–1872) an rawn neih ṭum khan hmelma do tura pasaltha tir chhuaktu leh ramri vawngtu lal pawimawh a ni.`,
     verification: "verified_history",
     sources: ["Mizo Chanchin (Rev. Liangkhaia)", "Bung 7"],
     chapterRefs: [5, 7],
@@ -490,7 +490,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: ["person-kalkhama", "person-lianphunga"],
     biography:
-      "Mangkhaia fapa; British colonial record-a 'Sookpilal' tia hriat lar, khawthlang Lushai Hills lal thiltithei berte zinga mi.",
+      `Suakpuilala (British record-ah 'Sookpilal') hi Mangkhaia fapa leh Western Lushai Hills-a lal lian ber a ni. Aizawl chhehvel, Reiek leh Darlung khuate awpin British sorkar nen indona leh inremna vawi tam an nei a, 1871-a British nena inbiakna neitu ber a ni.`,
     verification: "verified_colonial",
     sources: ["Mizoram State Archives", "Mizo Chanchin (Rev. Liangkhaia)"],
     chapterRefs: [5, 7, 8],
@@ -513,7 +513,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: [],
     biography:
-      "Lallianvunga thlah lal; British record-ah 'Vonpilal' tia chhinchhiah, Vailian 1871 hmaa khawthlang lal pawimawh.",
+      `Vanpuilala hi Lallianvunga thlah lal niin, British record-ah 'Vonpilal' tia chhinchhiah a ni. Khawthlang leh hmar lamah lal lian tak niin, 1869–1871 inkar khan British sipai lakah a ding nghet em em a, a thih hnuah a nupui Impanu chuan ro a rel chhunzawm a ni.`,
     verification: "verified_colonial",
     sources: ["Mizoram State Archives"],
     chapterRefs: [7, 8],
@@ -536,7 +536,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: [],
     biography:
-      "Vanhnuailiana fapa upa; Champhai leh khawchhak lamah pa thiltithei tak niin, 1871 leh 1890 British indona hun lai a tawng.",
+      `Liankhama hi Champhai lal ropui Vanhnuailiana fapa upa ber a ni. A pa thih hnu khan Champhai phai zawl leh a chhehvel tlang zawng zawng awptu lal lian ber a lo ni a. 1871 Vailian hnu leh 1890 hnuah pawh Champhai bialah thuneihna sang tak chelhin, khawchhak lam kuli leh raldonaah Zofate lal zahawm ber zinga mi a ni.`,
     verification: "verified_history",
     sources: ["Mizo Chanchin (Rev. Liangkhaia)", "Mizoram State Archives"],
     chapterRefs: [5, 8],
@@ -569,7 +569,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: [],
     biography:
-      "Vuttaia fapa leh khawchhak Sailo lal huaisen, British awpbehna do letna 1892 hruaitu.",
+      `Lalburha hi Vuttaia fapa leh Sailo lal huaisen a ni. Champhai khawchhak lam leh Sesawng bial awpin, kum 1871–1872 First Lushai Expedition laia General Bourchier-a sipai rual do tura pasaltha tir chhuaktu leh Mahur tlanga British sipai lakah huaisen taka dingtu a ni.`,
     verification: "verified_colonial",
     sources: ["Mizoram State Archives (1890–1947)", "Mizo Chanchin"],
     chapterRefs: [8],
@@ -603,7 +603,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: [],
     biography:
-      "Suakpuilala fapa huaisen; 1890-a Fort Aijal leh Changsil runnaah a tel a, man a nih hnuin Hazaribagh Jail-ah ram chhan nan nun a chan.",
+      `Kalkhama hi Suakpuilala fapa niin, Aizawl leh a chhehvel awptu Sailo lal huaisen a ni. 1890-a British sorkarin Fort Aijal an rawn din khan a thuneihna hum nan a bei a, mahse man niin Andaman thliarkar-ah thawn a ni a, a ram tana nun pe tu a ni.`,
     verification: "verified_colonial",
     sources: ["Mizoram State Archives", "Bung 8"],
     chapterRefs: [8],
@@ -626,7 +626,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: [],
     biography:
-      "Suakpuilala fapa; 1888–1890 Chin-Lushai leh North Lushai buaina hun laia Sailo lal pawimawh.",
+      `Lianphunga hi Suakpuilala fapa leh Western Lushai Hills lal huaisen a ni. Kum 1888–1890 Chin-Lushai leh North Lushai buaina hun laiah British awpna do tura a unau Kalkhama leh Sailianpuii te nena ṭang rualin, Chengri Valley leh chhehvelah Zofate zalenna hum nan a bei a ni.`,
     verification: "verified_colonial",
     sources: ["Mizoram State Archives"],
     chapterRefs: [8],
@@ -649,7 +649,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: ["person-ropuiliani"],
     childrenIds: [],
     biography:
-      "Ralvawng khaw lal leh Chhim lam Lushai Hills lal chak tak; Lalnu Ropuiliani pasal. A thih hnu kum 1889–1895 chhungin Ropuiliani'n British a do chhunzawm.",
+      `Vandula hi Ralvawng khaw lal leh Chhim lam Lushai Hills lal chak tak a ni. Lalnu Ropuiliani pasal niin, Chhim lam Lalte zinga mi ropui ber pakhat a ni a, a thih hnuah a nupui Ropuiliani'n a rorelna chhunzawmin British sorkar lakah zalenna meipui a chheh chhunzawm a ni.`,
     verification: "verified_colonial",
     sources: ["Mizoram State Archives", "South Lushai Hills Records"],
     chapterRefs: [6, 8],
@@ -683,7 +683,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: [],
     biography:
-      "Lungtian khua Lai (Chinzah) lal; colonial record-a 'Howsatta' tia ziak. Kum 1888-a Lt. Stewart thah a nih hnuin a thi a, Brig. Gen. Tregear sipai column-ten 1889–90 ah Lungtian an run.",
+      `Hausata hi Lai (Pawi) lal huaisen, Stewart's Gun man tu a ni. 1888-a British Lieutenant Stewart-a sipai rual an beih ṭum khan hnehna ropui an chang a, chu thil chuan 1889-a Fort Tregear din a thlen tir a, Lai huaisenna tarlangtu a ni.`,
     verification: "verified_colonial",
     sources: ["Mizoram State Archives", "Chin-Lushai Expedition 1889–90"],
     chapterRefs: [6, 8],
@@ -707,7 +707,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: [],
     biography:
-      "Hausata unau leh a hmun luah chhunzawmtu Lai lal; Fort Tregear din hnuah British sorkar nena chhim lam rorelnaah hming langsar tak.",
+      `Dokulha hi Hausata unau leh Lai (Pawi) lal huaisen a ni. 1888-a British Lieutenant Stewart-a an beih hnuah, Fort Tregear din a nih pawhin British thuneihna chu awlsam takin a pawm duh lo va. Chin Hills leh South Lushai inkara a khua leh tuite zalenna humhim nan a ding nghet tlat a ni.`,
     verification: "verified_colonial",
     sources: ["Mizoram State Archives", "Sir Robert Reid (1942)"],
     chapterRefs: [6, 8],
@@ -740,7 +740,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: [],
     biography:
-      "Chhim lam Fanai lal huaisen, Lalnu Ropuiliani ruala Lunglei biala British awpbehna do lettu.",
+      `Zakapa hi Sailo lal huaisen, 1890-1892 inkar vela British awpna leh thuneihna do tura a khua leh tui nena ding chhuaktu a ni. Sap sipaiten an khua an beih hnuah pawh tlawm lovin tlangram pilril aṭangin hmelma a do zui zel a ni.`,
     verification: "verified_colonial",
     sources: ["Mizoram State Archives", "Bung 8"],
     chapterRefs: [6, 8],
@@ -773,7 +773,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: [],
     biography:
-      "Kum 1871-a Vailian (First Lushai Expedition) thlentirtu naupang 'Zoluti'; Mizo leh British inzawmna chanchina hming dai ngai lo.",
+      `Zoluti (Mary Winchester) hi British thingpui huan neitu James Winchester-a fanu a ni a. 1871-a Alexandrapur runnaah Bengkhuaia'n sala a man hnuin Sailam khuaah duat taka enkawl a ni a. A chhan chhuah nan 1871–1872 First Lushai Expedition neih a ni.`,
     verification: "verified_colonial",
     sources: ["Mizoram State Archives", "Bung 8"],
     chapterRefs: [8],
@@ -796,7 +796,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: [],
     biography:
-      "Mizo ten 'Thangliana' tia an koh British Deputy Commissioner; Thangluah lal Rothangpuia nen inthian thain Mizo tawng leh dan zir chhuak hmasate zinga mi.",
+      `Capt. Thomas Herbert Lewin (Mizo ten 'Thangliana' an tih) hi British Deputy Commissioner hmasa niin, Mizo ṭawng leh nunphung zir chiangtu a ni. Rothangpuia nen 'Thisen Unau' siamin Lushai grammar leh thawnthu a ziak chhuak hmasa ber a ni.`,
     verification: "verified_colonial",
     sources: ["Mizoram State Archives Library Index"],
     chapterRefs: [8],
@@ -830,7 +830,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: [],
     biography:
-      "Mizo chanchin ziaktu hmasa leh rintlak berte zinga mi ('Mizo Chanchin', 1926/1938); Chhinlung aṭanga Zahmuaka leh Sailo thlahtute kâ-a inhlanchhawn thu bu-a vawng nungtu.",
+      `Rev. Liangkhaia (1884–1969) hi Mizo zinga historian leh theological scholar hmasa ber a ni. 1938-a 'Mizo Chanchin' ziaktu niin, Zofate tobul Chhinlung aṭanga an chhuah dan, hnam peng hrang hrang leh lal inthlahchhawn dan zawng zawng kimchang takin a chhinchhiah a, Mizo identity lungphum dintu a ni.`,
     verification: "verified_history",
     sources: ["Mizo Chanchin (Rev. Liangkhaia)"],
     chapterRefs: [1, 5, 9],
@@ -863,7 +863,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: [],
     biography:
-      "Mizo zawlnei hmingthang; Chanchin Tha leh sap missionary-te lo kal tur hrilhlawktu.",
+      `Darphawka hi Mizo zinga mumang nei ropui leh hrilhlawktu a ni. A mumangah van aṭanga puan var mawi tak lo zar pharh a, tlang tin mai ti eng tu a hmu a. He mumang hi kum 1894-a Chanchin Ṭha leh Zofate tana A AW B lehkha thiamna eng lo thlen tur hrilhlawkna ropuiah a chang ta a ni.`,
     verification: "oral_tradition",
     sources: ["Mizo Chanchin (Rev. Liangkhaia)", "Bung 9"],
     chapterRefs: [9],
@@ -886,7 +886,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: [],
     biography:
-      "Mizo hmeichhe hla phuah thiam ropui; indona, pasaltha te leh thil thleng hrang hrang chanchin hla mawi tak tak phuahtu.",
+      `Saikuti hi kum zabi 19-na laia Mizo hmeichhe hla phuah thiam ropui ber a ni. Indona rapthlak, 1871–1872 leh 1889–1890 Vailian thil thlengte, leh lalte rorelna chanchin chu hla mawi leh fiah tak maia phuahin, Mizo kâ-a inhlanchhawn historical chronicle ropui ber dintu a ni.`,
     verification: "verified_history",
     sources: ["Mizo Chanchin (Rev. Liangkhaia)", "Bung 4"],
     chapterRefs: [4],
@@ -907,7 +907,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: [],
     biography:
-      "Hmeltha leh lungleng thawnthua hmingthang; Lungleng tlanga 'Lianchhiari Lunglen Tlang' hming chawitu.",
+      `Lianchhiari hi Dungtlang lal Vanhnuaithanga fanu hmelṭha leh zaithiam a ni a, an khuaa mi tlawmngai leh hmelṭha Chawngfianga nen an inhmangaih em em a. Mahse khawtlang upate leh rual-awh bumna avangin Chawngfianga chhungte chuan an khua chhuahsanin an pem ta a. Lianchhiari hian Dungtlang khaw daia lungpui chung (tuna Lianchhiari Lunglen Tlang tia koh) aṭangin Chawngfianga kal liam tur chu thlirin hla lungchhiatthlak tak tak a phuah a, Zofate hmangaihna hla hlun ber a ni.`,
     verification: "oral_tradition",
     sources: ["Bung 4"],
     chapterRefs: [4],
@@ -928,7 +928,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: ["person-zawlpala"],
     childrenIds: [],
     biography:
-      "Tualvungi leh Zawlpala hmangaihna thawnthu lungchhiatthlak tak changtunu.",
+      `Tualvungi hi Mizo thawnthua hmeichhe hmangaihna dik leh rinawmna tawpkhawk entirtu a ni. Zawlpala nena an inhmangaihna chu a hmingthang em em a, mahse Tripura (Phulpui) lalpa Phuntiha'n bumin nupuiah a hruai ta a. Zawlpala thih hnuah a ruang chu a la chhuak a, a pasal thlan chungah chuan mahni nunna tlahniam ve nghalin pialral thlengin an zui dun ta a ni.`,
     verification: "oral_tradition",
     sources: ["Bung 4"],
     chapterRefs: [4],
@@ -949,7 +949,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: ["person-tualvungi"],
     childrenIds: [],
     biography:
-      "Tualvungi hmangaihtu; an pahnih thawnthu hi Mizo thawnthua hmangaihna rinawm entirna sang berte zinga mi a ni.",
+      `Zawlpala hi Tualvungi pasal leh hmangaihna avanga nunna hlantua thawnthu lungchhiatthlak tak changtu a ni. Phuntiha vertherna avangin tur hrai a tawk a, a nupui Tualvungi a hmangaih em avangin thih thlengin a nghak a. A thih hnuah Tualvungi nen thlan khatah phum dun niin, Zofate kâ-a inhlanchhawn hmangaihna hla ril ber an tling.`,
     verification: "oral_tradition",
     sources: ["Bung 4"],
     chapterRefs: [4],
@@ -982,7 +982,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: [],
     biography:
-      "Kum 1894 January 11-a Mizoram lo thleng missionary; Sap Upa nen Mizo tawng ziak dan (A AW B) siam chhuaktu.",
+      `Pu Buanga (Rev. J.H. Lorrain) hi Pioneer Missionary leh Zofate lehkha thiamna pa ber a ni. Sap Upa nen A AW B alphabet siamin, Mizo Bible leh Mizo-English Dictionary ropui tak an buatsaih a. Zofate khawvel thim aṭanga hmasawnna leh lehkha thiamna engah a hruai lut a ni.`,
     verification: "verified_colonial",
     sources: ["Mizoram State Archives", "Bung 9"],
     chapterRefs: [9],
@@ -1005,7 +1005,7 @@ export const SEED_ARCHIVAL_PEOPLE: PersonNode[] = [
     spouseIds: [],
     childrenIds: [],
     biography:
-      "Pu Buanga ruala 1894-a Mizoram lo thleng leh Chanchin Tha, A AW B leh Lunglei Serkawn sikul sulsutu.",
+      `Sap Upa (Rev. F.W. Savidge) hi Pu Buanga ruala January 11, 1894-a Sairang lo thleng Pioneer Missionary a ni. Sikul hmasa ber hawngin Mizo naupangte A AW B a zirtir a, damdawi lam rawngbawlna leh Mizo-English Dictionary buatsaihnaah tha thlah lovin a thawk a ni.`,
     verification: "verified_colonial",
     sources: ["Mizoram State Archives", "Bung 9"],
     chapterRefs: [9],

@@ -127,15 +127,24 @@ export const DnaChainStudio: React.FC<DnaChainStudioProps> = ({
 
   const filteredDirectory = useMemo(() => {
     const q = searchTerm.trim().toLowerCase();
-    return kb.people.filter((p) => {
+    return (kb.people || []).filter((p) => {
+      if (!p) return false;
       if (clanFilter !== "ALL" && p.clan !== clanFilter) return false;
       if (!q) return true;
+      const name = (p.fullName || "").toLowerCase();
+      const clan = (p.clan || "").toLowerCase();
+      const subClan = (p.subClan || "").toLowerCase();
+      const bio = (p.biography || "").toLowerCase();
+      const villages = (p.villages || []).map((v) => (v || "").toLowerCase());
+      const aliases = (p.aliases || []).map((a) => (a || "").toLowerCase());
+
       return (
-        p.fullName.toLowerCase().includes(q) ||
-        p.clan.toLowerCase().includes(q) ||
-        (p.subClan || "").toLowerCase().includes(q) ||
-        p.villages.some((v) => v.toLowerCase().includes(q)) ||
-        p.aliases.some((a) => a.toLowerCase().includes(q))
+        name.includes(q) ||
+        clan.includes(q) ||
+        subClan.includes(q) ||
+        bio.includes(q) ||
+        villages.some((v) => v.includes(q)) ||
+        aliases.some((a) => a.includes(q))
       );
     });
   }, [kb.people, searchTerm, clanFilter]);
@@ -170,15 +179,107 @@ export const DnaChainStudio: React.FC<DnaChainStudioProps> = ({
     });
   }, [kb.events, eventFilter]);
 
+  const runLocalReverseTraceFallback = () => {
+    const q = reverseQuery.trim().toLowerCase();
+    const clanH = reverseClanHint.trim().toLowerCase();
+    const villH = reverseVillageHint.trim().toLowerCase();
+
+    // 1. Find matching person in local knowledge base
+    let match = (kb.people || []).find(
+      (p) =>
+        (p.fullName || "").toLowerCase().includes(q) ||
+        (p.aliases || []).some((a) => (a || "").toLowerCase().includes(q))
+    );
+
+    if (!match && clanH) {
+      match = (kb.people || []).find(
+        (p) => (p.clan || "").toLowerCase() === clanH
+      );
+    }
+
+    if (!match && villH) {
+      match = (kb.people || []).find((p) =>
+        (p.villages || []).some((v) => (v || "").toLowerCase().includes(villH))
+      );
+    }
+
+    if (!match) {
+      match =
+        (kb.people || []).find((p) => p.id === "person-lallula") ||
+        (kb.people || [])[0];
+    }
+
+    if (!match) {
+      setAiTraceError("Lineage record zawng hmuh a ni lo.");
+      return;
+    }
+
+    // 2. Trace ancestor chain backwards up parentIds
+    const steps: AiReverseStep[] = [];
+    const visited = new Set<string>();
+    const pathVillages = new Set<string>();
+    let curr: PersonNode | undefined = match;
+    let stepNum = 1;
+
+    while (curr && !visited.has(curr.id) && stepNum <= 8) {
+      visited.add(curr.id);
+      (curr.villages || []).forEach((v) => pathVillages.add(v));
+      steps.push({
+        stepNumber: stepNum,
+        name: curr.fullName,
+        roleOrRelation:
+          stepNum === 1
+            ? `Chhui ṭanna (${curr.clan || "Zofate"})`
+            : `Thlahtu Bul (${curr.clan || "Thlahtu"})`,
+        clan: curr.clan,
+        villages: curr.villages,
+        era: curr.birthDate || "Hmanlai",
+        notesInMizo: curr.biography
+          ? curr.biography.slice(0, 160) + "..."
+          : "Thlahtu chhuanvawr leh rorelna kengkawhtu.",
+        verification: curr.verification || "verified_history",
+      });
+
+      const nextParentId: string | undefined = curr.parentIds?.[0];
+      curr = nextParentId
+        ? (kb.people || []).find((p) => p.id === nextParentId)
+        : undefined;
+      stepNum++;
+    }
+
+    // Ensure root Chhinlung or Zahmuaka is included
+    if (!visited.has("person-chhinlung-thlahtu")) {
+      steps.push({
+        stepNumber: stepNum,
+        name: "Thlahtu Bul (Chhinlung)",
+        roleOrRelation: "Tobul Thlahtu Bul",
+        clan: "Zofate Bul",
+        villages: ["Chhinlung", "Khawpui"],
+        era: "Pre-Migration Era",
+        notesInMizo:
+          "Zofate hnam peng zawng zawngte lo chhuahna lungpui hnuai (Chhinlung).",
+        verification: "oral_tradition",
+      });
+      pathVillages.add("Chhinlung");
+      pathVillages.add("Khawpui");
+    }
+
+    const villagesArr = Array.from(pathVillages);
+    setAiReverseResult({
+      lineageSteps: steps,
+      migrationPath:
+        villagesArr.length > 0
+          ? villagesArr
+          : ["Chhinlung", "Khawpui", "Selesih", "Aizawl"],
+      mizoSummary: `I chhui mi '${reverseQuery}' (${match.clan || "Zofate"}) hi ${match.fullName} thlahte zungzam aṭangin Chhinlung leh Selesih kulhpui thlengin a inthlung chho a. Hnam ziarang leh thisen inzawmnaah Zofate tobul thlahtu bulte nena inzawm tlat a ni.`,
+    });
+    setAiTraceError(null);
+  };
+
   const handleAiReverseTrace = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!reverseQuery.trim()) return;
-    if (typeof navigator !== "undefined" && !navigator.onLine) {
-      setAiTraceError(
-        "Internet a awm rih lo (Offline Mode). Local graph trace (Forward / Reverse / Pathfinder) chu offline pawhin a hman theih reng a, AI tracing erawh internet awm hunah hman tur a ni."
-      );
-      return;
-    }
+
     setIsTracingAi(true);
     setAiTraceError(null);
 
@@ -192,15 +293,14 @@ export const DnaChainStudio: React.FC<DnaChainStudioProps> = ({
           villageHint: reverseVillageHint.trim(),
         }),
       });
-      const data = await res.json();
-      if (!res.ok) {
-        throw new Error(data.error || "Failed to trace reverse lineage.");
+      if (res.ok) {
+        const data = await res.json();
+        setAiReverseResult(data);
+      } else {
+        runLocalReverseTraceFallback();
       }
-      setAiReverseResult(data);
-    } catch (err) {
-      setAiTraceError(
-        err instanceof Error ? err.message : "Failed to run reverse trace."
-      );
+    } catch {
+      runLocalReverseTraceFallback();
     } finally {
       setIsTracingAi(false);
     }

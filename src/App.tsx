@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { Printer, Shield } from "lucide-react";
+import { Printer, Search, Shield } from "lucide-react";
 import { AdminModerationDashboard } from "./components/AdminModerationDashboard";
 import { ChapterSidebar } from "./components/ChapterSidebar";
 import { ContributorSubmissionsView } from "./components/ContributorSubmissionsView";
@@ -14,6 +14,7 @@ import { PersonDossierPanel } from "./components/PersonDossierModal";
 import { PrintableBookDocument } from "./components/PrintableBookDocument";
 import { PWAInstallButton } from "./components/PWAInstallButton";
 import { RolePortalModal } from "./components/RolePortalModal";
+import { UniversalSearchModal } from "./components/UniversalSearchModal";
 import {
   ALL_SEED_BOOKS,
   createSingleStoryBook,
@@ -45,13 +46,13 @@ import {
 } from "./utils/dnaGraph";
 
 const STORAGE_KEYS = {
-  books: "zofate_dna_books_v5",
+  books: "zofate_dna_books_v6",
   legacyChapters: "zofate_sulhnu_chapters_v2",
-  activeBookId: "zofate_dna_active_book_v5",
-  kb: "zofate_dna_kb_v5",
-  conflicts: "zofate_dna_conflicts_v5",
-  auditLogs: "zofate_dna_audit_v5",
-  submissions: "zofate_dna_submissions_v5",
+  activeBookId: "zofate_dna_active_book_v6",
+  kb: "zofate_dna_kb_v6",
+  conflicts: "zofate_dna_conflicts_v6",
+  auditLogs: "zofate_dna_audit_v6",
+  submissions: "zofate_dna_submissions_v6",
   userRole: "zofate_dna_role_v3",
   contributorName: "zofate_dna_contributor_name_v3",
   readerMaskMedical: "zofate_dna_reader_mask_v3",
@@ -283,6 +284,45 @@ export default function App() {
   const [modalPersonId, setModalPersonId] = useState<string | null>(null);
   const [modalNotice, setModalNotice] = useState<string | null>(null);
   const [codexInitialLoreId, setCodexInitialLoreId] = useState<string | null>(null);
+  const [searchModalOpen, setSearchModalOpen] = useState(false);
+
+  // Global Ctrl+K / Cmd+K shortcut for Universal Search
+  useEffect(() => {
+    const handleGlobalKeyDown = (e: KeyboardEvent) => {
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
+        e.preventDefault();
+        setSearchModalOpen((prev) => !prev);
+      }
+    };
+    window.addEventListener("keydown", handleGlobalKeyDown);
+    return () => window.removeEventListener("keydown", handleGlobalKeyDown);
+  }, []);
+
+  const handleSearchSelectChapter = useCallback(
+    (bookId: string, chapterId: number) => {
+      setActiveBookId(bookId);
+      setActiveChapterId(chapterId);
+      setActiveView("manuscript");
+      setSearchModalOpen(false);
+    },
+    []
+  );
+
+  const handleSearchSelectPerson = useCallback(
+    (personId: string) => {
+      setSelectedDnaPersonId(personId);
+      setModalPersonId(personId);
+      setActiveView("dna");
+      setSearchModalOpen(false);
+    },
+    []
+  );
+
+  const handleSearchSelectLore = useCallback((loreId: string) => {
+    setCodexInitialLoreId(loreId);
+    setActiveView("codex");
+    setSearchModalOpen(false);
+  }, []);
 
   const [generatingChapterId, setGeneratingChapterId] = useState<number | null>(
     null
@@ -1671,8 +1711,21 @@ export default function App() {
           )}
         </nav>
 
-        {/* Zone 3: PWA Install + Role Switcher + Primary Print Action */}
+        {/* Zone 3: Universal Search + PWA Install + Role Switcher + Primary Print Action */}
         <div className="flex items-center gap-2 shrink-0">
+          <button
+            type="button"
+            onClick={() => setSearchModalOpen(true)}
+            title="Zawng Rawh (Ctrl+K)"
+            className="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-2 text-xs font-medium border border-[var(--border-hairline)] bg-[var(--bg-elevated)] hover:border-[var(--accent-ink)] text-[var(--text-ink)] rounded-md transition-colors whitespace-nowrap shrink-0 shadow-sm"
+          >
+            <Search className="w-3.5 h-3.5 text-[var(--accent-ink)]" />
+            <span className="hidden sm:inline">Zawng Rawh</span>
+            <kbd className="hidden lg:inline-flex text-[10px] px-1 py-0.2 rounded bg-[var(--bg-canvas)] border border-[var(--border-hairline)] text-[var(--text-muted)] font-mono">
+              Ctrl+K
+            </kbd>
+          </button>
+
           <PWAInstallButton variant="header" />
 
           <button
@@ -1873,6 +1926,17 @@ export default function App() {
         </div>
       )}
 
+      {/* Universal Search Modal across all Books, People, Lore & Events */}
+      <UniversalSearchModal
+        isOpen={searchModalOpen}
+        onClose={() => setSearchModalOpen(false)}
+        books={books}
+        kb={kb}
+        onSelectChapter={handleSearchSelectChapter}
+        onSelectPerson={handleSearchSelectPerson}
+        onSelectLore={handleSearchSelectLore}
+      />
+
       {/* Mobile Collapsible Bottom Navigation Bar */}
       <MobileBottomNav
         userRole={userRole}
@@ -1880,6 +1944,7 @@ export default function App() {
         adminAlertCount={totalAdminAlertCount}
         contributorCount={myContributorCount}
         onSelectView={setActiveView}
+        onOpenSearch={() => setSearchModalOpen(true)}
       />
 
       {/* Offline / Online Status Banner */}

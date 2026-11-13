@@ -5,6 +5,7 @@ import {
   ChevronUp,
   FileCheck2,
   GitBranch,
+  Search,
   ShieldAlert,
   Sparkles,
   Upload,
@@ -17,6 +18,7 @@ interface MobileBottomNavProps {
   adminAlertCount: number;
   contributorCount: number;
   onSelectView: (view: StudioView) => void;
+  onOpenSearch?: () => void;
 }
 
 export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({
@@ -25,6 +27,7 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({
   adminAlertCount,
   contributorCount,
   onSelectView,
+  onOpenSearch,
 }) => {
   const [collapsed, setCollapsed] = useState(false);
 
@@ -88,6 +91,17 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({
           <Sparkles className="w-4 h-4" />
           <span>Codex</span>
         </button>
+
+        {onOpenSearch && (
+          <button
+            type="button"
+            onClick={onOpenSearch}
+            className="flex-1 flex flex-col items-center justify-center gap-0.5 text-[11px] font-medium text-[var(--accent-ink)] hover:text-[var(--text-ink)] transition-colors"
+          >
+            <Search className="w-4 h-4" />
+            <span>Zawng</span>
+          </button>
+        )}
 
         {userRole !== "reader" && (
           <button

@@ -279,7 +279,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: ["person-zahmuaka", "person-hengmanga", "person-lalruanga"],
       biography:
-        "Zofate hnam peng zawng zawngte thlahtu bul leh Chhinlung thawnthu inṭanna.",
+        `Zofate hnam peng zawng zawngte thlahtu bul leh pi-pute lo chhuahna bulpui nia chhal a ni. Mizo kâ-a inhlanchhawn thawnthu leh hla hlui ber 'Chhinlung chhuak kan ni e, tin saw tlang kan rel e' tihah hian Zofate chu leilung hnuai khaw thim ata lungpui lian tak khuhna (Chhinlung) kauva khawvel engah an lo chhuah dan sawi a ni. He thawnthu hi hnam ziarang phuarkhawmtu leh Zofate chu chhungkhat khat, thisen inzawm vek kan ni tih tarlangtu pawimawh ber a ni.`,
       verification: "oral_tradition",
       sources: ["Zofate Oral Tradition"],
       chapterRefs: [1],
@@ -323,7 +323,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
         "person-rothangpuia",
       ],
       biography:
-        "Lusei lal hnam parukte pa leh thlahtu bul; Seipui khuaah mi chak leh hmingthang tak niin a thlahte'n Zoram an awp.",
+        `Zahmuaka hi Zofate chanchina Lusei lal hnam ropui paruk — Zadeng, Palian, Thangluah, Rivung, Rokhum leh Sailo lalte thlahtu bulpui leh pa ber a ni. A tobul hi Chhinlung chhuak niin, Tiau lui rala Chin Hills chhung Seipui leh Tlanghua khuaah an cheng hmasa a. Zahmuaka hi mi zaidam, remhre leh mi fing tak a nih avangin khawtlang rorelnaah an rawn fo ṭhin. Tlangnuam khuaa a awm laiin khua leh tuite chuan a rorel thiamzia leh zaidapzia hmuin 'Kan lal mai ta che' tiin lalah an hlangkai ta a. A nupui Pi Lawivari nena an fate paruk aṭangin Lusei lal hnam 6-te lo piangin, Zoram dung leh vang awptu lalte bulpui a lo ni ta a ni.`,
       verification: "verified_history",
       sources: ["Mizo Chanchin Hlui", "Bung 5"],
       chapterRefs: [1, 5],
@@ -352,7 +352,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
         "person-rokhuma",
         "person-sailova",
       ],
-      biography: "Zahmuaka nupui leh Lusei lal hnam parukte nu.",
+      biography: `Pi Lawivari hi Lusei lal hnam parukte nu ropui leh Zahmuaka nupui a ni. Mizo pi-pute chanchinah chuan hmeichhe fing, zaidam leh chhungkaw enkawl thiam chungchuang tia sawi a ni a. Tiau lui rala Seipui leh Tlangnuam khuaa an awm laiin, Zahmuaka rualin khawtlang mipui hnenah tlawmngaihna leh rilru zau tak a lantir ṭhin. A fate paruk — Zadenga, Paliana, Thangluaha, Rivunga, Rokhuma leh Thangura (Sailova thlahtu) te chu huaisen leh tlangrem thiam tura chherpuitu a ni a. Zofate lal hnam tinrengte hian 'Kan pi Lawivari' tiin chawimawina sang tak an hlan ṭhin.`,
       verification: "oral_tradition",
       sources: ["Oral Genealogy"],
       chapterRefs: [5],
@@ -384,7 +384,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       parentIds: ["person-thangura", "person-zahmuaka", "person-lawivari"],
       spouseIds: [],
       childrenIds: ["person-lallula"],
-      biography: "Zahmuaka thlah zinga Sailo lal hnam hming chawitu leh bulpui.",
+      biography: `Sailova hi Thangura fapa leh Zahmuaka tupa a ni a, Mizo chanchina lal hnam ropui ber 'Sailo Lal Hnam' dintu leh an hming put chhan bulpui a ni. Sailova hian a pa Thangura finna leh huaisenna chhunzamin, a thlahte chuan khaw tam tak an din a. A fapa Chungnunga leh a tu Lallula te hun aṭang phei chuan Sailo lalte chuan Zoram chhim leh hmar, khawchhak leh khawthlang tlang zawng zawng chu awp chhuakin, Lusei lal dang zawng aiin rorelna kengkawh nghet berah an chang ta a ni. Sailova thlahte rorel dan hian Mizo khawtlang nun, zawlbuk inrelbawlna leh indo dante chu kum zabi hnih chuang chhung a hruai a ni.`,
       verification: "verified_history",
       sources: ["Mizo History Archives"],
       chapterRefs: [5],
@@ -425,7 +425,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
         "person-vuttaia",
       ],
       biography:
-        "Sailo lal fing leh ropui berte zinga mi, Zopui khua din leh Thlanrawn Rawtna kaihruaitu.",
+        `Lallula hi Sailo lal hmingthang berte zinga mi a ni a, Chungnunga fapa niin Selesih khawpui ropui (in 7,000) lal hotu ber a ni. Lallula hi ral rel thiam, huaisen leh remhre chungchuang a ni a. Khawchhak lam Sukte leh Pawi (Lai) lalten Zofate an tihduhdah em avang leh Chawngtlai vela an lakah phuba la turin kum 1790–1800 chho khan 'Thlanrawn Rawtna' ropui tak a buatsaih a. Zopui leh Chawngtlai vela a khawpui dinte chu Zoram khawchhak invenna kulhpui ber a ni. A fapa te — Lalpuiliana, Lalsavunga, Lallianvunga leh Mangkhaia te aṭangin Sailo lal thlah chak zualte an lo darh chhuak a, Champhai aṭanga Aizawl thlengin an rorelna an par chhuah tir ta a ni.`,
       verification: "verified_history",
       sources: ["Bung 5", "Bung 7", "Mizo Chanchin (Rev. Liangkhaia)"],
       chapterRefs: [5, 7],
@@ -468,7 +468,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: ["person-ropuiliani"],
       childrenIds: ["person-lalchhuanawma-sailo", "person-liankhama"],
       biography:
-        "Sailo lal ropui leh chak berte zinga mi, pasaltha Vanapa leh Chawngbawla te lal.",
+        `Vanhnuailiana hi Lalsavunga fapa leh Lallula tupa a ni a, Champhai khawpui lian tak lal niin Mizo chanchina lal ropui leh thunei ber zinga mi a ni. A hming put chhan ang ngeiin 'Van hnuai a liana' a ni a, Aizawl chhim lam aṭanga Burma ramri thlengin a thuneihna a kawk a. A pasaltha ber Vanapa (Thangzachhinga) nena an thawhdunna chu Mizo pasaltha leh lal inremna ropui ber entirna a tling. Kum 1871-a Vailian hmasa (First Lushai Expedition) lo luh hma chiah khan Champhaiah a boral a, a thih hnu pawhin a nupui leh a fapa Lalburha leh Liankhama te chuan a rorelna ropui tak chu an chhunzawm zel a ni.`,
       verification: "verified_history",
       sources: ["Bung 5", "Bung 7", "Mizoram State Archives"],
       chapterRefs: [5, 7],
@@ -504,7 +504,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: ["person-vanhnuailiana", "person-vandula"],
       childrenIds: [],
       biography:
-        "Mizo hmeichhe lal huaisen leh ram chhantu ropui; British sorkar lakah tlawm duh lova Chittagong tan ina thi.",
+        `Lal Ropuiliani hi Ralvawng khaw lal Vandula nupui a ni a, Vandula thih hnuah a fapa Lalthuama a la naupan avangin Denlung khuaah ro a rel a. British (Sap) sorkarin Lushai Hills an run a, an awp hnuah pawh Lal Ropuiliani hian Sapte thuneihna chu a pawm duh ve miah lo va. Sap sorkar hnenah chhiah (house-tax) pek a hnawl a, an kuli (coolie) tura tlangval tirh pawh a phallo bur mai a ni. 'Ka ram leh ka mipuite hi tuman an awp ngai lo va, Sap ho hnenah engmah ka pe lo vang' tiin tlawm lovin a ding nghet tlat a. Kum 1893-ah British sipaiten an man a, Lunglei leh Chittagong jail-ah an khung a. Kum 1895-ah jail chhungah chuan Mizo zalenna hum nan a nunna a hlan ta a, Zofate zinga Ram Chhan Martyr ropui ber a ni.`,
       verification: "verified_history",
       sources: ["Bung 8", "Mizoram State Archives"],
       chapterRefs: [8],
@@ -537,7 +537,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: [],
       biography:
-        "Kum 1871 Vailian chhan lian tak siamtu Sailo lal huaisen leh rilru tha.",
+        `Bengkhuaia hi Sailam khaw lal a ni a, kum 1871-a Alexandrapur thingpui huan runtu Sailo lal huaisen a ni. Hemi ṭum hian British thingpui huan neitu James Winchester-a chu a boral a, a fanu kum ruk mi Mary Winchester (Mizo ten Zoluti tia an vuah tak) chu sala manin Sailam khuaah a hruai haw a. Bengkhuaia hian Zoluti hi sal anga hrem lovin, a fanu duat tak angin a enkawl a, a nupuiin hnute te hnehtirin Mizo puan te a sintir ṭhin a ni. He thil thleng hian kum 1871–1872 British Lushai Expedition lianpui chu a thlen tir a, Sailam khua chu British sipaiten an hual hnuah Zoluti chu him takin Sapte kutah an hlan leh ta a ni.`,
       verification: "verified_history",
       sources: ["Bung 8"],
       chapterRefs: [8],
@@ -568,7 +568,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       parentIds: ["person-zahmuaka", "person-thangluaha"],
       spouseIds: [],
       childrenIds: [],
-      biography: "Thangluah lal fing leh hmathlir nei thuk.",
+      biography: `Rothangpuia hi Thangluah lal ropui leh Demagiri (tuna Tlabung) bial awptu lal a ni. Mi fing leh thil thlir thui tak a ni a, British sorkar thiltihtheihna leh ralthuam chakzia hrethiam hmasatu niin Capt. T.H. Lewin (Thangliana) nena inremna thuthlung an siam hmasa ber a. An pahnih hian thi in-in 'Thisen Unau' (Blood Brothers) an thawk a. Rothangpuia remhriatna avang hian Tlabung chu Zoram khawthlang lama sumdawngte kal pawhna hmunpui leh Karnaphuli lui kama lawng chawlhna pawimawh berah a lo chang a, Zofate mipuite chu tualchhung indo rapthlak lakah a chhanhim nasa em em a ni.`,
       verification: "verified_history",
       sources: ["Bung 8"],
       chapterRefs: [5, 8],
@@ -612,7 +612,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: ["person-thansangi"],
       childrenIds: [],
       biography:
-        "Indian Army Brigadier hlui, Human Rights humhalhtu leh Mizoram Chief Minister ropui.",
+        `Brigadier Thenphunga Sailo (AVSM) hi Lalsailova tupa niin, Mizo zinga Indian Army Brigadier nihna chelh hmasaber leh Mizoram Chief Minister (1978–1984) a ni. Kum 1966 Zoram Buai laia 'Khawkhawm' (Grouping of villages) rapthlak tak mipuite'n an tawrh lai khan sipai aṭanga chhuakin Human Rights Committee a din a, sipai tharum thawhna lakah Zofate dikna leh chanvo a humhalh tlat a. People's Conference party dinin ralthuam hmang lova ram siamṭhat leh eirukna laka fihlim (clean administration) kengkawhtu a ni. Mizorama tui, kawngpui, zirna leh hriselna dinhmun chawikangtu ropui a ni.`,
       verification: "verified_history",
       sources: ["Bung 10"],
       chapterRefs: [10],
@@ -632,7 +632,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       parentIds: [],
       spouseIds: ["person-brig-t-sailo"],
       childrenIds: [],
-      biography: "Brig. T. Sailo nupui leh khawtlang tana thahnemngai.",
+      biography: `Pi Thansangi Sailo hi Brig. T. Sailo nupui rinawm leh Zoram nu entawntlak a ni. A pasal rualin Zoram Buai laia mipui rethei, fahrah leh chhungkaw darhsarh te chhawmdawlna kawngah a thawh hlawk em em a. Khawtlang nun siamṭhatna, hmeichhiate dinhmun chawikan leh rualbanlote tana tanpuina hrang hrangah a tha leh zung senga thawktu a ni a, Zofate thinlungah 'Nu Zahawm' tia vawng reng a ni.`,
       verification: "verified_history",
       sources: ["Modern Records"],
       chapterRefs: [10],
@@ -693,7 +693,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: ["person-rohlupuii-ralte"],
       childrenIds: ["person-lalrinmawia-sailo", "person-lalthangpuii-sailo"],
       biography:
-        "Vanhnuailiana thlah tunlai hnai chhungkaw pa, kohhran upa leh khawtlang hruaitu entawn tlak.",
+        `Pu Lalchhuanawma Sailo hi Brig. T. Sailo fapa niin, civil administration leh Mizo khawtlang rawngbawlnaa thawk hlawk tak a ni. A pa ram siamṭhat beihpui leh clean governance kengkawhtu rinawm niin, Zofate rorelna fel leh dik din chhohnaah mawhphurhna pawimawh tak a chelh a ni.`,
       verification: "oral_tradition",
       sources: ["Family Jubilee Sample Record"],
       chapterRefs: [5, 10],
@@ -733,7 +733,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       parentIds: [],
       spouseIds: ["person-lalchhuanawma-sailo"],
       childrenIds: ["person-lalrinmawia-sailo", "person-lalthangpuii-sailo"],
-      biography: "Ralte Siakeng chhuak nu fel leh puan tah thiam.",
+      biography: `Pi Rohlupuii Ralte hi Mizo hmeichhe zahawm, chhungkaw inrelbawlna fel leh fate chher hriam kawnga nu entawntlak a ni. Ralte hnam ziarang leh tlawmngaihna vawng himtu a ni a, zofate zinga chhungkaw nghet leh ropui chher chhuaktu nu a ni.`,
       verification: "oral_tradition",
       sources: ["Family Sample Record"],
       chapterRefs: [1, 10],
@@ -776,7 +776,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: ["person-zorinpuii-sailo"],
       biography:
-        "Tunlai Zoram khawvela Vanhnuailiana thlah chhuichhuah theih, Mizo history ziaktu leh zirtirtu.",
+        `Lalrinmawia Sailo hi Sailo lal thlah tunlai mi, lehkha thiamna leh hmasawnna kawnga Zofate tana thawk chhuaktu a ni. A thlahtute rorelna leh tlawmngaihna chanchin vawng nung tura hnam ziarang humhalhtu a ni.`,
       verification: "verified_history",
       sources: ["Sample Family Tree"],
       chapterRefs: [10],
@@ -807,7 +807,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       parentIds: ["person-lalchhuanawma-sailo", "person-rohlupuii-ralte"],
       spouseIds: [],
       childrenIds: [],
-      biography: "Pu Lalchhuanawma Sailo fanu, Aizawla nurse hna thawk.",
+      biography: `Lalthangpuii Sailo hi Sailo chhungkuaa nu zahawm leh lehkha thiam, khawtlang rawngbawlna leh hmeichhe hmasawnna kawnga thawktu a ni. Zofate kuthnathawk leh retheite chhawmdawlna kawnga rilru zau tak putu a ni.`,
       verification: "verified_history",
       sources: ["Sample Family Tree"],
       chapterRefs: [10],
@@ -839,7 +839,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: [],
       biography:
-        "Thangthar chhuan, Zofate DNA Chain leh Chhinlung bul thlenga chhui letna entirna node.",
+        `Zorinpuii Sailo hi tunlai thleng chanchina Sailo thlah nula, zirna leh hnam ziarang ngaihhlut kawnga ṭhangtharte zinga hmahruaitu a ni. Pi-pu sulhnu leh DNA zungzam chhui chhuahnaa entirna pawimawh tak a ni.`,
       verification: "verified_history",
       sources: ["Sample Family Tree"],
       chapterRefs: [1, 10],
@@ -1086,7 +1086,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: [],
       biography:
-        "Pasaltha Khuangchera ṭhian rinawm ber leh Changsil kulh run laia a kianga nun hlan ve tu pasaltha huaisen.",
+        `Ngurbawnga hi Parvatui khaw pasaltha huaisen, Khuangchera ṭhian zual leh a ban dinglam ang maia rintlak a ni. British sipaiten Aizawl leh Changsil an rawn beih ṭumin, Khuangchera rualin tlawmngaihna tawpkhawk lantirin an ram hum nan an thawk chhuak a. September 13, 1890 khan Changsil kulh beihnaah Khuangchera rualin hmelma lakah tlawm lovin a hliam tuarin a nunna a hlan ve ta a ni.`,
       verification: "verified_history",
       sources: ["Bung 7", "Colonial Despatch 1890"],
       chapterRefs: [7],
@@ -1152,7 +1152,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: [],
       biography:
-        "Seleta (Vanchhawng hnam) fapa, Lal Nikuala pasaltha huaisen ber leh raldonaa ring tl tlak ber a ni.",
+        `Vawmkaia hi Chhim lam lal huaisen Nikuala pasaltha hmingthang a ni. Mi tlawmngai, ral rel thiam leh ramri vengtu chak tak a ni a. Tualchhung indo leh ramri inrina laia a khua leh tuite venhim nan vawi tam tak ral a lo do tawh a, Mizo pasaltha chhuanvawr zinga chhal a ni.`,
       verification: "verified_history",
       sources: ["Bung 7", "Mizo Chanchin Bu"],
       chapterRefs: [7],
@@ -1204,7 +1204,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       parentIds: ["person-chhinlung-thlahtu"],
       spouseIds: [],
       childrenIds: ["person-sangchema"],
-      biography: "Chhim lam Lai (Pawi) lal huaisen leh ramri vengtu ropui.",
+      biography: `Hengmanga hi Chhim lam Lai (Pawi) lal huaisen leh ropui tak a ni. Chin Hills leh Chhim Mizoram inri-na laiah ro a rel a, a khua leh tui humhim tura ralrel thiam tak a ni. Sailo lalte leh Lai lalte inep tawn lai pawhin ramri fel tak a kengkawh a, Zofate chhim lam chanchina lal zahawm tak a ni.`,
       verification: "verified_history",
       sources: ["Bung 6"],
       chapterRefs: [6],
@@ -1224,7 +1224,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       parentIds: ["person-hengmanga"],
       spouseIds: [],
       childrenIds: [],
-      biography: "Chhim lam Lai lal hmingthang leh rorelna nghet tak kengkawhtu.",
+      biography: `Sangchema hi Chhim lam Lai (Pawi) lal ropui, Hengmanga ruala chhim lam tlangram awptu lal chak a ni. Khawnglung Run 1856 leh chhim lam indo hrang hrang laia lal pawimawh tak niin, a khua leh tui venhimna kawngah huaisen takin a ding ṭhin a ni.`,
       verification: "verified_history",
       sources: ["Bung 6"],
       chapterRefs: [6],
@@ -1245,7 +1245,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: [],
       biography:
-        "Mizo thawnthua dawithiam ropui, Lasi leh thlarau khawvel thlunzawmtu.",
+        `Lalruanga hi Mizo thawnthu leh pi-pu zinga dawithiam ropui ber leh hmingthang ber a ni. Lasi lalnu Chawngtinleri leh thlarau khawvel nena inzawmna thuk tak nei niin, dawi thilmak tinreng — khawpui thunun, dawi chemsei leh thlawhna themte hmanga thil ti thei a ni. Keichala (sakeia chang thei tlangval) nena an inelna leh inṭhianna chu Mizo thawnthu phuarna ber pakhat a ni a. Dawi atana a zirlai leh a thih thlenga thlarau hovin an venhim dan chanchin hi Zofate thawnthu ropui ber zinga mi a ni.`,
       verification: "oral_tradition",
       sources: ["Bung 2"],
       chapterRefs: [2],
@@ -1265,7 +1265,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       parentIds: [],
       spouseIds: [],
       childrenIds: [],
-      biography: "Tan Tlanga cheng Lasi lalnu, pasaltha te thian leh malsawmtu.",
+      biography: `Chawngtinleri hi Mizo thawnthua Lasi Lalnu leh ramngaw, sava leh sa tinrengte enkawltu thlarau thianghlim ropui ber a ni. Tan Tlang sâng tak maiah a cheng a, pasaltha rilru thianghlim, tlawmngai leh zaidamte chauh hnenah sa-kah vanneihna (sa-lasi) a hlan ṭhin. Mi chapo leh mahni hmasialte erawh an silai chu kawng a ti bumin, ramhuai lakah a phatsan ṭhin a ni. Mizo pasaltha hmingthang zawng zawngte khan Tan Tlang chanchin leh Chawngtinleri malsawmna hi an ngaisang em em a ni.`,
       verification: "oral_tradition",
       sources: ["Bung 2"],
       chapterRefs: [2],
@@ -1286,7 +1286,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: [],
       biography:
-        "Mizo hla phuah thiam hmasaberte zinga mi, a thlan aṭang pawha hla la sa nia thawnthua sawi.",
+        `Pi Hmuaki hi Mizo hla phuah thiam hmasaberte zinga mi a ni. A hla phuah thiamzia leh a aw mawi zia chu khawvelah a thang chhuak hial a; miin a hla an ngaihthlak em avangin thlawhhma hna pawh an thawk hlei thei lo va. A tawpah chuan lalte chuan an khua a buai phah dawn nia hriain nung chungin lei hnuaiah an phum ta hial a ni. Chuti chung pawh chuan a thlan aṭangin hla mawi tak a la rawn sa chhuak zel nia sawi a ni.`,
       verification: "oral_tradition",
       sources: ["Bung 4"],
       chapterRefs: [4],
@@ -1307,7 +1307,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: [],
       biography:
-        "Lal Sibuta'n a lungphun tana nunna a lak tak sal nula khawngaihthlak leh rinawm.",
+        `Darlalpuii hi Tachhip lal Sibuta'n a lungphun (Sibuta Lung) ropui taka phun theih nan thlan khura a phum tak sal nula khawngaihthlak tak a ni. Sibuta chapona leh nunrawnna avangin nung chungin lungphun bul khurah an thlak a, Darlalpuii lungchhe vankaia a ṭap ri leh a au rawl chu Sibuta Lung chanchin sawi apianga thinlung khawih ber a ni zui ta a ni.`,
       verification: "oral_tradition",
       sources: ["Bung 4"],
       chapterRefs: [4],
@@ -1352,7 +1352,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: [],
       biography:
-        "MNF dintu, kum 20 rambuai hruaitu leh 1986 Remna Thuthlung ziaktu Mizoram Chief Minister.",
+        `Laldenga hi Mizo National Front (MNF) dintu leh hruaitu ropui, Zofate zalenna leh mahni rorelna sualtu a ni. 1959 Mautam tam laia Mizo Cultural Society leh Mizo National Famine Front (MNFF) hruaitu niin, March 1, 1966-ah Operation Jericho hmangin Zoram zalenna a puang a. Kum 20 zet ramhnuai leh ram pawn aṭanga a beih hnuin, June 30, 1986 khan India sorkar nen 'Mizoram Peace Accord' an ziak a, Mizoram Chief Minister hmasa ber a lo ni ta a ni.`,
       verification: "verified_history",
       sources: ["Bung 10"],
       chapterRefs: [10],
@@ -1377,7 +1377,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: [],
       biography:
-        "Mizo hnam hla ropui tak tak phuahtu ('Kan Zotlang ram nuam', 'Ro min rel sak ang che').",
+        `Rokunga (1914–1969) hi Mizo hnam hla phuahtu ropui ber ('Hnam Hla Phuahtu') tia chhal a ni. 'Kan Zotlang ram nuam', 'Aw Nang Ram Ropui', 'Chung Pathian Eng' tih hla thuk leh ril tak takte phuahtu a ni a. Kum 1966 Zoram Buai rapthlak lai leh khawkhawm tawrhna karah, Zofate thinlungah beiseina eng meipui chhit nawn leh nan a hlate hian thiltihtheihna nasa tak a nei a ni. Mizo hnam ziarang, zalenna leh inlungrualna phuarkhawmtu ropui ber pakhat a ni.`,
       verification: "verified_history",
       sources: ["Bung 9"],
       chapterRefs: [9],
@@ -1408,7 +1408,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: [],
       biography:
-        "Mizo pi-pu thawnthua langsar ber leh nuihzatthlak ber; tha chak em em, rilru thianghlim leh a changa mawl tak, Sekibuhchhuak nei tu, Mawngping khua verhtu, leh leilung vaw rualtua thawnthua sawi a ni.",
+        `Chhura hi Mizo pi-pu thawnthu zinga hriat hlawh ber leh mi rilru la ber a ni. Mi lianpui, tha chak leh mawl anga lang si, finna thuk tak leh rilru thianghlim pu tlat a ni a. Sekibuhchhuak (chaw khawn theih bel ropui) neitu, Mawngping khua verhtu, leh leilung khawvel vaw rualtu a ni. A ṭhianpa Nahaia erawh mi verther leh uchuak tak a ni a, Chhura mawlna chu bawhzui fovin a bum ṭhin mahse, a tawpah chuan Chhura bawk chu a vannei zawkah a ṭang leh nge nge ṭhin a ni.`,
       verification: "oral_tradition",
       sources: ["Mizo Pi-pu Thawnthu", "Folktales Book Bung 1"],
       chapterRefs: [1],
@@ -1438,7 +1438,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: [],
       biography:
-        "Chhura ṭhianpa fing verther leh remhre tak; Chhura tha chakna chhawr ṭangkai thiam em em leh 'Phel ka ta, kawp i ta' ti a thil insem thiamtu a ni.",
+        `Nahaia hi Chhura ṭhianpa leh Mizo fiamthu thawnthua mi verther leh uchuak entirna a ni. Chhura tha chakna leh a rilru thianghlim chu a hlawkna atan chauh hman tumin, buh sengna, sa pelhna leh Sekibuhchhuak insemnaah te Chhura chu a bum fo ṭhin. Amaherawhchu a vertherna leh duhamna chuan amah bawk chu mualphonain a nangching leh fo ṭhin a, Mizo pi-pute zirtirna ropui tak a ni.`,
       verification: "oral_tradition",
       sources: ["Mizo Pi-pu Thawnthu", "Folktales Book Bung 1"],
       chapterRefs: [1],
@@ -1469,7 +1469,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: [],
       biography:
-        "Nu hrawn duhdahna tuar chhel tak, a nu sangha (Thaichhawninu) leh Phunchawng par mawia a chanchhuah hnuah Vai lal nupuia thlan tlin tak thawnthu lungkuai.",
+        `Mauruangi hi Mizo pi-pu thawnthua nula khawngaihthlak leh duat phu ber a ni. A nu dik tak thih hnuah a nuhrawn leh a unaupa/nau Bingtaii te chuan tikhawlovin hna rit tinreng an thawhtir a. A nu thlarau chu sangha mawi takah lo changin a rawn enkawl a; chu sangha chu an thahsak hnuah a ruh aṭangin Phunchawng par mawi tak a lo chhuak leh a. Vamur sava tanpuinain a tawpah chuan Tuipui rala Vai Lal nupui ropui berah a lo chang ta a ni.`,
       verification: "oral_tradition",
       sources: ["Mizo Pi-pu Thawnthu", "Folktales Book Bung 2"],
       chapterRefs: [2],
@@ -1500,7 +1500,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: [],
       biography:
-        "A nau Tuaisiala nena fahrah rethei tak, bawngpa damlo duat taka enkawltu, a hnuah vanneihna thuruk hmu a Khuangchawi ruai ropui tak ṭheh a khaw pumpui hraitu.",
+        `Liandova hi fahrah tuar chhel leh tlawmngai entirna ropui ber a ni. A nau Tuaisiala nen nu leh pa nei lovin khaw chhungah rethei takin an khawsa a, khaw upate leh tlangvalte hmusit an tuar ṭhin. Retheih tawpkhawk karah bawngpa damlo khaw daia an hmuh chu an enkawl dam a, chu bawngpa chu a lo thauva a lo len tak em avangin khaw pumpui hrai na Khuangchawi ruai ropui tak an buatsaih ta a ni.`,
       verification: "oral_tradition",
       sources: ["Mizo Pi-pu Thawnthu", "Folktales Book Bung 3"],
       chapterRefs: [3],
@@ -1521,7 +1521,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: [],
       biography:
-        "Liandova nau rinawm leh tlawmngai tak; unau inhmangaihna leh retheihna hneh dante tarlangtu.",
+        `Tuaisiala hi Liandova nau rinawm leh tlawmngai tak a ni a. An unauva fahrah leh mi hmusit an tawrh lai pawhin a u Liandova thu a awih em em a. Bawngpa damlo retheih pui taka an enkawl dam hnuah, a u rualin khaw pumpui hrai na Khuangchawi ruai ropui tak an buatsaih a, retheihna ata hlawhtlinna ropui ber zinga mi a ni.`,
       verification: "oral_tradition",
       sources: ["Folktales Book Bung 3"],
       chapterRefs: [3],
@@ -1582,7 +1582,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: [],
       biography:
-        "Zofate nula hmelṭha chungchuang ber; a sam zai tuia luang thla Vai lalpa'n chharin nupuiah a neih tak nula ropui.",
+        `Rimenhawihi hi Zofate nula hmelṭha chungchuang ber leh an chhuanvawr a ni. A sam zai chu mawi tak leh sei tak niin, lui tui fawn velah a sam zai khat a liam thla a. Chu sam zai mawi chu Tuipui rala Vai Lal fapa chuan hmuin, hetiang sam nei nula chu nupuia neih a tum ta a. A tawpah chuan zawng chhuakin an innei ta a, Mizo thawnthua nula hmelṭhatna tehkhawng ber a ni.`,
       verification: "oral_tradition",
       sources: ["Folktales Book Bung 5"],
       chapterRefs: [5],
@@ -1603,7 +1603,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: [],
       biography:
-        "A pa kutzungpui vung aṭanga lo piang, Keimi hovin Phawngpui puka an ruk bo, Hranga leh Phunga'n an chhan chhuah nula mawi.",
+        `Kungawrhi hi a pa kutzungpui vung aṭanga mak taka lo piang a ni a, a hmelṭhat em avangin Keimi (sakeia inthlak thei mite) hovin Phawngpui tlang puk thuk takah an ru bo ta a. Pasaltha huaisen Hranga leh Phunga ten an chhui zui a, lungpuite chawi sawnin dawi hmanraw hmanga Keimi lakah an chhan chhuak leh ta a ni.`,
       verification: "oral_tradition",
       sources: ["Folktales Book Bung 6"],
       chapterRefs: [6],
@@ -1624,7 +1624,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: [],
       biography:
-        "Puk thuka rul lian hmangaihtu nula; a pa'n rul a thahsak hnua a lunglen hla phuah lungkuai tak avanga hriat reng.",
+        `Chawngchilhi hi puk thuka rul lian hmangaihtu nula thawnthu lungchhiatthlak tak changtu a ni. Rul lian nena an inhmangaihna chu a pa'n hriain rul chu a thahsak ta a; Chawngchilhi lungleng leh rilru na chu pukah kal lehin rul ruang a kuah tlawk tlawk a, a tawpah rul hnahthialah a chang ta nia sawi a ni.`,
       verification: "oral_tradition",
       sources: ["Folktales Book Bung 7"],
       chapterRefs: [7],
@@ -1645,7 +1645,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: [],
       biography:
-        "Nula hmelṭha leh rinawm chungchuang, Mizo thawnthua hmangaihna dik entirtu.",
+        `Lalngoki hi nula hmelṭha leh rinawm chungchuang, Mizo thawnthua hmangaihna dik entirna a ni. Harsatna leh thlemna tinreng karah a hmangaih tan rinawm taka dingin, Zofate pi-pu thawnthua nula chhuanvawr ber zinga mi a tling.`,
       verification: "oral_tradition",
       sources: ["Folktales Book Bung 7"],
       chapterRefs: [7],
@@ -1678,7 +1678,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: [],
       biography:
-        "Lal Vanhnuailiana fapa; Biate leh Khawbung lal ropui, British sipaite laka tlawm duh lo leh chhim leh hmar inkarah Mizo zalenna hum tlattu ropui a ni.",
+        `Kairuma hi Sailo lal huaisen leh luhlul tak a ni a. British sorkar thuneihna chu a tawp thlenga do tu zinga mi niin, kum 1895–1896 chho thleng khan a tlangram aṭangin British sorkar thupek a zawm duh lo va. A tawpah British sipaite lakah hneh loh a tawk ta a ni.`,
       verification: "verified_history",
       sources: ["Bung 8", "Bung 9"],
       chapterRefs: [8, 9],
@@ -1710,7 +1710,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: [],
       biography:
-        "Dungtlang lal fanu; Chawngfianga a hmangaihna lungkuai tak avanga Lianchhiari Lunglen Tlanga ṭap chunga hla phuahtu hmingthang.",
+        `Lianchhiari hi Dungtlang lal Vanhnuaithanga fanu hmelṭha leh zaithiam a ni a, an khuaa mi tlawmngai leh hmelṭha Chawngfianga nen an inhmangaih em em a. Mahse khawtlang upate leh rual-awh bumna avangin Chawngfianga chhungte chuan an khua chhuahsanin an pem ta a. Lianchhiari hian Dungtlang khaw daia lungpui chung (tuna Lianchhiari Lunglen Tlang tia koh) aṭangin Chawngfianga kal liam tur chu thlirin hla lungchhiatthlak tak tak a phuah a, Zofate hmangaihna hla hlun ber a ni.`,
       verification: "verified_history",
       sources: ["Bung 4", "Bung 5"],
       chapterRefs: [4, 5],
@@ -1731,7 +1731,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: [],
       biography:
-        "Lianchhiari nena inhmangaih em em, mahse khawtlang inkar avanga innei thei ta lo tlangval hmelṭha.",
+        `Chawngfianga hi Dungtlang tlangval hmelṭha leh tlawmngai chungchuang a ni a, lal fanu Lianchhiari nen inhmangaih viau mah se, an retheih avang leh upate remruat dik loh avangin an innei thei ta lo va. A khua chhuahsana a pem liam tur chu Lianchhiari nen thinlung kehchhiaa an inthlah liam dan chu Mizo hla ropui bera chantir a ni.`,
       verification: "verified_history",
       sources: ["Bung 4", "Bung 5"],
       chapterRefs: [4, 5],
@@ -1761,7 +1761,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: ["person-khuanu"],
       childrenIds: ["person-khuavang"],
       biography:
-        "Vana cheng Pathian ropui ber; ruah tui, khawpui ri, leh leilung malsawmna petu leh Sadawt-te inthawina chham ngaithlatu.",
+        `Pu Vana hi Mizo thawnthu leh sakhaw hluia van sang ber chunga roreltu Pathian a ni. Leilung leh van siamtu, engkim chunga thuneitu leh mihringte sual leh ṭhatna thliartu nia chhal a ni. Pu Vana hi khawvel thim chunga eng dintu leh vanchung khawvela roreltu ber a ni.`,
       verification: "oral_tradition",
       sources: ["Bung 2", "Lore Codex"],
       chapterRefs: [2],
@@ -1782,7 +1782,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: ["person-pu-vana"],
       childrenIds: ["person-khuavang"],
       biography:
-        "Mihringte duhsaktu, naupang leh hmeichhe hualhimtu leh buh thlai thar tirtu Nu ropui.",
+        `Khuanu (Khuazingnu) hi mihringte duhsaktu, nu thinlung pu Pathian a ni a. Naupang enkawltu, buh leh thlai thar tir tu leh chhungkuaa malsawmna vur tu a ni. Mizo pi-pute chuan harsatna an tawh laia an auh fo ṭhin a ni.`,
       verification: "oral_tradition",
       sources: ["Bung 2", "Mauruangi Thawnthu"],
       chapterRefs: [2],
@@ -1803,7 +1803,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: ["person-chawngtinleri"],
       biography:
-        "Leilung leh van inkara thlarau lian; Lasi mite chung lam roreltu leh Bawlpu phuisam thiltihtheihna petu.",
+        `Chung Khuavang hi leilung leh van inkara thlarau lian leh ropui ber a ni a. Lasi mite chung lam roreltu niin, Bawlpu leh Sadawt ten inthawina serh leh sang an hlan ṭhin a ni. Khuavang hi mihringte tana malsawmna leh hremna kengtu a ni.`,
       verification: "oral_tradition",
       sources: ["Bung 2", "Tan Tlang Lore"],
       chapterRefs: [2],
@@ -1824,7 +1824,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: [],
       biography:
-        "Mihring ni chunga sakeia inthlak thei tlangval; Lalruanga ṭhian inkawmngeih ni ṭhin, sakei rilru avanga tualchhung pasalthate thah tak.",
+        `Keichala hi mihring ni chunga sakeia inthlak thei tlangval huaisen a ni a. Lalruanga ṭhian inkawmngeih tak niin, an pahnih inelna leh dawi thiltihtheihna inbeihna chu Mizo pi-pu thawnthua ngaihnawm ber zinga mi a ni. Mihring rilru leh ramsa kawlh zia inkarah a nun a hmang a ni.`,
       verification: "oral_tradition",
       sources: ["Bung 2", "Lalruanga Thawnthu"],
       chapterRefs: [2],
@@ -1854,7 +1854,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: [],
       biography:
-        "Hmanlai khawvel mihring leh ramsa inrem laia Khuangchawi ruai ropui buatsaihtu; Zofate Khuangchawi tobul dintu.",
+        `Thlanrawkpa hi pi-pu thawnthua mi ropui leh hmasang kut ropui ber 'Thlanrawkpa Khawmpui' dintu a ni. Hemi kutah hian ramhuai, ramsa, mihring leh sava zawng zawngte kalkhawmin an lam tlang a, hnam ziarang bulpui a tling.`,
       verification: "oral_tradition",
       sources: ["Bung 2", "Liandova te Unau"],
       chapterRefs: [2],
@@ -1875,7 +1875,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: [],
       biography:
-        "Fahrah naupang chemsei leh meipui chawi a rulpui lianpui kawrawng chhunga lut a thinlung zai hlumtu pasaltha huaisen.",
+        `Tlumtea hi fahrah naupang fing leh huaisen tak a ni a. Rulpui lianpuiin khua a tihbuai laiin chemsei leh meipui chawiin rulpui kawchhungah a lut a, chhung lam aṭanga rulpui pum zai hawngin khua leh tui a chhanhim ta a ni.`,
       verification: "oral_tradition",
       sources: ["Bung 3"],
       chapterRefs: [3],
@@ -1896,7 +1896,7 @@ const BASE_SEED_KB: DnaKnowledgeBase = {
       spouseIds: [],
       childrenIds: [],
       biography:
-        "Chem tat hriam a vau-pangpar aṭanga rulpui seh lal fanu thlenga inthlunzawmna (causality) zirtirtu ropui.",
+        `Chemtatrawta hi chem tat hriam a vau-pangpar aṭanga rulpui seh lal fanu thlenga thil thleng inthlunzawm duah thawnthu changtu a ni. Mizo kâ-a inhlanchhawn thil inkungkaih dan leh zirtirna thuk tak nei thawnthu ropui a ni.`,
       verification: "oral_tradition",
       sources: ["Bung 3"],
       chapterRefs: [3],
