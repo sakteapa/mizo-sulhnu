@@ -17,6 +17,7 @@ import {
   Square,
 } from "lucide-react";
 import { COVER_ILLUSTRATION_PATH, countWords } from "../data/chapters";
+import { MIZO_MYTHOLOGY_LORE_DATABASE } from "../data/mizoMythologyLore";
 import type {
   BookProject,
   CanvasMode,
@@ -131,6 +132,14 @@ export const ManuscriptWorkspace: React.FC<ManuscriptWorkspaceProps> = ({
     }
     for (const v of kb.villages) {
       list.push({ id: v.id, label: v.name, kind: "village" });
+    }
+    for (const lore of MIZO_MYTHOLOGY_LORE_DATABASE) {
+      list.push({ id: lore.id, label: lore.title, kind: "lore" });
+      for (const alias of lore.aliases) {
+        if (alias.trim().length >= 3) {
+          list.push({ id: lore.id, label: alias, kind: "lore" });
+        }
+      }
     }
     return list;
   }, [kb]);

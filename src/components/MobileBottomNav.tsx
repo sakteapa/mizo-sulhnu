@@ -6,6 +6,7 @@ import {
   FileCheck2,
   GitBranch,
   ShieldAlert,
+  Sparkles,
   Upload,
 } from "lucide-react";
 import type { StudioView, UserRole } from "../types/book";
@@ -73,6 +74,19 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({
         >
           <GitBranch className="w-4 h-4" />
           <span>DNA Chain</span>
+        </button>
+
+        <button
+          type="button"
+          onClick={() => onSelectView("codex")}
+          className={`flex-1 flex flex-col items-center justify-center gap-0.5 text-[11px] font-medium transition-colors ${
+            activeView === "codex"
+              ? "text-[var(--accent-ink)] font-semibold"
+              : "text-[var(--text-muted)]"
+          }`}
+        >
+          <Sparkles className="w-4 h-4" />
+          <span>Codex</span>
         </button>
 
         {userRole !== "reader" && (

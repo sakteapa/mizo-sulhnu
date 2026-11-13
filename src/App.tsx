@@ -7,6 +7,7 @@ import { DnaChainStudio } from "./components/DnaChainStudio";
 import { DocumentUploadStudio } from "./components/DocumentUploadStudio";
 import { ManuscriptWorkspace } from "./components/ManuscriptWorkspace";
 import { MobileBottomNav } from "./components/MobileBottomNav";
+import { MythologyCodexStudio } from "./components/MythologyCodexStudio";
 import type { ClickableEntity } from "./components/MizoProseRenderer";
 import { OfflineIndicator } from "./components/OfflineIndicator";
 import { PersonDossierPanel } from "./components/PersonDossierModal";
@@ -281,6 +282,7 @@ export default function App() {
   );
   const [modalPersonId, setModalPersonId] = useState<string | null>(null);
   const [modalNotice, setModalNotice] = useState<string | null>(null);
+  const [codexInitialLoreId, setCodexInitialLoreId] = useState<string | null>(null);
 
   const [generatingChapterId, setGeneratingChapterId] = useState<number | null>(
     null
@@ -769,9 +771,14 @@ export default function App() {
     ]
   );
 
-  // Clickable entity in prose -> open DNA Profile Dossier modal
+  // Clickable entity in prose -> open DNA Profile Dossier modal or Codex
   const handleInspectEntity = useCallback(
     (entity: ClickableEntity) => {
+      if (entity.kind === "lore" || entity.id.startsWith("lore-")) {
+        setCodexInitialLoreId(entity.id);
+        setActiveView("codex");
+        return;
+      }
       if (entity.kind === "person") {
         setModalPersonId(entity.id);
         return;
@@ -1607,6 +1614,17 @@ export default function App() {
               ? "DNA Chain Explorer"
               : "DNA Chain & Chhuizuina"}
           </button>
+          <button
+            type="button"
+            onClick={() => setActiveView("codex")}
+            className={`py-1 transition-colors whitespace-nowrap shrink-0 border-b-2 ${
+              activeView === "codex"
+                ? "border-[var(--accent-ink)] text-[var(--text-ink)]"
+                : "border-transparent text-[var(--text-muted)] hover:text-[var(--text-ink)]"
+            }`}
+          >
+            Thawnthu &amp; Codex
+          </button>
 
           {userRole !== "reader" && (
             <button
@@ -1748,6 +1766,17 @@ export default function App() {
             onSelectPerson={setSelectedDnaPersonId}
             onSubmitPersonUpdate={handleSubmitPersonUpdate}
             onSubmitNewPerson={handleSubmitNewPerson}
+          />
+        )}
+
+        {activeView === "codex" && (
+          <MythologyCodexStudio
+            initialSelectedId={codexInitialLoreId}
+            onNavigateToChapter={(bookId, chapterId) => {
+              setActiveBookId(bookId);
+              setActiveChapterId(chapterId);
+              setActiveView("manuscript");
+            }}
           />
         )}
 

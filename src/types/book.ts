@@ -7,9 +7,36 @@ export type UserRole = "admin" | "contributor" | "reader";
 export type StudioView =
   | "manuscript"
   | "dna"
+  | "codex"
   | "upload"
   | "admin"
   | "submissions";
+
+export type LoreRealm =
+  | "vanchung"
+  | "lasi_nature"
+  | "monsters_spirits"
+  | "dawi_magic"
+  | "afterlife"
+  | "kings_rulers"
+  | "heroes_folklore";
+
+export interface LoreEntity {
+  id: string;
+  title: string;
+  aliases: string[];
+  realm: LoreRealm;
+  rarity: "Legendary" | "Mythic" | "Ancient" | "Folk";
+  tagline: string;
+  iconName: string;
+  powers: string[];
+  weaknessOrTaboo: string;
+  lore: string;
+  connectedEntityIds: string[];
+  chapterRefs: { bookId: string; chapterId: number; label: string }[];
+  secretClue: string;
+  riddleOrHlado?: string;
+}
 
 export type GlossaryCategory =
   | "chief"

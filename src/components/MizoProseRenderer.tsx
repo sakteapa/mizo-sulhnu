@@ -12,7 +12,7 @@ import {
 export interface ClickableEntity {
   id: string;
   label: string;
-  kind: "person" | "clan" | "village";
+  kind: "person" | "clan" | "village" | "lore";
 }
 
 interface MizoProseRendererProps {
