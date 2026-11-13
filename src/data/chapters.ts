@@ -39,6 +39,27 @@ import {
   BUNG_10_CONTENT,
 } from "./chaptersContent";
 
+import {
+  PASALTHA_BUNG_1_CONTENT,
+  PASALTHA_BUNG_2_CONTENT,
+  PASALTHA_BUNG_3_CONTENT,
+  PASALTHA_BUNG_4_CONTENT,
+  PASALTHA_BUNG_5_CONTENT,
+  PASALTHA_BUNG_6_CONTENT,
+  PASALTHA_BUNG_7_CONTENT,
+  FOLK_BUNG_1_CONTENT,
+  FOLK_BUNG_2_CONTENT,
+  FOLK_BUNG_3_CONTENT,
+  FOLK_BUNG_4_CONTENT,
+  FOLK_BUNG_5_CONTENT,
+  FOLK_BUNG_6_CONTENT,
+  FOLK_BUNG_7_CONTENT,
+  ARCHIVE_BUNG_1_CONTENT,
+  ARCHIVE_BUNG_2_CONTENT,
+  ARCHIVE_BUNG_3_CONTENT,
+  ARCHIVE_BUNG_4_CONTENT,
+} from "./storyBooksContent";
+
 export {
   BUNG_1_CONTENT,
   BUNG_2_CONTENT,
@@ -292,6 +313,289 @@ export const MASTER_BOOK_PROJECT: BookProject = {
   chapters: INITIAL_CHAPTERS,
   createdAt: Date.now(),
 };
+
+export const PASALTHA_CHAPTERS: ChapterData[] = [
+  {
+    id: 1,
+    bungLabel: "Bung 1",
+    title: "Pasaltha Taitesena — A Tlawmngaihna Leh A Huaisenna Ropui",
+    eraOrTheme: "Tlawmngaihna & Raldo Nun",
+    summary:
+      "Ralthatchhunga hmingthanna, sahrâng beihna, leh hmeithai fahrah chhan nana a thutiam ropui.",
+    keyFigures: ["Taitesena", "Kawlthuama"],
+    content: PASALTHA_BUNG_1_CONTENT,
+    customFocus: "Pasaltha Tlawmngaihna",
+    updatedAt: Date.now(),
+    ...makeInitialRevision(PASALTHA_BUNG_1_CONTENT),
+  },
+  {
+    id: 2,
+    bungLabel: "Bung 2",
+    title: "Pasaltha Chawngbawla — Ral Hrât leh Chemkalhna Thawnthu",
+    eraOrTheme: "Chhak leh Thlang Indo Hun Lai",
+    summary:
+      "Chemkalh Chawngbawla huaisenna, Vanhnuailiana pasaltha ber nihna, leh ral thah hlado.",
+    keyFigures: ["Chawngbawla", "Neuva", "Vanhnuailiana"],
+    content: PASALTHA_BUNG_2_CONTENT,
+    customFocus: "Chemkalhna & Ral Do",
+    updatedAt: Date.now(),
+    ...makeInitialRevision(PASALTHA_BUNG_2_CONTENT),
+  },
+  {
+    id: 3,
+    bungLabel: "Bung 3",
+    title: "Pasaltha Khuangchera & Ngurbawnga — Changsil Kulh Vengtute",
+    eraOrTheme: "1890 British Indo",
+    summary:
+      "Changsil kulh beihna, Vai sipaite laka zalenna humna, leh Ngurbawnga thihpui tura a nun hlan dan.",
+    keyFigures: ["Khuangchera", "Ngurbawnga"],
+    content: PASALTHA_BUNG_3_CONTENT,
+    customFocus: "Anti-Colonial Resistance",
+    updatedAt: Date.now(),
+    ...makeInitialRevision(PASALTHA_BUNG_3_CONTENT),
+  },
+  {
+    id: 4,
+    bungLabel: "Bung 4",
+    title: "Pasaltha Neuva — Ral Rel Thiam leh Kalsiam Ropui",
+    eraOrTheme: "Ral Rel Finna & Khaw Venghimna",
+    summary:
+      "Chawngbawla ṭhian zual, ral rel thiam chungchuang, leh Tualte khua a chhanhim dan.",
+    keyFigures: ["Neuva", "Chawngbawla"],
+    content: PASALTHA_BUNG_4_CONTENT,
+    customFocus: "Tactics & Strategy",
+    updatedAt: Date.now(),
+    ...makeInitialRevision(PASALTHA_BUNG_4_CONTENT),
+  },
+  {
+    id: 5,
+    bungLabel: "Bung 5",
+    title: "Pasaltha Vanapa (Thangzachhinga) — Tualte Vengtu Ropui",
+    eraOrTheme: "Zawlbuk Pa & Raldona",
+    summary:
+      "Thangzachhinga zaidamna leh huaisenna, Vanhnuailiana pasaltha ber, Vanapa Hall hming chawitu.",
+    keyFigures: ["Vanapa", "Vanhnuailiana"],
+    content: PASALTHA_BUNG_5_CONTENT,
+    customFocus: "Noble Warriorhood",
+    updatedAt: Date.now(),
+    ...makeInitialRevision(PASALTHA_BUNG_5_CONTENT),
+  },
+  {
+    id: 6,
+    bungLabel: "Bung 6",
+    title: "Pasaltha Zampuimanga — Sakap Pasaltha & Sakei Beitu",
+    eraOrTheme: "Sakap Pasaltha & Sahrâng Hmachhawnna",
+    summary:
+      "Sakei kut lawnga beitu, ramvawh pasaltha, leh Zoram mual tina a hla phuah thawnthu.",
+    keyFigures: ["Zampuimanga"],
+    content: PASALTHA_BUNG_6_CONTENT,
+    customFocus: "Hunter Legends",
+    updatedAt: Date.now(),
+    ...makeInitialRevision(PASALTHA_BUNG_6_CONTENT),
+  },
+  {
+    id: 7,
+    bungLabel: "Bung 7",
+    title: "Pasaltha Vawmkaia leh Lianchia — Hnam Humhalhtute",
+    eraOrTheme: "Zualko Tlan Chak & Ramri Vengtute",
+    summary:
+      "Vawmkaia tlan chakna thuruk leh Lianchia khawchhak ral lo dan dan ngaihnawm.",
+    keyFigures: ["Vawmkaia", "Lianchia"],
+    content: PASALTHA_BUNG_7_CONTENT,
+    customFocus: "Frontier Guardians",
+    updatedAt: Date.now(),
+    ...makeInitialRevision(PASALTHA_BUNG_7_CONTENT),
+  },
+];
+
+export const PASALTHA_BOOK_PROJECT: BookProject = {
+  id: "book-story-mizo-pasalthate",
+  title: "Mizo Pasaltha Ropuite & Raldona Thawnthu",
+  subtitle:
+    "Zofate Tlawmngaihna, Huaisenna leh Hnam Hum Nana Nun Hlantute",
+  mode: "single_story",
+  topicFocus: "Mizo Pasalthate Chanchin & Raldona",
+  chapters: PASALTHA_CHAPTERS,
+  createdAt: Date.now(),
+};
+
+export const FOLKTALES_CHAPTERS: ChapterData[] = [
+  {
+    id: 1,
+    bungLabel: "Bung 1",
+    title: "Chhura leh Nahaia — Fing Varpui leh Mawl Thilmak",
+    eraOrTheme: "Pi-pu Fiamthu & Zirtirna Ril",
+    summary:
+      "Sekibuhchhuak, Mawngping khua verh, leilung vaw rualtu Chhura leh a ṭhian verther Nahaia.",
+    keyFigures: ["Chhura", "Nahaia"],
+    content: FOLK_BUNG_1_CONTENT,
+    customFocus: "Mizo Folk Humour & Morality",
+    updatedAt: Date.now(),
+    ...makeInitialRevision(FOLK_BUNG_1_CONTENT),
+  },
+  {
+    id: 2,
+    bungLabel: "Bung 2",
+    title: "Mauruangi — Nu Hrawn Tuarna, Vamur Thuruk leh Phunchawng Par",
+    eraOrTheme: "Fahrah Hmangaihna & Dawi Thawnthu",
+    summary:
+      "Thaichhawninu (sangha), Phunchawng par mawi, Bingtaii nuhrawn duhdahna leh Vai lal nupui nihna.",
+    keyFigures: ["Mauruangi", "Bingtaii"],
+    content: FOLK_BUNG_2_CONTENT,
+    customFocus: "Folk Tale of Righteous Vindication",
+    updatedAt: Date.now(),
+    ...makeInitialRevision(FOLK_BUNG_2_CONTENT),
+  },
+  {
+    id: 3,
+    bungLabel: "Bung 3",
+    title: "Liandova te Unau & Tuaisiala — Fahrah Tuarna leh Khuangchawi Ropui",
+    eraOrTheme: "Tlawmngaihna & Ropui Tanchhuahna",
+    summary:
+      "Liandova leh Tuaisiala retheih tuarna, bawngpa damlo enkawl, leh khaw pumpui hrai na Khuangchawi ruai.",
+    keyFigures: ["Liandova", "Tuaisiala"],
+    content: FOLK_BUNG_3_CONTENT,
+    customFocus: "Triumph of Humility & Care",
+    updatedAt: Date.now(),
+    ...makeInitialRevision(FOLK_BUNG_3_CONTENT),
+  },
+  {
+    id: 4,
+    bungLabel: "Bung 4",
+    title: "Chepahakhama — Ramhuai Palian leh Mizo Pasalthate Inbeihna",
+    eraOrTheme: "Ramhuai Dawi & Hnehna",
+    summary:
+      "Chepahakhama rapthlakzia, mihring tisa ei ṭhin ramhuai palian pasalthate'n remhriatna hmanga an thah dan.",
+    keyFigures: ["Chepahakhama"],
+    content: FOLK_BUNG_4_CONTENT,
+    customFocus: "Demon Slaying Myth",
+    updatedAt: Date.now(),
+    ...makeInitialRevision(FOLK_BUNG_4_CONTENT),
+  },
+  {
+    id: 5,
+    bungLabel: "Bung 5",
+    title: "Rimenhawihi — Zoram Nula Hmelṭha Ber & Sam Zai Luang Thla",
+    eraOrTheme: "Hmangaihna & Hmelṭhatna Ropui",
+    summary:
+      "Sam zai mawi luia thlah thlak leh Tuipui kam Vai lalpa'n a zawng chhuak thawnthu.",
+    keyFigures: ["Rimenhawihi"],
+    content: FOLK_BUNG_5_CONTENT,
+    customFocus: "The Golden Haired Maiden",
+    updatedAt: Date.now(),
+    ...makeInitialRevision(FOLK_BUNG_5_CONTENT),
+  },
+  {
+    id: 6,
+    bungLabel: "Bung 6",
+    title: "Kungawrhi — Keimi Laka Zalenna leh Pasalthate Chhan Chhuah",
+    eraOrTheme: "Keimi Puk & Pasaltha Chhanchhuahna",
+    summary:
+      "Kutzungpui aṭanga lo piang, Keimi hovin puk thuka an ruk bo, Hranga leh Phunga'n an chhan chhuah dan.",
+    keyFigures: ["Kungawrhi", "Hranga", "Phunga"],
+    content: FOLK_BUNG_6_CONTENT,
+    customFocus: "Tiger-Shifter & Rescue Legend",
+    updatedAt: Date.now(),
+    ...makeInitialRevision(FOLK_BUNG_6_CONTENT),
+  },
+  {
+    id: 7,
+    bungLabel: "Bung 7",
+    title: "Lalngoki leh Chawngchilhi — Pi-pute Dawi Thawnthu & Rul Ropuite",
+    eraOrTheme: "Dawi Thuruk & Lunglen Hla",
+    summary:
+      "Chawngchilhi rul lian hmangaihna lungchhiat thlak leh Lalngoki rinawmna thawnthu.",
+    keyFigures: ["Chawngchilhi", "Lalngoki"],
+    content: FOLK_BUNG_7_CONTENT,
+    customFocus: "Serpent Legends & Lamentations",
+    updatedAt: Date.now(),
+    ...makeInitialRevision(FOLK_BUNG_7_CONTENT),
+  },
+];
+
+export const FOLKTALES_BOOK_PROJECT: BookProject = {
+  id: "book-story-mizo-folktales",
+  title: "Mizo Pi-Pu Thawnthu & Folktales Master Collection",
+  subtitle:
+    "Zofate Thinlung Hlumtu Pi-Pu Thawnthu Ropui leh Zirtirna Rilte",
+  mode: "single_story",
+  topicFocus: "Pi-Pu Thawnthu & Folktales",
+  chapters: FOLKTALES_CHAPTERS,
+  createdAt: Date.now(),
+};
+
+export const ARCHIVAL_CHAPTERS: ChapterData[] = [
+  {
+    id: 1,
+    bungLabel: "Bung 1",
+    title: "Mizo Khawtlang Inrelbawlna, Tlawmngaihna & Zawlbuk Thununna",
+    eraOrTheme: "Colonial & Traditional Anthropology",
+    summary:
+      "Rev. Liangkhaia, J. Shakespear, N.E. Parry chhinchhiahna: Val upa, Zawlbuk zirtirna, tlawmngaihna.",
+    keyFigures: ["Rev. Liangkhaia", "J. Shakespear"],
+    content: ARCHIVE_BUNG_1_CONTENT,
+    customFocus: "Village Structure & Zawlbuk",
+    updatedAt: Date.now(),
+    ...makeInitialRevision(ARCHIVE_BUNG_1_CONTENT),
+  },
+  {
+    id: 2,
+    bungLabel: "Bung 2",
+    title: "Hmanlai Sakhua, Ramhuai Biakna, Puithiam leh Mithikhua",
+    eraOrTheme: "Animism & Spiritual Beliefs",
+    summary:
+      "Pathian, huai hrang hrang, bawpu leh puithiam inthawina, Rih dil leh Pialral kalkawng.",
+    keyFigures: ["Puithiam", "Bawpu"],
+    content: ARCHIVE_BUNG_2_CONTENT,
+    customFocus: "Spiritualism & Eschatology",
+    updatedAt: Date.now(),
+    ...makeInitialRevision(ARCHIVE_BUNG_2_CONTENT),
+  },
+  {
+    id: 3,
+    bungLabel: "Bung 3",
+    title: "Mautam leh Thingtam Chhinchhiahna (1862, 1881, 1911, 1959)",
+    eraOrTheme: "Bamboo Flowering & Famines",
+    summary:
+      "Kum 48-50 dana ṭam lo thlen dan, chitu buhfaifa pun vak, leh MNFF/MNF lo pian chhuah dan.",
+    keyFigures: ["Laldenga", "Rev. Liangkhaia"],
+    content: ARCHIVE_BUNG_3_CONTENT,
+    customFocus: "Famines of Mizoram",
+    updatedAt: Date.now(),
+    ...makeInitialRevision(ARCHIVE_BUNG_3_CONTENT),
+  },
+  {
+    id: 4,
+    bungLabel: "Bung 4",
+    title: "Lushai Hills British Hun — Sanad, Bawrhsap & Lalte Thuneihna",
+    eraOrTheme: "1871–1947 Colonial Era",
+    summary:
+      "Expedition hnu lama lal rorel dan inthlak, circle administration, house tax leh Zofate harh chhuahna.",
+    keyFigures: ["Capt. T.H. Lewin", "Lalnu Ropuiliani"],
+    content: ARCHIVE_BUNG_4_CONTENT,
+    customFocus: "Colonial Transition",
+    updatedAt: Date.now(),
+    ...makeInitialRevision(ARCHIVE_BUNG_4_CONTENT),
+  },
+];
+
+export const ARCHIVAL_BOOK_PROJECT: BookProject = {
+  id: "book-story-mizo-archives",
+  title: "Zofate Chanchin & Archival Chronicles",
+  subtitle:
+    "Mizo Khawtlang Inrelbawlna, Sakhua, Mautam leh Sap Ram Luh Chhinchhiahna",
+  mode: "single_story",
+  topicFocus: "Archival History & Chronicles",
+  chapters: ARCHIVAL_CHAPTERS,
+  createdAt: Date.now(),
+};
+
+export const ALL_SEED_BOOKS: BookProject[] = [
+  MASTER_BOOK_PROJECT,
+  PASALTHA_BOOK_PROJECT,
+  FOLKTALES_BOOK_PROJECT,
+  ARCHIVAL_BOOK_PROJECT,
+];
 
 export function createSingleStoryBook(
   title: string,

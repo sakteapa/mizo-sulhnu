@@ -14,6 +14,7 @@ import { PrintableBookDocument } from "./components/PrintableBookDocument";
 import { PWAInstallButton } from "./components/PWAInstallButton";
 import { RolePortalModal } from "./components/RolePortalModal";
 import {
+  ALL_SEED_BOOKS,
   createSingleStoryBook,
   extractCanonicalTermsFromChapters,
   INITIAL_CHAPTERS,
@@ -79,12 +80,17 @@ function hydrateBooks(): BookProject[] {
     null
   );
   if (savedBooks && Array.isArray(savedBooks) && savedBooks.length > 0) {
-    return savedBooks.map((b) => {
-      if (b.id === MASTER_BOOK_PROJECT.id) {
+    const existingIds = new Set(savedBooks.map((b) => b.id));
+    const missingSeedBooks = ALL_SEED_BOOKS.filter((sb) => !existingIds.has(sb.id));
+    const mergedList = [...savedBooks, ...missingSeedBooks];
+
+    return mergedList.map((b) => {
+      const seedMatch = ALL_SEED_BOOKS.find((sb) => sb.id === b.id);
+      if (seedMatch) {
         return {
           ...b,
           chapters: b.chapters.map((ch) => {
-            const initial = INITIAL_CHAPTERS.find((init) => init.id === ch.id);
+            const initial = seedMatch.chapters.find((init) => init.id === ch.id);
             if (initial && (!ch.content || ch.content.length < 50) && initial.content) {
               return {
                 ...ch,
@@ -135,9 +141,9 @@ function hydrateBooks(): BookProject[] {
         activeRevisionId: "rev-1",
       };
     });
-    return [{ ...MASTER_BOOK_PROJECT, chapters: migratedChapters }];
+    return [{ ...MASTER_BOOK_PROJECT, chapters: migratedChapters }, ...ALL_SEED_BOOKS.slice(1)];
   }
-  return [MASTER_BOOK_PROJECT];
+  return deepClone(ALL_SEED_BOOKS);
 }
 
 function hydrateKnowledgeBase(): DnaKnowledgeBase {
@@ -157,8 +163,19 @@ function hydrateKnowledgeBase(): DnaKnowledgeBase {
   const mergedPeople = saved.people.map((p) => {
     const seedMatch = seedPeopleById.get(p.id);
     if (!seedMatch) return p;
+    const biography =
+      seedMatch.biography && (!p.biography || seedMatch.biography.length > p.biography.length)
+        ? seedMatch.biography
+        : p.biography;
+    const lifeEvents =
+      seedMatch.lifeEvents && (!p.lifeEvents || p.lifeEvents.length === 0)
+        ? seedMatch.lifeEvents
+        : p.lifeEvents;
+
     return {
       ...p,
+      biography,
+      lifeEvents,
       aliases: Array.from(new Set([...(p.aliases || []), ...seedMatch.aliases])),
       parentIds: Array.from(
         new Set([...(p.parentIds || []), ...seedMatch.parentIds])
