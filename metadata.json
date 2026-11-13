@@ -1,0 +1,6 @@
+{
+  "name": "ZOFATE SULHNU: Master Book Studio",
+  "description": "A Mizo literary book writing, historical storytelling, glossary indexing, and publishing studio for ZOFATE SULHNU: Tobul, Lalte, Thawnthu leh Chanchin Ril.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

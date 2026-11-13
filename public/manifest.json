@@ -1,0 +1,39 @@
+{
+  "id": "/",
+  "name": "ZOFATE DNA CHAIN & SULHNU STUDIO",
+  "short_name": "Zofate DNA",
+  "description": "Mizo Literary Publishing, Bi-Directional Genealogical DNA Chain, and Biographical Intelligence Studio.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#8C2D19",
+  "background_color": "#FAF7F0",
+  "categories": ["books", "education", "reference"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

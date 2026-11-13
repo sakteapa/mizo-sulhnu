@@ -1,0 +1,146 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root,
+  [data-theme="paper"] {
+    --bg-canvas: #faf7f2;
+    --bg-surface: #f2ede4;
+    --bg-elevated: #ffffff;
+    --border-hairline: #e2d9cb;
+    --text-ink: #1f1b18;
+    --text-muted: #6b6258;
+    --accent-ink: #8c2d19;
+    --accent-hover: #702212;
+    --accent-contrast: #ffffff;
+    --accent-subtle: rgba(140, 45, 25, 0.08);
+  }
+
+  [data-theme="sepia"] {
+    --bg-canvas: #f1e6d0;
+    --bg-surface: #e6d8bd;
+    --bg-elevated: #f7efe0;
+    --border-hairline: #d2c1a0;
+    --text-ink: #2b2118;
+    --text-muted: #6e5b47;
+    --accent-ink: #7c2d12;
+    --accent-hover: #5e200b;
+    --accent-contrast: #fdf8ee;
+    --accent-subtle: rgba(124, 45, 18, 0.09);
+  }
+
+  [data-theme="night"] {
+    --bg-canvas: #141210;
+    --bg-surface: #1d1a17;
+    --bg-elevated: #231f1b;
+    --border-hairline: #2e2924;
+    --text-ink: #eae3d7;
+    --text-muted: #9e9486;
+    --accent-ink: #d97757;
+    --accent-hover: #e58a6d;
+    --accent-contrast: #141210;
+    --accent-subtle: rgba(217, 119, 87, 0.14);
+  }
+
+  html {
+    font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--bg-canvas);
+    color: var(--text-ink);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: var(--bg-canvas);
+    color: var(--text-ink);
+    margin: 0;
+  }
+}
+
+.font-display {
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+.font-book {
+  font-family: "Lora", Georgia, serif;
+}
+
+.font-ui {
+  font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.font-code {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Literary drop-cap for opening book paragraphs */
+.book-dropcap::first-letter {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  float: left;
+  line-height: 0.85;
+  margin-right: 0.65rem;
+  margin-top: 0.25rem;
+  color: var(--accent-ink);
+}
+
+/* Custom subtle scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-hairline);
+  border-radius: 3px;
+}
+
+/* Print / Save as PDF Book Stylesheet */
+@media print {
+  @page {
+    size: A5 portrait;
+    margin: 2cm 1.8cm 2.2cm 1.8cm;
+  }
+
+  html,
+  body,
+  #root,
+  [data-theme] {
+    background: #ffffff !important;
+    color: #111111 !important;
+    --bg-canvas: #ffffff !important;
+    --bg-surface: #ffffff !important;
+    --bg-elevated: #ffffff !important;
+    --text-ink: #111111 !important;
+    --text-muted: #555555 !important;
+    --border-hairline: #d4d4d4 !important;
+    --accent-ink: #111111 !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  .print-page-break {
+    page-break-before: always;
+    break-before: page;
+  }
+
+  .print-avoid-break {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .book-dropcap::first-letter {
+    color: #111111 !important;
+  }
+}
