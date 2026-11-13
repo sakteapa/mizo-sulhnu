@@ -44,13 +44,13 @@ import {
 } from "./utils/dnaGraph";
 
 const STORAGE_KEYS = {
-  books: "zofate_dna_books_v2",
-  legacyChapters: "zofate_sulhnu_chapters_v1",
-  activeBookId: "zofate_dna_active_book_v2",
-  kb: "zofate_dna_kb_v2",
-  conflicts: "zofate_dna_conflicts_v2",
-  auditLogs: "zofate_dna_audit_v2",
-  submissions: "zofate_dna_submissions_v3",
+  books: "zofate_dna_books_v5",
+  legacyChapters: "zofate_sulhnu_chapters_v2",
+  activeBookId: "zofate_dna_active_book_v5",
+  kb: "zofate_dna_kb_v5",
+  conflicts: "zofate_dna_conflicts_v5",
+  auditLogs: "zofate_dna_audit_v5",
+  submissions: "zofate_dna_submissions_v5",
   userRole: "zofate_dna_role_v3",
   contributorName: "zofate_dna_contributor_name_v3",
   readerMaskMedical: "zofate_dna_reader_mask_v3",
@@ -79,70 +79,36 @@ function hydrateBooks(): BookProject[] {
     STORAGE_KEYS.books,
     null
   );
+  const seedBookMap = new Map(ALL_SEED_BOOKS.map((b) => [b.id, b]));
+
   if (savedBooks && Array.isArray(savedBooks) && savedBooks.length > 0) {
     const existingIds = new Set(savedBooks.map((b) => b.id));
     const missingSeedBooks = ALL_SEED_BOOKS.filter((sb) => !existingIds.has(sb.id));
     const mergedList = [...savedBooks, ...missingSeedBooks];
 
     return mergedList.map((b) => {
-      const seedMatch = ALL_SEED_BOOKS.find((sb) => sb.id === b.id);
+      const seedMatch = seedBookMap.get(b.id);
       if (seedMatch) {
         return {
           ...b,
-          chapters: b.chapters.map((ch) => {
-            const initial = seedMatch.chapters.find((init) => init.id === ch.id);
-            if (initial && (!ch.content || ch.content.length < 50) && initial.content) {
-              return {
-                ...ch,
-                content: initial.content,
-                revisions: [
-                  {
-                    id: "rev-1",
-                    label: "Rev 1",
-                    content: initial.content,
-                    createdAt: Date.now(),
-                    note: "Seeded narrative",
-                  },
-                ],
-                activeRevisionId: "rev-1",
-              };
+          title: seedMatch.title,
+          subtitle: seedMatch.subtitle,
+          topicFocus: seedMatch.topicFocus,
+          chapters: seedMatch.chapters.map((seedCh) => {
+            const userCh = b.chapters?.find((c) => c.id === seedCh.id);
+            // If the cached chapter is empty, shorter than 100 characters, or missing,
+            // unconditionally replace with full authoritative seed content!
+            if (!userCh || !userCh.content || userCh.content.trim().length < 100) {
+              return deepClone(seedCh);
             }
-            return ch;
+            return userCh;
           }),
         };
       }
       return b;
     });
   }
-  const legacy = loadJsonFromStorage<Partial<ChapterData>[] | null>(
-    STORAGE_KEYS.legacyChapters,
-    null
-  );
-  if (legacy && Array.isArray(legacy)) {
-    const migratedChapters = INITIAL_CHAPTERS.map((base) => {
-      const m = legacy.find((s) => s.id === base.id);
-      if (!m) return base;
-      const content = typeof m.content === "string" ? m.content : base.content;
-      return {
-        ...base,
-        content,
-        customFocus:
-          typeof m.customFocus === "string" ? m.customFocus : base.customFocus,
-        updatedAt: typeof m.updatedAt === "number" ? m.updatedAt : base.updatedAt,
-        revisions: [
-          {
-            id: "rev-1",
-            label: "Rev 1",
-            content,
-            createdAt: Date.now(),
-            note: "Migrated draft",
-          },
-        ],
-        activeRevisionId: "rev-1",
-      };
-    });
-    return [{ ...MASTER_BOOK_PROJECT, chapters: migratedChapters }, ...ALL_SEED_BOOKS.slice(1)];
-  }
+
   return deepClone(ALL_SEED_BOOKS);
 }
 
@@ -335,6 +301,28 @@ export default function App() {
       : userRole === "contributor"
       ? contributorName
       : "Reader (Chhiartu)";
+
+  // Auto-repair hook: if any chapter of any seed book is empty or corrupted,
+  // immediately restore full authoritative seed text into active state.
+  useEffect(() => {
+    setBooks((currentBooks) => {
+      let changed = false;
+      const updated = currentBooks.map((b) => {
+        const seed = ALL_SEED_BOOKS.find((sb) => sb.id === b.id);
+        if (!seed) return b;
+        const newChapters = b.chapters.map((ch) => {
+          const seedCh = seed.chapters.find((sc) => sc.id === ch.id);
+          if (seedCh && (!ch.content || ch.content.trim().length < 100)) {
+            changed = true;
+            return deepClone(seedCh);
+          }
+          return ch;
+        });
+        return changed ? { ...b, chapters: newChapters } : b;
+      });
+      return changed ? updated : currentBooks;
+    });
+  }, []);
 
   // Persist state to localStorage
   useEffect(() => {

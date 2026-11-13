@@ -86,7 +86,7 @@ export const BUNG_2_CONTENT = `## Hmanlai Sakhuana, Khuavang leh Bawlpu Khawvel
 
 Zofate hian Chanchin Ṭha (Kristianna) an dawn hma khan Pathian awm an ring lo tawp a ni lova; chung lamah Khuavang, Khuazingnu, leh Pu Vana an awm a, leilung leh ngawpui karah thlarau sual (ramhuai, khawhring, ṭhuami, leh phung) tam tak an awm bawk a ni tih an ring ṭhin. He khawvel hlauhawm leh hriat phak loh karah hian, mihring dam khawchhuah theih nan leh hrisel nan Sadawt leh Bawlpu mawhphurhna a lian em em a ni.
 
-Sadawt chu lalin leh khawtlang serh leh sang enkawltu a ni a, Bawlpu erawh chu damlo inthawina leh thlarau biakpawh kawngah mawhphurtu ber a ni ṭhin. Damlo an awm chuan Bawlpu chuan ar hring, vawk pa thau, emaw kel thil kengin, tui hna bulah emaw lungpui serh bulah inthawina rapthlak tak a nei ṭhin.
+Sadawt chu Lal in leh khawtlang serh leh sang enkawltu a ni a, Lal sa leh buh dawngtu, Lal in chhung khura inthawina changtu ber a ni ṭhin. Bawlpu erawh chu damlo inthawina leh thlarau biakpawh kawngah mawhphurtu ber a ni a, khua leh tuite hriselna leh thlarau hlauhawm laka venghimtu a ni. Damlo an awm chuan Bawlpu chuan ar hring, vawk pa thau, emaw kel kengin, tui hna bulah emaw lungpui serh bulah inthawina rapthlak tak a nei ṭhin a ni.
 
 > [!HLADO]
 > Tui hna khuavang, tlang chhip lasi,
@@ -94,338 +94,598 @@ Sadawt chu lalin leh khawtlang serh leh sang enkawltu a ni a, Bawlpu erawh chu d
 > Kel lu leh vawk thisen kan hlan e,
 > Hriselna leh chakna min pe rawh u.
 
+Hmanlai inthawina chi hrang hrang an neih zinga langsar zualte chu:
+1. **Daibawl**: Khaw dai maia ramhuai leh thlarau sual kuta damlo awmte tana inthawina; arpa emaw vawk te reuh te an talh ṭhin.
+2. **Arpui Khal & Vawk Khal**: In chhung khura hrisel lohna leh chhiatna laka him nana in chhung kil khata serh leh sang neih.
+3. **Sedawi Chhun & Khuangchawi**: Mi hausa leh pasalthate'n Pialral kai theih nan leh khawtlang hrai nana sial tam tak an talh a, khaw pum pui an ruai ṭheuh ṭhin.
+4. **Zungbuh & Khawhring Dawi**: Hmeichhe khawhring nei nia rinte laka inthiarfihlim dan leh Bawlpu-in thlarau sual a umchhuah dan.
+
 ![Rih Dil leh Tan Tlang chhip chhengchhe taka Lasi lalnu Chawngtinleri khawvel leh Bawlpu inthawina](/images/bung2_rih_dil_tan_tlang.jpg)
 
 ---
 
 ## Dawi Thiam Ropui Lalruanga leh Keichala Thawnthu
 
-Hmanlai dawi thiam ropui zinga hmingthang ber chu Lalruanga a ni. Lalruanga hian dawi hriamhrei leh zirtirna thuk tak a nei a, thingzar a thunun thei a, tui fawn a tiding thei hial a ni an ti ṭhin. A ṭhianpa Keichala erawh chu mi naran mai a ni lova, mihring ni chunga sakeia chang thei (Keimi) a ni.
+Hmanlai dawi thiam ropui zinga hmingthang ber chu **Lalruanga** a ni. Lalruanga hi Luangpawl khuaa mi niin an sawi a, a nu hming chu Darpuii a ni. Lalruanga hian dawi hriamhrei leh zirtirna thuk tak a nei a, thingzar a thunun thei a, tui fawn a tiding thei hial a ni an ti ṭhin. A naupan lai aṭangin Lasi mite zirtirna a dawng a, dawi lehkha bu (dawi phek) hmuin khawvel dawi thiam berah a lo chhuak ta a ni.
+
+A ṭhianpa **Keichala** erawh chu mi naran mai a ni lova, mihring ni chunga sakeia chang thei (Keimi) a ni. Keichala hian sakei vun a nei a, chu chu a bih chuan sakei lianpui leh kawlh takah a chang a, a phelh leh chuan mihring pangngai a lo ni leh ṭhin.
 
 > [!TALE]
-> Lalruanga leh Keichala hi ṭhian inkawmngeih tak an ni ṭhin a. Mahse Keichala chu a rilṭam tawh chuan a sakei rilru a lo tho va, mihring sa a chak ta ṭhin a ni. Ni khat chu Lalruanga chuan Keichala sakei zia chu a dawi thiltihtheihna hmangin a hrechhuak a, chumi aṭang chuan an inkara innghirnghona lian tak chu a lo chhuak ta a ni.
+> Lalruanga leh Keichala hi ṭhian inkawmngeih tak an ni ṭhin a. Ramchhuah dunin sa tam tak an that dun ṭhin. Mahse Keichala chu a riltam tawh chuan a sakei rilru a lo tho va, mihring sa a chak ta ṭhin a ni. Ni khat chu Lalruanga chuan Keichala sakei zia chu a dawi thiltihtheihna hmangin a manchhuak a, chutah Keichala chuan a ṭhianpa Lalruanga meuh pawh seh a tum ta mai a! Lalruanga chuan a dawi themte hmangin thing ler sangah a zuangkai a, Keichala chu dawi meipui hmangin a chhuahchhawn ta a ni. A tawpah chuan Keichala chuan a sakei rilru thunun zo lovin tualchhung a tibuai ta a, pasalthate chuan a sakei nih laiin an kap hlum ta a ni tiin thawnthu chuan a sawi.
 
-Lalruanga chuan a dawi themte chu a tualphung zinga mi thiam dangte laka hum nan leh tlangval huaisente zirtir nan kawng hrang hrangin a chetpui a; chu thawnthu chuan Mizo nunah hlauhna leh huaisenna inkar zirtirna ropui tak a lo pe ta a ni.
+Lalruanga thih dan pawh hi a dawi vang bawk a ni a; a dawi bu chu midangte'n an chhuhsak hlauvin leiah a phum a, chu a dawi thiltihtheihna chuan amah ngei a la ei zo ta hial a ni an ti ṭhin.
 
 ---
 
 ## Lasi Lalnu Chawngtinleri leh Tan Tlang
 
-Mizo tlangram tlang sang pui pui karah hian Tan Tlang hi tlang serh ber pakhat a ni. He Tan Tlang chhipah hian Lasi Lalnu Chawngtinleri a cheng a, sakhi, saza, leh ramngaw a ramsa tinrengte chu a vulh a ni tiin upate chuan an sawi ṭhin. Pasaltha tlawmngai leh mi huaisente hnenah chauh Lasi hian ramsate chu an thlah zalen ṭhin a, chapo leh mi hamsiate erawh chu sa kap thei lovin an siam ṭhin.
+Mizo tlangram tlang sang pui pui karah hian **Tan Tlang** (tunlaia Champhai daifema ding lurh mai) hi tlang serh ber pakhat a ni. He Tan Tlang chhipah hian Lasi Lalnu **Chawngtinleri** a cheng a, sakhi, saza, leh ramngaw a ramsa tinrengte chu a vulh a ni tiin upate chuan an sawi ṭhin.
 
-Chawngtinleri malsawmna dawngtu pasaltha chuan a thih thlengin sa a kap thei a, a lu a la thei ṭhin a ni tiin thawnthu-ah vawn zui a ni.
-
----
-
-## Rih Dil leh Thlarau Pialral Kalkawng
-
-Burma ram chhung, Chin tlang kara awm lunglung mawi tak Rih Dil hi Zofate thlarau khawvela hmun serh ber a ni. Hmanlai rin dan chuan, mihring an thihin an thlarau chu Rih Dil-ah hian an kal hmasa ber ṭhin a ni:
-
-> [!HISTORY]
-> 1. **Hringlang Tlang**: Thlarau chuan he tlang aṭang hian a damlaia a khua leh a chhungte chu a thlir let vang vang ṭhin a, lunglen em em avangin a ṭap ṭhin.
-> 2. **Hawilopar**: Hringlang tlanga a ṭah hnuah Hawilopar a lo tawk a, chu par a tawn rual chuan a khawvel nun reng reng a theihnghilh ta ṭhin.
-> 3. **Lunglohtui**: Chumi hnuah Lunglohtui a in a, lunglenna leh tahna zawng zawng a bo va, pialral kawng zui zelin Khuazingnu kawtchhuah a thleng ta ṭhin a ni.
-
----
-
-### Thlirzauna: Sakhaw Hlui leh Nunphung Inzawmna
-
-Zofate sakhaw hlui hian thil lian tak pathum a entir:
-1. **Ramsa leh Ramngaw Zahna**: Lasi khawvel an rin avangin ramsa an thah mai mai ngai lo va, sa lu lak hlanin serh leh sang an nei ṭhin.
-2. **Thih Hnu Nun Rinna**: Rih Dil leh Pialral khawvel an rin tlat avangin, mi sual leh hlauhthawng nun nei lova huaisen taka nun an tum ṭhin.
-3. **Thlarau Khawvel Hlauhna**: Kristianna lo luh hma khan thlarau sual hlau reng renga nun a nih avangin, Chanchin Ṭha zalenna a lo thlen khan Mizo thinlung a chhun tlang awlsam em em a ni.`;
-
-export const BUNG_3_CONTENT = `## Kâ-a Inhlanchhawn Thawnthu leh Zawlbuk Meipui
-
-Hmanlai Zofate hian lehkha ziak an la neih loh avangin, an finna, an thawnthu, leh an hnam zirtirna zawng zawng chu kâ-a inhlanchhawng (oral tradition) zelin an vawng nung ṭhin a. Chu kâ-a inhlanchhawnna hmunpui ber chu khaw tin Zawlbuk a ni.
-
-Zawlbuk meipui alh hlep hlep bulah chuan, tlangval rual leh naupang te chu an ṭhu ṭhap a, Val upa leh titi thiamte chuan Chhura, Nahaia, Chemtatrawta leh hmanlai pasalthate thawnthu an hril ṭhin a ni.
-
-![Zawlbuk meipui bulah upate leh tlangval rualten kâ-a inhlanchhawn thawnthu ngaithla a an ṭhut lai](/images/bung3_zawlbuk_storyteller.jpg)
-
----
-
-## Chhura leh Nahaia: Finna leh Mawlna Inbuan
-
-Mizo thawnthu zinga hriat hlawh ber chu Chhura leh Nahaia thawnthu a ni. Chhura hi taksa lama mi lian leh chak em em, mahse a rilru erawh naupang ang maia rilru tluangtlam leh mawl a ni a. Nahaia erawh chu fin phakar thiam, mahni hlawkna tur chauh zawng mi a ni thung.
-
-> [!TALE]
-> **Sekibuhchhuak Chanchin**:
-> Chhura chuan dawi sekibuhchhuak (chaw thlum leh sa ei tur pe reng thei) chu a nei a. Nahaia chuan thik em emin tihder dan a zawng ta a. Ni khat chu Nahaia chuan Chhura chu a bum a, "Chhur, i seki kha a chhe tawh a nih hi, vawm bo daih rawh," a ti a. Chhura chuan a vawm bo va, Nahaia chuan a lo chhar ru ta a ni. Mahse Chhura mawlna leh tlawmngaihna chuan tawpah ropuina a chang leh nge nge ṭhin.
-
-Chhura thawnthu hian zirtirna thuk tak a nei a: Fin phakar aiin rilru tluangtlam leh huaisenna chu a tawpah a dingchhuak zawk a ni tih Mizo nunah a tuh tlat a ni.
-
----
-
-## Chemtatrawta leh Zungzam Thawnthu
-
-Chemtatrawta thawnthu hi thil inthlunzawm (cause and effect) zirtirna thawnthu mawi leh ril em em a ni:
-
-> [!TALE]
-> Chemtatrawta chuan a chem a tat a;
-> Chem chu a hriam a, chawngthu a zai a;
-> Chawngthu chu a zung a, sakei a che a;
-> Sakei a chet chuan ar a tho va;
-> Ar a thawh chuan pitar mai a per a;
-> Pitar chuan vawk mei a pawt a;
-> Vawk chuan lal in a su a;
-> Lal chuan ro a rel ta a!
-
-He thawnthu hian khawtlang nunah "Kan thiltih engpawh hian midangte chungah nghawng lian tak a nei vek a ni" tih zirtirna a pe a ni.
-
----
-
-## Kungawrhi, Keimi leh Tlumtea Huaisenna
-
-Kungawrhi thawnthu hi Mizo thawnthu zinga romantic leh thriller inawm pawlh ropui ber a ni. Nula hmelṭha Kungawrhi chu Keimi (sakei mihring) rualin an ru bo va; ramsa karah hrehawm takin a khawsa a. Chutah pasaltha huaisen Phawthira leh Hrangchhuana te chuan an va umzui a, chemsei leh thal ngul kengin sakei rual chu an va bei a, Kungawrhi chu hlawhtling takin an rawn chhanchhuak ta a ni.
-
-Tlumtea thawnthu pawh chutiang bawk chuan ramsa hlauhawm leh lian pui pui laka mi te rehte finna leh huaisennain hnehna a chan theih zia lantirtu a ni.
-
----
-
-### Thlirzauna: Thawnthu leh Mizo Rilru Puthmang
-
-Kâ-a inhlanchhawn thawnthute hian Mizo rilruah zirtirna thuk tak an tuh a:
-1. **Humour leh Nuihzatna**: Hrehawm leh indo karah pawh Chhura chet dan hmangin Mizo nunah nuihna leh hlimna an vawng nung tlat a ni.
-2. **Khawtlang Rorelna (Social Justice)**: Mi fing phakarte an dingchhuak ngai lo va, mi tluangtlam leh huaisente an chungnung zawk ṭhin.
-3. **Zawlbuk Zirna In**: Zawlbuk hi khaw venghimtu chauh ni lovin, literature, philosophy, leh ethics inhlanna sikul ropui ber a ni.`;
-
-export const BUNG_4_CONTENT = `## Mi Naran, Sal leh Hmeichhe Dinhmun
-
-Mizo history-ah hian lalte leh pasalthate chanchin chauh sawi a ni fo ṭhin a; mahse lal in phenah leh tlang dung ngawpui karah hian hmeichhiate, mi naran, leh salte (Bawrawk, Chemtatrawt, Inpui chhung sal) tawrhna leh lunglenna thuk tak a awm reng a ni.
-
-Hmanlai khawtlangah hmeichhiate hi rorelnaah tel ve ngai lo mah se, an lunglenna, an hmangaihna, leh an tawrhna te chu hla phuah thiamna (poetic genius) hmangin an puak chhuak ṭhin a ni.
-
-![Sibuta Lung ropui tak tlang chhipa ding luah leh Darlalpuii phum hlum a nihna hmun](/images/bung4_sibuta_lung_darlalpuii.jpg)
-
----
-
-## Pi Hmuaki: Hla Phuah Thiam Hmasa Ber Tawrhna
-
-Pi Hmuaki hi Zofate zinga hla phuah thiam hmeichhe hmasa ber nia hriat a ni. A hla phuahte chu a nalhin a ril em em a, tlangval leh nula zawng zawngte chuan an sa tluk tluk ṭhin a ni.
+Lasi mite hi mihring pangngai aia hmelṭha, eng siah siah, leh rimtui tak an ni a; tlangval tlawmngai, rilru thianghlim, leh huaisente chauh an kawmngeih ṭhin. Chawngtinleri hian pasaltha a duhsak zawngte hnenah sa a tlan tir ṭhin a, chuvangin Mizo pasalthate chuan "Lasi zawl" an zawng ṭhin a ni.
 
 > [!HLADO]
-> Ka phuah hlate chu tlang tinah an sa va,
-> Mahse ka chungah lalte an thinur ta;
-> Hmeichhe thu mai tlangvalte hian an zui zel chuan,
-> Khawtlang rorelna a buai dawn e tiin min phum hlum ta!
+> Tan Tlang chhipa Chawngtinler,
+> Saza rual leh sakhi min thlah rawh;
+> Tlawmngaihna chem chawi tlangval ka ni,
+> Khawtlang tan lian tak ka thah dawn e.
 
-Pi Hmuaki thiamna chu lal leh upate chuan an thik ta tlat mai a. "Hmeichhe hla phuah thiam lutuk hi chu khawtlang tan a ṭha lo ve" tiin, a nung chungin lei kawrawngah an phum hlum ta a ni tiin thawnthu chuan lungchhiat thlak takin a vawng zui a ni.
-
----
-
-## Sibuta Lung leh Sal Nula Darlalpuii
-
-Mizo history-a lungphun rapthlak leh lungleng ber chu Rawpuichhip tlang chhipa ding **Sibuta Lung** a ni. Lal Sibuta hi fahrah rethei tak aṭanga lal ropui taka inhlang chho a ni a. A naupan laia a nupui hual Darlalpuii chuan a retheih em avangin a lo hmusit ṭhin a ni.
-
-Sibuta chu a lo lal a, ropui taka a inngaihtir meuh chuan a lungphun lianpui pualin Darlalpuii lakah phuba lak a tum ta a:
-
-> [!HISTORY]
-> Sibuta chuan lung lianpui a pawt tir a. Chu lungpui phum tur chuan lei kawrawng thuk pui a laih tir a. Chumi chhungah chuan Darlalpuii chu nunna la nei chungin a thut tir a, chung lam aṭangin lungpui chu an thlak hnan ta a ni! Darlalpuii ṭap rawng rawng ri chu tlang dungah a thang khawk chhuak a, vawiin thlengin chu lungphun bulah chuan lungchhiatna thawm a la cham reng a ni tiin an sawi ṭhin.
+Pasaltha Khuangchera, Neuva, leh Manga te pawh hi Lasi duhsakna dawng nia an sawi an ni a; mahse Lasi laka mi a chapo va, a inngaihsak chuan Lasi chuan a ramsa a hauh let a, silai kah perh emaw puk thima bo hlenna an tawk ṭhin a ni.
 
 ---
 
-## Tualvungi leh Zawlpala: Pialral Thlenga Hmangaihna
+## Rih Dil leh Thlaraute Pialral Kalkawng
 
-Tualvungi leh Zawlpala thawnthu hi Mizo 'Romeo & Juliet' an tih hial a ni. Tualvungi chu nula hmelṭha chungchuang a ni a, Zawlpala nen inhmangaih takin an innei a. Mahse Tripura lal Phoka chuan a hmelṭhatna a hriatin nupui atan a rawn duh ta tlat mai a.
+Zofate thlarau zinkawngah hian **Rih Dil** (Tiau lui rala awm thinlung ang maia mawi) hi hmun serh leh pawimawh ber a ni. Hmanlai upate chuan mi an thih hian an thlarau chu an chenna khua aṭangin Rih Dil panin an kal ṭhin tih an ring a ni.
 
-Zawlpala chu a thi ta a, Tualvungi chuan a hmangaih tak kalsan chu a theih ngang loh avangin, Phoka ropuina zawng zawng hnawlin a pasal thlan chungah chuan a inthat ve ta a ni.
-
----
-
-## Lianchhiari Lunglen leh Saikuti Zai
-
-Lianchhiari lunglen tlang (Dungtlang dep) aṭanga Chawngfianga a thlir vawng vawng lai thawnthu leh a hla phuah te, Saikuti'n Indo lai leh tlangram khawhar karah hla thlum tak tak a phuah chhuah dante chu Zofate thinlung khawih berte an ni.
+Rih Dil piah lawkah chuan hmun pawimawh tak tak a awm a:
+1. **Hawilopui Par**: Mitthi thlarau chuan he par mawi tak hi an tawn a, chuta chin chu an khawvel hringnun, nu leh pa, nupui fanau te chu an hawilet duh tawh lo va, hmalam chauh an pan ta ṭhin.
+2. **Lunglo Tui**: Hawilopui par an tawn hnuah Lunglo tui an in a, chumi chuan an thinlunga lunglenna, ṭahna, leh khawvel hrehawmna zawng zawng a theihnghilh tir vek ṭhin.
+3. **Hringlang Tlang**: Helai tlang sang tak aṭang hian khawvel hringnun an thlir kir leh zawk ṭhin a, mahse lunglenna awm tawh lovin thlarau khawvel panin an liam ta ṭhin.
+4. **Mitthi Khua leh Pialral**: Mi naran leh kut tling lova nungte chu Mitthi Khua-ah hrehawm takin an cheng a; Sedawi chhun, Khuangchawi, ramsa lian thattu leh ral laka tlawmngai taka nun hlantute erawh chu **Pialral**-ah lutin, buh thar leh sa tui tinreng an eiin, Lasi mite nen lungmuang takin an cheng kumkhua ṭhin a ni.
 
 ---
 
-### Thlirzauna: Hmeichhiate leh Salte Aw
+### Thlirzauna: Sakhaw Hlui aṭanga Kristianna Zinkawng
 
-Bung 4 hian Mizo nun thil thuk tak a tarlang:
-1. **Sal Nihphung (Slavery System)**: Mizo salte hi bawrawk leh chemtatrawt an nih laiin, lal in chhungah chuan chhungkua ang thovin an en ve ṭhin tho va, mahse nunna chan tawk an awm bawk ṭhin.
-2. **Hmeichhe Thlarau Zalenna**: Khawtlangin hmeichhiate phuar mah se, an hla leh hmangaihna chuan thihna thlengin zalenna a zawng hmu tlat a ni.`;
+He hmanlai sakhua leh thlarau biakna hian Zofate chu thil hlauhawm leh thim lakah tlawmngaihna, huaisenna, leh inpekna thinlung a lo pe a. 1894-a Chanchin Ṭha a lo luh khan, he thlarau khawvel thim hi Chhandamtu Isua Krista kross eng chuan a rawn thlak danglam a; mahse kan pipute thlarau khawvel leh an serh leh sang hian vawiin thlengin kan hnam kalsiam leh ziarang a la thunun tlat a ni.`;
 
-export const BUNG_5_CONTENT = `## Zahmuaka leh Lusei Lal Hnam Paruk Indin Dan
+export const BUNG_3_CONTENT = `## Zawlbuk Meipui Bula Kâ-a Inhlanchhawn Thawnthu (Oral Tradition)
 
-Zofate pem luh zelnaah chuan, Lusei hnam pengte zinga thiltithei ber leh rorelna nghet ber dintu chu Zahmuaka a ni. Zahmuaka hian fapa paruk a nei a:
+Zofate hi lehkha ziak (alphabet) nei hma lo mah ila, kâ-a inhlanchhawn finna leh thawnthu (Oral Tradition) ropui tak nei hnam kan ni. Zan a lo nih a, ni a tlak meuh chuan khaw tlangval zawng zawng chu **Zawlbuk**-ah an liam khawm dial dial ṭhin. Zawlbuk meipui eng dul ruih mai bula Val Upa leh pa titi thiamte'n meizial khu chiai chiai karah kâ-a thawnthu an sawi ṭhin chu Mizo ṭhalaite zirtirna lehkhabu, University, leh rilru sukthlek siamtu ber a lo ni ṭhin a ni.
+
+Chu oral tradition-ah chuan mihring nun dan tur zirtirna ril, thil ṭha leh sual inkara thliarna, finna leh mawlna inkar, leh ramsa leh dawi thawnthu zozai chu kâ aṭanga kâ-ah hlan chhawng zelin vawiin thlengin a lo nung reng a ni.
+
+![Zawlbuk meipui eng mawi tak hnuaia Val Upa leh tlangval rual thawnthu inhlanchhawn lai](/images/bung3_zawlbuk_storyteller.jpg)
+
+---
+
+## Chhura leh Nahaia — Mawlna, Finna leh Fiamthu Ril
+
+Mizo thawnthu zinga hriat hlawh ber leh hlimawm ber chu **Chhura** leh **Nahaia** thawnthu a ni. Chhura hi mi lianpui, chak em em, mahse rilru thianghlim leh mawl em em mai a ni a; Nahaia erawh chu mi cher, chak lo, mahse fing vervawk leh mi bum thiam tak a ni thung.
+
+> [!TALE]
+> **Sekibuhchhuak Insem Thu**:
+> Chhura leh Nahaia hian sial ki dawi Sekibuhchhuak (buh leh sa duh tawk lo chhuak thei) an nei a. Nahaia chuan bum a tum a: "Chhura, he sekibuhchhuak hi i insem ang hmiang; a thlum lam i duh nge a al lam?" a ti a. Chhura chuan a thlum lam a thlang a, buh chhum hmin sa chauh a chang a; Nahaia'n a al lam (sa tuihnang) a hauh ta a ni.
+> 
+> Chutiang zelin rawtuai laknaah, vaivak lakah, leh sa kah insemnaah Nahaia hian Chhura mawlna chu a chhawr ṭhin. Mahse Chhura mawlna piah lamah hian thudik leh lungmuanna a awm a; a tawpah chuan Chhura huaisenna leh chakna bawk chuan tualchhung a chhan chhuak leh ṭhin.
+
+### Chhura Sulhnu Mizoram Tlang Dunga Hmuh Theihte
+Chhura hi thawnthu mai ni lovin, Mizo leilung ngeiah hian a sulhnu hmuh tur a awm hial a ni:
+- **Chhura Farep**: Champhai bial leh Tiau lui kam vela lungpui lian tak tak inrem.
+- **Chhura Kual Chhuah**: Tlang dung leh luite a zawh kualna lung chhekte.
+- **Chhura Lung Pho**: Lunglian pui pui ni a pho tura a dah ni a an sawite.
+
+---
+
+## Chemtatrawta Thawnthu — Inthlunzawmna Finna (Chain Tale)
+
+Zofate finna thuk zia entirtu pakhat chu **Chemtatrawta** thawnthu a ni. Hei hi khawvel pum huapa "Chain Tale" (thil thleng inzawm tlat) zinga a ṭha ber pawl a ni a; thil te takte aṭangin buaina lianpui a lo chhuak thei a ni tih zirtirna a ni.
+
+Chemtatrawta chuan luikam lungpuiah a chem a tat a. A chem chu a hriam tawh em tih en nan vau-pangpar a zai a. Vau-pangpar a lo chhawk chuan a bula chingpiri bu a per a; chingpiri phu chuan sakei mitah a va zung a; sakei thinur chuan arpa a chil a; arpa chuan chepa a pet a; chepa thinur chuan vawk a seh a; vawk chuan laikhur a lai a; laikhur aṭangin rulpui a lo chhuak a; rulpui chuan lal fanu a seh ta tlat mai a!
+
+> [!ALERT]
+> Lal chuan khawtlang a ko khawm a, thil thleng chu a chhui let a: Rul aṭangin vawk, laikhur, chepa, arpa, sakei, chingpiri, vau-pangpar, a tawpah Chemtatrawta hnen a thleng ta a.
+> Lal chuan Chemtatrawta chu thiamloh chantirin a hrem ta a ni.
+> 
+> He thawnthu hian **"Eng thiltih pawh hian nghawng a nei vek a, mahni thiltihah mawhphurhna lak tur a ni"** tih thutak zirtirna thuk tak a nei a ni.
+
+---
+
+## Tlumtea Huaisenna leh Finna
+
+Fahrah naupang **Tlumtea** thawnthu hi huaisenna zirtirna ropui tak a ni. Rulpui lian tak maiin khua a tibuai a, khaw mipuite chuan an ngam loh laiin, Tlumtea chuan a chemsei leh meipui chawiin rulpui chu a beichhuak a. Rulpui kawrawng chhungah luh chilhin, a ril leh thinlung a zai hlum sak a, khua leh tui a chhan chhuak ta a ni.
+
+Hei hian Zofate tan: **"Mi lian leh chak zawk hmaah pawh rilru huaisen leh remhriatna neitu chu a tlawm ngai lo"** tih a nemnghet a ni.
+
+---
+
+## Kungawrhi leh Keimi (Vankal Khaw Pasalthate)
+
+Vankal khaw nula hmelṭha ber **Kungawrhi** thawnthu hi sakei leh mihring inkara indona rapthlak tak a ni. Keimi (sakeia chang thei mihring) chuan Kungawrhi chu an ruk bo va, puk thuk tak chhungah an khung ta a.
+
+Vankal khaw pasalthate — **Phawthira** leh **Hrangchhuana** te chuan Kungawrhi chu an zui ru a, puk kawngkhar lungpui chu an nawr hawng a, puk chhung thim mupah sakei rual chu chemsei leh meichher kengin an va bei a, Kungawrhi chu hlawhtling takin an chhan chhuak ta a ni.
+
+---
+
+### Thlirzauna: Thawnthute hian Kan Hnam Thinlung a Chher Dan
+
+Hemi thawnthu zozai hi naupang awmna mai a ni lova; Zofate hnam pumkhat kan nihna, kan inlungrualna, kan mawhphurhna, leh huaisenna rilru min petu thlarau nung an ni. Vawiin khawvel changkang tawhah pawh he kan thawnthu hlui te hi theihnghilh lova kan chhawm nung zel a pawimawh em em a ni.`;
+
+export const BUNG_4_CONTENT = `## Khawtlang Nun — Mi Naran, Sal leh Hmeichhiate Dinhmun
+
+Mizo history kan chhui hian Lalte, Khawnbawl Upate, leh Pasalthate chanchin chauh kan sawi fo ṭhin a; mahse khawtlang innghahna tak tak chu a hnuaia mi naran, fahrah, sal, leh hmeichhiate an ni thung. Hmanlai Mizo khuaah chuan bawi chi hrang hrang an awm a:
+- **Inpui Bawi**: Rethei lutuk leh chhungte nei lo, Lal ina chaw ei a inngheng tute.
+- **Chempui Bawi**: Tualthah emaw sual lian tak tih vanga thi tur Lal in kawtchhuaha tlan lutta, Lal hnenah intuklut a sal lo ni tate.
+- **Tukluh Bawi**: Indo laia hmelma khua aṭanga sal an man, khaw dang aṭanga lalte kuta tlu lut tate.
+
+He khawvel khirh tak karah hian hmeichhiate chu in chhung enkawltu, chaw chhumtu, thul vawngtu, leh them bu dehtu an ni a; mahse hmangaihna, hla phuah thiamna, leh tawrhna kawngah chuan Zofate thinlung ti tuitu leh ti lumtu ber an ni.
+
+![Darlalpuii tawrhna leh Sibuta Lung Tachhip tlang dunga ding lurh mai chanchin rapthlak](/images/bung4_sibuta_lung_darlalpuii.jpg)
+
+---
+
+## Pi Hmuaki — Mizo Hla Phuah Thiam Hmasa Ber Phum Hlum Thu
+
+Mizo hmeichhe zinga hla phuah thiam hmasa ber leh lungchhiatthlak ber chu **Pi Hmuaki** a ni. Pi Hmuaki hian hla mawi tak tak a phuah a, a aw a mawiin a hla thu chuan khawtlang mipui a tihlurh em avangin thlai thar seng lai leh hnatlang laite'n a hla avangin hna thawk thei lovin mipui an awm phah ṭhin a ni an ti.
+
+Lalte leh Upate chuan Pi Hmuaki hla chuan mipuite ti thulh a, khawtlang nunphung a tibuai nia hriain an thik ta em em a. A tawpah chuan rorel sual tak siamin, Pi Hmuaki chu nung chungin lei hnuai thuk takah an phum hlum ta a ni!
+
+> [!HLADO]
+> A phu lovin kan intawng e,
+> Hla thu mawi leiah an phum hlum;
+> Thlan khur thim ata ka aw a thang e,
+> Zofate hla hi a thi ngai lo vang.
+
+Lei an vur lai pawh chuan Pi Hmuaki chuan a aw mawi tak chu chhuahin hla a la sa reng a, leiin a hmui a chhilh hnuah pawh lei chhung aṭangin a aw chu zawi tein a la thangkhawk reng a ni an ti hial ṭhin.
+
+---
+
+## Sibuta Lung leh Darlalpuii Tawrhna Rapthlak
+
+Mizo history-a rorelna rapthlak leh lungchhiatthlak ber pakhat chu **Sibuta Lung** phun a nih dan a ni. Sibuta hi a naupan laiin fahrah rethei tak a ni a; khawtlangin an hmusit em em ṭhin. Mahse a lo puitlin hnuah Lal lian takah a lo chhuak ta a ni.
+
+A lo lal hnu chuan a naupan laia hmusittu zawng zawng lakah phuba lak a tum a, khawvel hriat reng tur lungphun lianpui phun a tum ta a. Chu a lung lianpui pawt tur chuan nula hmelṭha chungchuang **Darlalpuii** (Palak dil lam mi) chu a thlang chhuak a. Darlalpuii chu a duh loh chung Sibuta chuan nung chungin a lung phun tur khur thuk takah chuan a phum hlum tir ta tlat mai a ni!
+
+Tachhip khaw bul tlang dungah he Sibuta Lung hi vawiin thlengin a la ding lurh a; chu lungphun chu ropuina lungphun ni lovin, sal leh hmeichhiate tawrhna leh nunrawng rorelna chhinchhiahna lungchhiatthlak a lo ni ta a ni.
+
+---
+
+## Tualvungi leh Zawlpala — Tragic Romance Ril
+
+Mizo hmangaihna thawnthu ril ber chu **Tualvungi** leh **Zawlpala** inkar thawnthu a ni. Phulpui Lal Zawlpala chuan nula hmelṭha Tualvungi chu a nupuiah a nei a, an inhmangaih em em ṭhin.
+
+Mahse Tripura lam (Kawrthah dep) Lal lian **Phuntiha** chuan Tualvungi hmelṭhat zia a lo hria a, Phulpui khuaah a lo zin a. Zawlpala chuan intithei takin "Ka farnu a ni e" tiin dawt a lo hrilh a. Phuntiha chuan man tam tak pein Tualvungi chu a nupuiah a hawn ta daih mai a!
+
+A hnuah Zawlpala chu a inchhir em em a, Tualvungi tlawh turin a va kal a. Mahse Phuntiha chuan dawt an hrilh a ni tih hriain Zawlpala chu tur a hrai hlum ta a ni. Zawlpala thih thu a hriat meuh chuan Tualvungi chuan a tuar zo lova, Phuntiha kuta awm reng ai chuan Zawlpala thlan bula kalin a nghawng a inzai hlum ve ta a; thlan khatah an phum dun ta a ni.
+
+> [!TALE]
+> Thlan vual khatah Tualvungi leh Zawlpala an zalh a,
+> Khawvel piah lamah hmangaihna a thi thei lo;
+> Phengphehlep mawi takah chang dunin,
+> Pialral panin an thlawk dun ta e.
+
+---
+
+## Lianchhiari leh Chala
+
+Dungtlang Lal fanu **Lianchhiari** leh mi rethei tlangval **Chala** te inhmangaihna pawh hi Mizo thinlung hneh em em tu a ni. Lal fanu leh mi rethei an nih avangin khawtlang upate'n an inzawm an phal lova, Chala chu khaw dangah an umbo ta a ni.
+
+Lianchhiari chu Dungtlang mual sang taka lungpui (Lianchhiari Tlang) chunga ṭhuin, Chala pemna khua lam thlirin kum tam tak mittui nen hla a phuah a:
+
+> [!HLADO]
+> Kha ngei kha Chala lenna tlang chu,
+> Chhum chhah mupin a hliahkhuh e;
+> Thinlai a vawng e Chala zun hi,
+> Engtikah nge kan intawn leh ang?
+
+---
+
+### Thlirzauna: Mi Naran leh Hmeichhiate Sulhnu Hlutna
+
+He thawnthu zozai hian Zofate chu lal ropui leh ralthuam chauh nei hnam kan ni lova; thinlung ril tak, hmangaihna thianghlim, leh tawrhchhelna nei hnam kan nih zia a tarlang a ni. Mi naran leh hmeichhiate tawrhna tel lo hian Mizo hnam history hi a kim thei ngai lo vang.`;
+
+export const BUNG_5_CONTENT = `## Zahmuaka Tobul leh Seipui Khaw Ropui
+
+Lusei lalte zinga ropui ber leh tlangram pum huapa roreltu Sailo lalte tobul kan chhui dawn chuan, an thlahtu bulpui **Zahmuaka** chanchin kan hriat a ngai a ni. Zahmuaka hi Lentlang leh Seipui (Chin Hills tlangram) vela mi a ni a, a pa chu Bokhua a ni tiin thlahtu chanchin ziaktu upate chuan an chhinchhiah a ni.
+
+Zahmuaka hi mi fing, ral rel thiam, leh mi hip thei tak a ni a; Seipui khuaa an chen lai hian a nupui nen fapa paruk ngawt an nei a. Chung a fapate chu vawiina Zofate lusei lal hnam 6 tiha kan sawi zui takte an lo ni ta a ni:
 1. **Zadeng**
 2. **Palian**
 3. **Thangluah**
 4. **Rivung**
 5. **Rokhum**
-6. **Sailova (Sailo)**
+6. **Sailo** (Sailova aṭanga chhuak)
 
-Heng fapa parukte aṭang hian Lusei Lal Hnam Paruk an lo piang chhuak a, kum zabi 18-na leh 19-na chhung zawng khan Mizoram tlang dung zawng zawng chu hetiang hian an insem a ni.
-
-![Sailo Lalte rorelna leh Khawnbawl upate nena lal in tualzawla ro an rel lai](/images/bung5_sailo_lalte_council.jpg)
+![Sailo Lalte Khawnbawl Upa Inrawn Khawm Lai leh Mizo Lal Inrelbawl Dan](/images/bung5_sailo_lalte_council.jpg)
 
 ---
 
-## Sailo Lalte Ropuina leh Lallula Selesih Rorelna
+## Lal Hnam 5 Hmasate Lo Darh Dan leh An Tlakchhiatna
 
-Lusei lal hnam paruk zinga chak ber leh tlangram hmun tam zawk awp zui zeltu chu **Sailo** lal hnam an ni. Sailova thlah zinga ropui ber pakhat chu Lal Lallula a ni.
+Sailo lalte'n Mizoram tlang dung pum an thunun hma hian, a unau dang 5 te chu tlang dung hrang hrangah lal ropui tak tak an lo ni hmasa ṭhin a ni:
 
-Lallula hi lal huaisen, mi fing, leh ral rel thiam em em a ni a. Selesih khawpuiah in 7,000 zet neiin ro a rel a, a hruaina hnuaiah Sailo lalte chu Zoram chhim aṭanga hmar thlengin an darh chhuak ta a ni.
+### 1. Zadeng Lalte
+Zadeng lalte hi an huaisenin an chak em em a, tlang dung lian tak tak an luah a. Mahse an rorelna a khauhin an inthlahdah a, midangte lakah an nunrawng em em ṭhin. A tawpah chuan Sailo lalte leh Palian lalte nena an indo hnuah an khua a lo darh a, an lalna chu a tawp chho ta a ni.
 
-> [!HISTORY]
-> **Sailo Lal Rorel Dan (Chieftainship System)**:
-> - Lal chu khaw chhungah thuneitu ber a ni a, leilung leh in tinte a ta a ni.
-> - Upate (Khawnbawl upa) a nei a, tualchhung thubuai an relpui ṭhin.
-> - Tlangau chuan lal thupek khawlaiah a tlangaupui ṭhin.
-> - Thirdeng chuan ralthuam a chher a, Ṭhiah (in tin chhiah) an pe ṭhin.
+### 2. Palian Lalte
+Palian lalte hi Chittagong Hill Tracts leh Cachar dep thlenga thiltihthei tak an ni ṭhin. Lal hmingthang **Lalsukla** pawh kha Palian lal a ni a, 1844 vel khan British tea garden runtu zinga mi niin, Sap sipaite'n an man a, Andaman thliarkar thleng an thawn hial a ni. Palian lalte hian kum tam tak ro an rel a, a hnuah Sailo lalte'n an rawn thlak ta a ni.
 
----
+### 3. Thangluah Lalte
+Thangluah lalte hi chhimthlang lam leh Demagiri (Tlabung) bial hauh tute an ni a. Karnaphuli lui dung zawha sumdawnna leh sapte nena inbiakpawhna kawngah hma hruaitu an ni. Lal **Rothangpuia** (Thangluah lal) phei chu British-ho lo luh tirh khan mi pawimawh ber pakhat a ni a, sapte nena inremna siamtu a ni.
 
-## Vanhnuailiana leh Champhai Rorelna
-
-Sailova thlah zinga lal ropui tawpkhawk dang leh chu Vanhnuailiana a ni. Champhai zawl zau tak mai chu lal ropui Vanhnuailiana hian a awp a, a rorelna hnuaiah khaw 40 chuang an awm hial a ni tiin colonial records chuan a sawi a ni.
-
-Vanhnuailiana ropuina chu Sap sipaite pawhin an hria a, 1871-72 Lushai Expedition lai khan British sipaite chuan Vanhnuailiana thlan chu Champhai zawlah an va hmu hial a ni.
+### 4. Rivung leh Rokhum Lalte
+Rivung lalte hi Champhai leh chhim chhak lam tlangah an cheng a; Rokhum lalte pawh tlang hrang hrangah inzarpharh mah se, Sailo lalte thiltihtheihna a lo lian takah chuan an lalna chu Sailo lalte hnenah an hlan chho ta a ni.
 
 ---
 
-### Thlirzauna: Sailo Lal Rorelna Nghawng
+## Sailo Hnam Lo Chhuah Dan leh Lal Chungnung Ber An Nih Dan
 
-1. **Khawtlang Inpumkhatna**: Sailo lalte an lian chhoh tak avangin Mizo hnam peng hrang hrangte chu Duhlian tawng leh culture hmangin an lo pumkhat chho ta a ni.
-2. **Indo leh Tualchhung Innghirnghona**: Lal hrang hrangte an lo inthik tlat avangin, unau inkara indona (Chhim leh Hmar indo) te a lo chhuah phah bawk a ni.`;
+Zahmuaka fapa zinga naupang ber Sailova chu a unau dangte aiin a fingin a thluak a vawrh thiam em em a. Sailova fapa **Chungnunga**, a fapa **Rohnaa**, a fapa **Lalhluma** te chho aṭang chuan Sailo thlah chu an lo pung nasa ta em em mai a.
 
-export const BUNG_6_CONTENT = `## Chhim Lam Lalte: Lai leh Mara Rorelna
+Sailo lalte fin bikna chu:
+- Khawtlang inrelbawlna fel tak an din a.
+- Khawnbawl Upa fing rual an thlang thiam a.
+- Pasalthate an chawimawi a, tlawmngaihna an vawng nung tlat a ni.
 
-Sailo lalte'n Zoram lai lili leh hmar lam an awp lai khan, Chhim lam tlang sang leh khaw chhak tlangramah chuan hnam peng ropui tak tak — Lai (Pawi) leh Mara (Lakher) lalte chuan mahni pual rorelna nghet tak an lo din bawk a ni.
-
-Chhim lam lalte hi ralthuam hum thiam, sakawr chungchuang leh indonaah mi huaisen tak an ni a; an puan ven dan, an sam zawn dan (tlaizawl bawk), leh an dar benthe te chu a danglam bik em em a ni.
-
-![Lai leh Mara lal huaisente ralthuam famkim kenga an ding lai](/images/bung6_lai_mara_warriors.jpg)
+Chuvangin Zoram tlang dung pum chu **"Sailo Ram"** tiin sapte pawhin an rawn sawi hial a ni.
 
 ---
 
-## Lai (Pawi) Lalte: Hengmanga leh Sangchema
+## Lal Lallula leh Selesih Khawpui Ropui
 
-Lai lalte zinga hriat hlawh berte chu Hengmanga leh Sangchema te an ni. Lai lalte hian Chin tlang aṭanga Chhim Zoram thlengin kulh nghet tak an siam a, Sailo lalte nen pawh hun eng emaw lai chuan inṭhianṭhain, hun eng emaw lai erawh chuan na takin an inbei ṭhin a ni.
+Sailo lalte zinga fing leh ropui ber pakhat chu **Lallula** a ni. Lallula hi Lalhluma fapa a ni a, a fin zia leh a remhriat zia chu Mizo history-ah vawiin thlengin an sawi bang thei lo.
 
----
+Lallula hian Aizawl chhim chhak tlangdung **Selesih** khuaah khawpui lian em em mai a din a. Chu khawpui chu:
+- In 7,000 zet awmna a ni a.
+- Khaw 7 Lalte chu Lallula hnuaiah an inhlawm khawm a.
+- Zawlbuk ringawt pawh tam tak a ding a ni.
 
-## Mara Lalte: Tlohsai leh Hawthai Khua
-
-Chhim tawp, Kolodyne (Chhimtuipui) lui dung zawng zawng awptu chu Mara lalte an ni. Tlohsai leh Hawthai lalte chuan an lalram chu huaisen takin an humhalh a, British sipaite pawh an luh hmasak ber lai chuan an lo bei let nghek ṭhin a ni.
-
----
-
-## Fanai leh Hmar Lalte
-
-- **Fanai Lalte**: Khawbel leh Chhim lamah lal fing leh ral rel thiam takin ro an rel a.
-- **Hmar Lalte**: Hmar lam tlangramah mahni khaw rorelna vawngin, Mizo hnam zinkawngah an thawhhlawk em em a ni.
+Lallula hun lai hian Pawi (Lai) lalte chuan Zofate lakah chhiah rit tak an phut ṭhin a. Lallula chuan lemchangin inremna chawimawina Selesih daiah a buatsaih a, chu chu **Thlanrawn Rawtna** tiin history-ah a chuang a; Pawi lalte chu hnehin Zofate zalenna a sual chhuak ta a ni.
 
 ---
 
-### Thlirzauna: Hnam Pengte Inlaichinna
+## Lal Vanhnuailiana — Mizo Lalte Zinga Ropui Ber Pakhat
 
-Chhim leh Hmar lalte hi indovin inrawn fo ṭhin mah se, thisen inzawm unau an nihna a bo ngai lo va; vawiina Mizoram zalenna leh inpumkhatna lungphum phuhtu an ni.`;
+Lallula tupa **Vanhnuailiana** (Lalsavunga fapa) phei chu Champhai phai zawl zau pui mai luah khawmtu leh roreltu a ni a. In sang chuang zet roreltu a nih avangin British officer-te meuh pawhin lehkha bu-ah **"The King of the Lushais"** tiin an lo ziak hial a ni.
 
-export const BUNG_7_CONTENT = `## Pasaltha Nihna leh Tlawmngaihna
-
-Mizo khawtlangah chuan lal a ropui ber laiin, mipuite thinlung luahtu ber chu Pasalthate an ni. Pasaltha chu ral hmaa tlanchhe ngai lo, sa kap thei, leh khaw venghimtu an ni a; mahse ralthuam thiamna mai piah lamah TLAWMNGAIHNA nun nei mi an ni ngei tur a ni.
-
-![Pasaltha Khuangchera leh a hote khaw daia ral beia an din chhuah lai](/images/bung7_pasaltha_khuangchera.jpg)
+Vanhnuailiana leh a khawnbawl upa Pasaltha **Vanapa** te inkawp chu Mizo lal leh pasaltha inkawp ṭha ber leh entawntlak ber a ni a, vawiin thlengin hnam ropui zia entirtu a la ni reng a ni.
 
 ---
 
-## Pasaltha Khuangchera: Thih Thlenga Huaisen
+### Mizo Lal Inrelbawl Dan Phung
+Lal in chhungah leh khawtlangah hetiang hian mawhphurhna an insem ṭhin:
+- **Lal**: Roreltu ber leh thutlukna siamtu.
+- **Khawnbawl Upaho**: Lal thurawn petu leh thu buai remtute.
+- **Tlangau**: Lal thupek khaw laia tlangau pui tu.
+- **Thirdeng**: Hriamhrei, chem, leh fei chher tu.
+- **Puithiam & Sadawt**: Serh leh sang enkawltu.
+- **Chhiah**: Fathang (buh chhiah), Sachhiah (sa bawp leh lu), leh Khuaichhiah.`;
 
-Zofate pasaltha zinga hmingthang ber chu **Pasaltha Khuangchera** a ni. 1890-a British sipaite'n Changsil leh Aizawl an rawn beih lai khan, Khuangchera chuan Sap sipaite silai hmaah tlanchhe duh lovin a ṭhiante chhanchhuah nan a nun a hlan ta a ni.
+export const BUNG_6_CONTENT = `## Zofate Hnam Peng Hrangte Inlaichinna
 
+Mizo history kan zir chian hian Lusei hnam chauh hi Zofa kan ni lova; **Lai, Mara, Hmar, Paite, Ralte, Vaiphei, Zou, Thadou, Gangte, Simte** leh peng dang zawng zawngte hi thisen inzawm unau dik tak kan ni. Kan ṭawng a inhnaihin kan nunphung a inzul em em a, tlang hrang hrangah awm hrang mah ila, pipu thlahtu pumkhat aṭanga lo chhuak kan ni.
+
+He bungah hian Chhim lam Lal ropuite leh hnam peng dang lalte'n an mahni tlangram ṭheuhva huaisen taka ro an rel dan leh Zofate tana an hnuhma ropui kan thlir dawn a ni.
+
+![Lai leh Mara Pasaltha rual fei leh phaw kenga ral rel lai](/images/bung6_lai_mara_warriors.jpg)
+
+---
+
+## Lai (Pawi) Lalte — Huaisenna leh Ral Hrât Rorelna
+
+Zoram chhim lam leh Chin Hills tlangram (Hakha, Falam, Thantlang, Sangau, Lawngtlai) vela roreltu **Lai** (Pawi) lalte hi ral hrât, huaisen, leh mi tawrhchhel tawpkhawk an ni ṭhin.
+
+Lai lalte zinga hmingthang em em te chu:
+- **Lal Hengmanga**: Ral do thiam leh pasaltha rual kaihruaitu ropui.
+- **Lal Sangchema**: Falam leh a chhehvel thunun tu lal huaisen.
+
+Lai pasalthate hi fei hriam tak leh sial vun phaw lianpui nen an che ṭhin a; British sipaite'n Chin Hills an rawn luh lai pawh khan tlawm mai duh lovin kum tam tak British sipai rual an lo bei let a ni. Sailo lalte nena an inkarah pawh indona leh inremna tam tak a lo thleng tawh ṭhin a, chuta ṭang chuan chhim leh hmar inunauna thuk tak a lo chhuak a ni.
+
+---
+
+## Mara (Lakher) Lalte — Tlohsai leh Hawthai Ropui
+
+Zoram chhimthlang tawp (Siaha bial, Chhimtuipui lui kam) luah tute chu **Mara** hnam an ni. Mara mite hi hnam nghet, mahni dan leh hnam ziarang vawng tlat mi an ni.
+
+Mara lalte rorel dan phung hi a fel em em a:
+- **Beiba**: Lal ber a ni a, a thu chu khawtlang dan a ni.
+- **Macchâ**: Khawnbawl upate an ni a, rorelna fel tak an kalpui ṭhin.
+
+Mara lalte khua zinga ropui ber chu **Tlohsai** leh **Hawthai** an ni a. Mara pasalthate hian British-ho rawn luh lai khan an ram chanchin hriat chian loh avanga Sap sipaite rawn lut chu huaisen takin an lo do va, an sa pelh thiamna leh ral rel thiamna chu sap lehkhabu-ah pawh an ziak hial a ni.
+
+---
+
+## Fanai Lalte — Khawbel leh Chhim Bial Roreltute
+
+Fanai hnam hi Lusei leh Lai inkara hnam nghet leh fing tak an ni. Fanai lalte hi Sailo lalte nen ṭhianṭha tak an ni ṭhin a, an inkarah inremna thuthlung nghet tak an nei ṭhin.
+
+Fanai lal hmingthang **Zaitea** leh **Lalrolura** te chuan Chhim lam tlangdung (Khawbel, Lungsen, Hnahthial bial) an luah a; an khawnbawl upate nen khaw mipuite lungrual takin an enkawl ṭhin a ni.
+
+---
+
+## Hmar Lalte — Vangai Tlang leh Hmarlam Tlangdung
+
+Hmar lalte hi Zofate zinga lehkha thiam hmasa leh finna lama sulsutu hnam an ni. Manipur tlangram, Vangai tlang, Assam Cachar dep, leh Mizoram hmarlam tlang dungah khaw ropui tak tak an din a.
+
+Hmar pasalthate hi silai kah thiam leh sa pelh thiam tak an ni a; Chhinlung thawnthu pawh hi Hmar hla hlui **"Sikpui Hla"** hmangin fiah takin vawiin thlengin an la vawng nung reng a ni.
+
+---
+
+## Ralte leh Paite Hnam Pengte
+
+### Ralte Hnam Peng 4:
+Ralte hi Zofate zinga pasaltha leh huaisen chhuah tam ber hnam an ni tiin upate chuan an sawi ṭhin. Peng lian 4 an nei:
+1. **Khelte**
+2. **Siakeng**
+3. **Kawlni** (Pasaltha Khuangchera hnam)
+4. **Lelhchhun**
+Ralte mite hi ṭawng rang leh ral do peih, tlawmngaihna lama hnungtawlh ngai lo hnam an ni.
+
+### Paite Hnam:
+Paite mite hi an inrelbawlna a nghehin, an lalte thu an awih em em a. Tedim leh Champhai hmarlam tlang dungah khaw ṭha tak tak an din a, vawiin thlengin Zofate zinga hnam tangkai ber pakhat an la ni reng a ni.
+
+---
+
+### Thlirzauna: Hnam Peng Hrang Mahse Thisen Pumkhat
+
+He hnam peng hrang hrangte hian hnam ziarang mawi tak tak an nei ṭheuh va; mahse an tobul leh an thlahtu chu Chhinlung chhuak pumkhat an ni a. Vawiin khawvelah he inunauna hi kan chawinun thar a pawimawh em em a ni.`;
+
+export const BUNG_7_CONTENT = `## Mizo Pasaltha Nihna leh Tlawmngaihna Thlarau
+
+Mizo khawvelah hian **Pasaltha** tih thumal hian awmze thuk tak a nei a ni. Pasaltha chu ral that hnem emaw sa kap tam satliah a ni lova; **"Khawtlang humtu, hmeithai fahrah tan dingtu, mi dang aia mahni inngaitlawm, leh ram leh hnam tana nun pe ngam"** a ni zawk ṭhin.
+
+Chu pasaltha nihna chu kan pi leh pute chuan thumal pakhat ropui em em maiin an chher a, chu chu **TLAWMNGAIHNA** a ni. Tlawmngaihna chu mahni hmasial lohna, mi dangte tana inpekna tawpkhawk, leh zahawm taka nun hmanna a ni.
+
+![Pasaltha Khuangchera Changsil kulh kawtah sap silai hmaah huaisen taka a din lai](/images/bung7_pasaltha_khuangchera.jpg)
+
+---
+
+## Pasaltha Vanapa (Thangzachhinga) — Finna leh Tawrhchhelna
+
+Mizo pasalthate zinga upa ber leh zahawm ber chu **Vanapa** a ni. A hming dik tak chu **Thangzachhinga** a ni a, Hmar Chongthu hnam a ni. Lal Lalsavunga leh Lal Vanhnuailiana khawnbawl upa leh pasaltha a ni.
+
+Vanapa hi ral do thiam mai ni lovin, mi fing tawpkhawk a ni a. Lo vah laiin hmeithai leh fahrahte chuan ram chhe ber an chang ang tih hlauvin, Lal hnenah ram ṭha zawk chu hmeithaite pe hmasa turin rem a ruat sak ṭhin. Ral a lo luh pawhin a hmaah tlanchhe duh lovin a hnung a dawl tlat ṭhin a ni.
+
+Vawiin thlengin Aizawl khawpui laili a Assembly House leh Secretariat bula hall ropui ber chu **Vanapa Hall** tiin a hming chawiin an la vawng nung reng a ni.
+
+---
+
+## Pasaltha Chawngbawla — Ral Hrât Ngawichawi
+
+Pasaltha **Chawngbawla** hi Chhakchhuak hnam a ni a, Seipuia khuaa cheng a ni. Amah hi mi cher lam, hang lam, ngawichawi em em mai leh tawrhchhel tak a ni.
+
+Chawngbawla hmingthanna ber chu:
 > [!PASALTHA]
-> "Zofate pasaltha ka ni a, hmelma hmaah hnung lam ka chhawn ngai lo!" tiin a chemsei kengin British kulh a va bei a, a ṭhianpa Ngurbawnga nen huaisen takin an thi dun ta a ni.
+> *"Ka kawi Chawngbawla a tlan ngai lo!"*
+> 
+> He thufing hi Mizo ṭawngah a thi thei tawh lo. Hmelma rual tam takin Seipuia khua an rawn run tum khan, tlangval dangte an hrilhhai laiin, Chawngbawla chu kawtchhuahah a kawi nen kawi kapin a lo ṭhu mai mai a! Hmelma sipaite'n an rawn hnaih meuh chuan a kawi dahthlain a chemsei a pawt chhuak a, hmelmate chu a that chhuak ta a ni.
+
+Chawngbawla hian ral tam tak a that a, mahse a inngaitlawm em em a; a thih ni thlengin a thiltih a chhuang ngai lo.
 
 ---
 
-## Taitesena, Neuva, leh Zampuimanga
+## Pasaltha Taitesena (Ralthatchhûnga) — Tlawmngaihna Lallukhum
 
-- **Taitesena**: "Ka tlawmngai e, midangte tan ka inpe e" titu, tlawmngaihna entawntlak ber.
-- **Zampuimanga**: Sakei kap thiam ropui, sakei tam tak tualchhung tana thahtu.
-- **Vanapa**: Lal Lallula khawnbawl upa leh pasaltha, mi fing leh ral rel thiam tawpkhawk.
-- **Chawngbawla & Saizahawla**: Hmanlai pasaltha huaisen, khua leh tui humhimtu.
+Mizo ṭhalaite tana tlawmngaihna entawntlak ber chu **Taitesena** a ni. A hming dik tak chu **Ralthatchhûnga** a ni a, Khiangte hnam niin, Khawrihnim khuaah a piang a, Sehrmun khuaah a ṭhanglian a ni.
 
----
+Taitesena hi mi tlawmngai tawpkhawk a ni a:
+- Zawlbuk thing fawm aṭangin hmeithai chaw chhum tur thing fawm sak thlengin amah bawk a ni ṭhin.
+- Khualzin chaw eitur nei lote a inah hruaiin a chaw a hrai ṭhin.
+- Ral do laia hmelma lu la tura tlan aiin, a ṭhiante inhliam pua a chhan chhuaktu a ni zawk ṭhin.
 
-### Thlirzauna: Pasaltha Nun leh Tunlai Ṭhalaite
-
-Pasaltha nun hian vawiin thlengin Mizo ṭhalaite thinlungah YMA leh tlawmngaihna nun kawngah zirtirna ropui ber a la pe reng a ni.`;
-
-export const BUNG_8_CONTENT = `## Hmanlai Indo, Kulh leh Thisen Chhuah
-
-Hmanlai Mizo khawvel hi muanna ram a ni bik lo va; khua leh khua, lal leh lal an inrun fo ṭhin a ni. Hmanlai ralthuam chu chemsei, fei, phaw (sial vun lianpui), leh thal a ni a; a hnu deuhvah meipui silai (muzzle-loader) a lo lut ṭan a ni.
-
-![Thlanrawn rawtna leh hmanlai khua leh tlang inbeihna rapthlak](/images/bung8_thlanrawn_rawt_battle.jpg)
+Kum 1904 vel khan sakei kawlh takin mi a seh avangin, Taitesena chuan a ṭhiante chhan nan sakei chu a beichhuak a, sakei chu that mah se amah pawh a inhliam nasa em em a, a nun a hlan ta a ni. A thih dawn ṭep pawhin: *"Ka thi dawn ta sa sa, ka thiante chu an dam a ni lawm ni?"* tiin a la zawt zawk hial a ni.
 
 ---
 
-## Thlanrawn Rawtna
+## Pasaltha Zampuimanga — Sakei Hneh Tu Ropui
 
-Mizo history-a inbeihna rapthlak ber pakhat chu Lal Lallula kaihhruaina hnuaia **Thlanrawn Rawtna** a ni. Pawi lalte chuan Zofate lakah chhiah rit tak an phut ṭhin avangin, Lallula chuan lemchangin inremna chawimawina a buatsaih a, chumi zan chuan Thlanrawn khua chu a rawt ta vak mai a ni.
+Pasaltha **Zampuimanga** (Chhakchhuak Hualngo) hi Zampui tlanga piang a ni a. Sakei hlauhawm tak tak 13 zet a kut ngeia kahtu leh thahtu a ni.
 
----
-
-## Chhim leh Hmar Indo
-
-Sailo unau lalte inkarah rorelna chungchangah inthikna a lo chhuak a, Chhim lam Sailo lalte leh Hmar lam Sailo lalte chu kum tam tak an inbei ta a ni.
+A hun lai hian sakei hian khaw mipuite a tibuai em em a; Zampuimanga chuan sakei pukah meuh lutin a chhaih kawlh a, a chemsei leh silai meipui hmangin a that ṭhin. Keltan Hmunpui khuaah kum 1880 khan a boral ta a ni.
 
 ---
 
-### Thlirzauna: Remna leh Inremna
+## Indona Hlui Ropuite
 
-Thisen tam tak a chhuah hnuah, Zofate chuan inremna (Inremna buatsaih, sial talha thisen intawm) an nei ṭhin a; chu chuan remna hlut zia a zirtir a ni.`;
+### 1. Thlanrawn Rawtna
+Lallula hovin Selesih daiah Pawi lalte laka phuba an lakna ropui.
 
-export const BUNG_9_CONTENT = `## Sap Lo Luh, Alexandrapur leh Mary Winchester
+### 2. Chhak leh Thlang Indo
+Sailo unau lalte inthikna avanga chhak lam Sailo lalte leh thlang lam Sailo lalte kum tam tak an inbeihna; thisen tam tak a chhuah hnuah inremna an siam ta a ni.
 
-1871 khan Sailo lal Bengkhuaia hote chuan Assam/Cachar depa Alexandrapur tea garden an va run a, chutah chuan Sap nula naupang Mary Winchester (Mizo hminga *Zoluti*) chu an man ta a ni.
+### 3. Khawnglung Run (1856)
+Mizo history-a inrunna rapthlak ber pakhat. Chalkunga leh Thanghlianga hun laiin Pawi pasalthate'n Khawnglung khua an rawn run thut a; khaw pum pui an hal a, mi tam tak an that a, sal tam tak an hruai a. He runna aṭang hian pasalthate huaisenna thawnthu a lo piang chhuak ta a ni.
 
-He thil thleng hian British Sawrkar a ti thinur em em a, 1871-72 Lushai Expedition leh 1889-90 Chin-Lushai Expedition hmangin British sipaite chuan Mizoram tlang dung an rawn luah ta a ni.
+---
+
+### Thlirzauna: Pasaltha Thlarau Vawiin Zoram Tan
+
+Vawiin khawvelah ralthuam nena ral do a ngai tawh lo; mahse kan ram leh hnam hian Taitesena tlawmngaihna, Vanapa finna, leh Chawngbawla tawrhchhelna ang hi a mamawh zual em em a ni. YMA leh khawtlang rawngbawlnaah he pasaltha nun hi kan chhawm nung zel tur a ni.`;
+
+export const BUNG_8_CONTENT = `## Sap Lo Luh Hma Zoram leh Assam Tea Garden Run
+
+Kum zabi 19-na laihawl vel aṭang khan British Sawrkar (East India Company) chuan Assam, Cachar, leh Sylhet phai zawlah tea garden (thingpui huan) lian pui pui an siam ṭan a. Chu thingpui huan siamna chuan Zofate ramri leh ngawpui chu a rawn nek chep ṭan ta em em mai a ni.
+
+Zofate lalte chuan an pipute ram rawn nekcheptu British sawrkar chu an ngaithei lova; phuba lak nan leh an ram hum nan phai zawla tea garden te chu an va run ta fo ṭhin a ni.
 
 ![British Expedition sipai rual leh Mizo lalte tlang ngawpuia an inhmachhawn lai](/images/bung9_mary_winchester_expedition.jpg)
 
 ---
 
-## Chanchin Ṭha Lo Luh leh Zawlbuk Tawp
+## Alexandrapur Run leh Mary Winchester (Zoluti) Man Thu (1871)
 
-1894 January 11 khan missionary hmasate Pu Buanga (Rev. F.W. Savidge) leh Sap Upa (Rev. J.H. Lorrain) te chu Sairang aṭangin Aizawl an lo thleng a. Mizo hawrawp (A, AW, B) an siam a, Chanchin Ṭha an hril ṭan ta a ni.
+January 23, 1871 khan Sailo lal huaisen **Bengkhuaia** (Sailam khua) hote chuan Cachar depa awm **Alexandrapur Tea Garden** chu an va run ta mup mup mai a. Chutah chuan tea garden neitu Mr. Winchester chu an kap hlum a, a fanu kum ruk mi lek **Mary Winchester** (a hnu lama Mizo-ho'n **Zoluti** an tih tak) chu damin an hruai haw ta a ni.
 
-Kristianna a lo ṭhanlen takah chuan Zawlbuk chu a lo tawp a, 1954-ah Lal Rorelna chu tihtawp a lo ni ta a ni.
-
----
-
-### Thlirzauna: Hnam Inthlakthlengna
-
-Sap lo luh leh Kristianna hian Mizo nun chu engah a hruai lut a, lehkha thiamna leh khawvel thar min pe a ni.`;
-
-export const BUNG_10_CONTENT = `## 1959 Mautam leh MNF Lo Pian Dan
-
-1959 khan Mizoramah Mautam ṭam rapthlak tak a lo thleng a; ramsa leh sazu tam lutuk avangin buh thlai zawng zawng a riral vek a. Assam Sawrkarin ṭanpuina a pek ṭhat duh loh avangin Pu Laldenga hovin Mizo National Famine Front (MNFF) an din a, chu chu a hnuah MNF-ah a chang chho ta a ni.
-
-![1966 Rambuai Operation Jericho laia Aizawl tlang dung chunga thil thleng](/images/bung10_rambuai_aizawl_1966.jpg)
+Bengkhuaia chuan Zoluti chu khawngaih takin an khuaah a enkawl a, Lal fanu ang maiin Mizo puan an bih tir a, buh tuihnang an hrai ṭhin a ni.
 
 ---
 
-## March 1, 1966: Operation Jericho leh Rambuai
+## First Lushai Expedition (1871–1872)
 
-1966 March ni 1 zanlaiah, MNF chuan **Operation Jericho** an puang a, Aizawl, Lunglei, leh Champhai a Sawrkar hmun pawimawh zawng zawng an la ta thut mai a. Pu Laldenga chuan Mizo Zalenna (Independence) a puang ta a ni.
+Mary Winchester man a nih thu chuan Calcutta-a British Sawrkar Pui a ti thinur em em a. Zoluti chhanchhuak tur leh Mizo lalte hrem turin **First Lushai Expedition** chu an ruahman ta a.
 
-Chumi hnuah Indian Army leh Indian Air Force jet te chuan Aizawl khawpui chu bomb an rawn thlak a; kum 20 chuang Rambuai hrehawm tak a lo thleng ta a ni.
+Sipai rual lian tak pahnihah an inṭhen a:
+1. **Cachar Column**: General Bourchier kaihhruaina hnuaia hmarlam aṭanga rawn lut.
+2. **Chittagong Column**: General Brownlow kaihhruaina hnuaia chhimlam aṭanga rawn lut.
 
----
-
-## Grouping (Khawkhawm Centre) Tawrhna
-
-Sipaite chuan MNF mite an ṭanpui theih loh nan, khaw te zawng zawng chu an hal a, mi nuai tam tak chu khaw lianah (Grouping Centre) an khung khawm a. Hei hi Mizo hnam tawrhna rapthlak ber a ni.
+British sipaite chuan Champhai thleng an rawn rap a, khaw tam tak an hal a. A tawpah chuan Lal Bengkhuaia chuan Zoluti chu British sipaite hnenah dam takin a hlan kir ta a ni.
 
 ---
 
-## 1986 Peace Accord leh Zofate Hmabak
+## Chin-Lushai Expedition (1889–1890) leh Fort Tregear / Fort Aijal
 
-1986 June 30 khan Pu Laldenga leh Prime Minister Rajiv Gandhi te chuan **Mizo Peace Accord** an ziak a, 1987 February 20 khan Mizoram chu India ram State 23-na a lo ni ta a ni.
+Kum 1888 velah Mizo lalte chuan British khaw hrang hrang an run leh avangin, British sawrkar chuan Mizoram chu an kuta lak hlen ngei an tum ta a. Chuvangin **Chin-Lushai Expedition (1889–1890)** chu an rawn thawk leh ta a ni.
+
+He expedition hmang hian:
+- Chhim lamah **Fort Tregear** (Darzo tlang) an din a.
+- Hmar lamah **Fort Aijal** (Aizawl kulh) an din ta a ni.
+
+Helai huna Aizawl bawrhsap hmasa ber chu **Captain H.R. Browne** a ni a; mahse Mizo pasalthate chuan Browne-a chu Changsil kawngah an lo lambam a, an that ta a ni.
 
 ---
 
-### Thlirzauna: Zofate Hmabak leh Inpumkhatna
+## Pasaltha Khuangchera leh Ngurbawnga (Sept 13, 1890)
 
-Bung 1 aṭanga Bung 10 thleng hian Chhinlung aṭanga vawiin thlenga kan zinkawng a tarlang a. Kan thlahtute tawrhna leh huaisenna hi theihnghilh lovin, Zofate hi khawvelah hnam dingchhuak leh ropui kan ni zel tur a ni.`;
+Browne-a thih hnuah British sipaite chuan Changsil leh Sairang kulh chu an veng khauh em em a. Mizo lalte — Kalkhama, Lianphunga, leh Sailianpuii te chuan British kulh chu beih vek an rel ta a.
+
+September 13, 1890 zing khawvar hmain, Parvatui khaw pasaltha **Khuangchera** (Ralte Kawlni) leh a ṭhianpa **Ngurbawnga** te chuan Changsil kulh chu huaisen takin an va bei ta a! Sap sipaite silai pui leh meipui hmaah tlanchhe duh lovin, a chemsei kengin kulh bang a zuan luh laiin kah hlum an ni ta a ni. Khuangchera hi **Mizo Pasaltha zinga British dova nun hlantu hmasa ber** a lo ni ta a ni.
+
+---
+
+## Lal Ropuiliani — Hmeichhe Lal Huaisen Sap Thu Duh Lo Tu
+
+Chhim lam Denlung khuaa Lalnu **Ropuiliani** (Vandula nupui) hi hmeichhe lal huaisen ber a ni. British Sawrkarin chhiah khawn an tum a, kuli hna thawh tir an tum khan, Ropuiliani chuan:
+> [!NOTE]
+> *"Ka ram leh ka leilung hi ka pipute min pek a ni a; eng Sap hnenah mah chhiah ka pe ngai lo vang!"* tiin a hel tlat a ni.
+
+British sipaite chuan an man a, Lunglei jail-ah an dah a, a hnuah Chittagong jail-ah an thawn a; chumi tan in thimah chuan ram zalenna tana a nun hlanin kum 1895 khan a boral ta a ni.
+
+---
+
+### Thlirzauna: Zalenna Chu Thisenin A Lei A Ni
+
+He Vailian hun lai hian Zofate chu silai leh sipai thiltihtheihna avangin tlawm mah se, kan lalte leh pasalthate huaisenna chuan Zofate hi tlawm mai mai lo hnam kan nih zia khawvel a hriattir a ni.`;
+
+export const BUNG_9_CONTENT = `## Darphawka Mumang Ropui leh Eng Lo Thleng Tur
+
+Sap missionary-te lo luh hma kum tam tak liamtaah khan, Zoram khawchhak lam upa fing **Darphawka** chuan mumang mak tak mai a nei a. A mumangah chuan chhim lam leh khawthlang lam aṭangin eng ropui tak a lo zam chhuak a, chu eng chuan Zoram tlang tin mai chu a rawn chhun eng ta chiai chiai mai a ni.
+
+Zing a lo nih chuan Darphawka chuan a mumang chu khawtlang a hrilh a:
+> [!NOTE]
+> *"Ngai teh u, tunah chuan thim hnuaiah kan la cheng a, mahse rei lo teah khaw chhak leh thlang aṭangin eng ropui tak a lo thleng dawn e. Chu eng chu lehkha them hmangin a lo thleng ang a, khawvel thar a lo inher chhuak dawn a ni!"* tiin a lo sawi lawk diam a ni.
+
+Chu hrilhlawkna chu kum 1894-ah a lo thleng dik ta a ni.
+
+![Missionary hmasate Pu Buanga leh Sap Upa Aizawl kawtchhuaha A AW B an siam lai](/images/bung9_mary_winchester_expedition.jpg)
+
+---
+
+## 1894 January 11: Pu Buanga leh Sap Upa Aizawl Thlen Ni
+
+January 11, 1894 khan Arthington Aborigines Mission tirh missionary pahnih:
+- **Pu Buanga** (Rev. J.H. Lorrain)
+- **Sap Upa** (Rev. F.W. Savidge)
+te chu Sairang aṭangin sakawr leh kuli nen Aizawl tlang an lo thleng ta hlawl mai a! Hei hi Mizo history-ah **"Thim ata Ena luh ni"** a lo ni ta a ni.
+
+### A AW B (Mizo Alphabet) Siam Dan
+Pu Buanga leh Sap Upa hian Mizo ṭawng chu an zir a, Roman script hmangin hawrawp (A, AW, B, CH, D, E...) an siam sak a. Thla tlemte chhungin lehkha bu hmasa ber (A AW B bu) an chhuah a, Chanchin Ṭha Luka leh Johana bu chu Mizo ṭawngin an letling ta a ni.
+
+Chu hawrawp thar chu tlangvalte chuan phur em em in an zir a, thil mak leh thiltihthei takah an ngai a, lehkha thiamna chuan Zoram tlang a fan chhuak ta nghal a ni.
+
+---
+
+## Dr. Peter Fraser leh Bawi Chhuahna Movement (1907–1910)
+
+Missionary doctor **Dr. Peter Fraser** (Welsh Mission) a lo thlen meuh chuan thil lian tak a lo thleng leh ta. Dr. Fraser-a chuan Mizo khawtlanga "Bawi" (bawih nihna) chu Pathian thu nen a inmil lo tih hriain, Lalte in aṭanga bawite zalenna sual chu a tum ta tlat mai a.
+
+Lalte leh British Bawrhsap (Superintendent Cole) te chuan Dr. Fraser-a thiltih chu khawtlang nunphung tihchhiatna a ni tiin an do va, Dr. Fraser-a chu ram aṭanga umchhuah hial an tum a. Mahse Fraser-a chuan London thlengin thil a thlen a; a tawpah chuan kum 1910 vel khan **Bawi Chhuahna** chu a lo hlawhtling a, bawite zawng zawng chu zalen an lo ni ta a ni.
+
+---
+
+## Zawlbuk aṭanga Sikul leh Kohhran
+
+Kristianna a lo ṭhanlen takah chuan Zofate nunphung chu a inthlak danglam ta hlawk mai:
+- Zawlbuk hmunah **Sikul** leh **Biak In** a lo ding a.
+- Meipui bula hlado chham aiin Pathian fakna hla mawi tak tak an sa ta a.
+- Khua leh khua indo ṭhin te chu unau dik takah an lo inngai ta a ni.
+
+---
+
+## Thu leh Hla Sulsutu Ropuite
+
+He lehkha thiamna eng hian Mizo thu leh hla (literature) a rawn hring chhuak ta a:
+
+### 1. L. Biakliana (1918–1941)
+Mizo short story hmasa ber *Hawilopui* leh novel hmasa ber *Hawilopui par* phuahtu; Mizo literary history-a kutzungpui a ni.
+
+### 2. Kaphleia
+Thu ziak thiam, zai thiam, leh thlaler hla phuahtu ropui.
+
+### 3. Rokunga leh Patea
+- **Rokunga**: Hnam hla, ram hmangaihna hla, leh Zofate thinlung ti nungtu hla phuahtu ropui ber.
+- **Patea**: Pathian fakna hla leh lunglen hla phuahtu ropui.
+
+---
+
+### Thlirzauna: Thim Ata Engah
+
+Pu Buanga leh Sap Upa lo luh aṭanga vawiin thleng hian Zofate chu lehkha thiam thei ber, Kristian ram nghet, leh khawvel hriat khawpa ram dam leh changkang kan lo ni ta a ni.`;
+
+export const BUNG_10_CONTENT = `## Mizo Union leh Lal Rorelna Tawp Dan (1954)
+
+Khawvel Indopui Pahnihna a zawh hnu khan, Zoram ṭhalaite rilruah zalenna leh democracy duhna a lo lian ta em em a. April 9, 1946 khan **Mizo Union** (Mizo Commoners' Union) chu an din a, chu chu Mizo political party hmasa ber a lo ni ta a ni.
+
+Mizo Union hruaitute — **Ch. Saprawnga**, **Khawtinkhuma**, **R. Vanlawma**, leh mi dangte chuan Lal rorelna (hereditary chieftainship) chu tihtawp a, mipui thlan rorelna (democracy) din an tum ta tlat a.
+
+Assam Legislative Assembly kaltlangin kum 1954 khan **The Lushai Hills (Acquisition of Chiefs' Rights) Act, 1954** chu pass a lo ni a. Lalte kuta rorelna chu laksak a ni a, a aiah mipui thlan **Village Council (VC)** leh **District Council (ADC)** a lo piang ta a ni.
+
+![1966 Rambuai Operation Jericho laia Aizawl tlang dung chunga thil thleng leh bomb thlak lai](/images/bung10_rambuai_aizawl_1966.jpg)
+
+---
+
+## 1959 Mautam Ṭam leh MNF Lo Pian Dan
+
+Kum 1959 khan Mizoram pumah **Mautam ṭam** rapthlak tak a lo thleng a. Mau a par a, sazu leh ramsa an lo pung nasa em em a; karkhat chhung lek buh thlai zawng zawng an ei zo vek a, mipui chu rilṭamin an ṭap ta rawng rawng mai a ni.
+
+Assam Sawrkar chuan he ṭam hi a ngaihsak tawk loh avangin, Zoram ṭhalaite chuan **Pu Laldenga** kaihhruaina hnuaia **Mizo National Famine Front (MNFF)** an din a. Buhfai an sem a, mipui an chhan chhuak a. He ṭam a reh hnu hian MNFF chu political party-ah inchhung lutin **Mizo National Front (MNF)** tiin an vuah ta a ni.
+
+---
+
+## March 1, 1966: Operation Jericho leh Aizawl Bomb Thlak
+
+MNF chuan India laka Mizo zalenna (Sovereign Independence) sual an tum ta a. Kum 1966 February 28 zanlai (March 1, 1966) khan **Operation Jericho** an puang ta thut mai a!
+
+MNF sipaite (Mizo National Army) chuan Aizawl, Lunglei, Champhai, leh khaw lian zawng zawng an la a; Sawrkar hmun pawimawh an thunun a, Pu Laldenga chuan Mizo Zalenna a puang ta a ni.
+
+Mahse India Sawrkar chuan sipai rual lian tak a rawn thawk tir a. **March 5 leh 6, 1966** khan Indian Air Force jet (Toofani leh Hunter jet) te chuan Aizawl khawpui chu bomb rapthlak tak an rawn thlak ta a! In tam tak a kang a, mipui chu ramhnuai leh tlang karah an tlan darh ta vek a ni. Hei hi **India rama mahni khua leh tui chunga jet hmanga bomb thlak awmchhun** a la ni hial a ni.
+
+---
+
+## Kum 20 Rambuai leh Khawkhawm (Grouping Centre) Tawrhna
+
+Sipaite chuan MNF mite an ṭanpui theih loh nan, khaw te zawng zawng chu an hal a, mi nuai hnih chuang chu khaw lianah (**Protected Progressive Villages / Grouping Centre**) an khung khawm ta a ni.
+
+He Grouping Centre tawrhna hi Zofate history-a lungchhiatthlak ber pakhat a ni:
+- Zing leh tlaiah sipaite'n kuli hna an thawh tir ṭhin.
+- Lo an nei thei lova, rilṭam leh natna avangin mi tam tak an boral a.
+- Mahse he tawrhna hian Zofate chu inunauna thuk tak leh tawrhchhelna ropui tak a pe a ni.
+
+---
+
+## 1986 June 30: Mizoram Peace Accord leh Statehood (1987)
+
+Kum 20 zet thisen chhuah leh tawrhna a thlen hnuah, remna kawng an zawng ta a. Prime Minister **Rajiv Gandhi** leh MNF President **Pu Laldenga** te chuan **June 30, 1986** khan **Mizoram Peace Accord (Remna Thuthlung)** an ziak ta a ni.
+
+MNF sipaite chuan an ralthuam an chhung lut a, ram chhungah remna a lo thleng a. **February 20, 1987** khan Mizoram chu India rama State 23-na a lo ni ta a, Pu Laldenga chu Chief Minister hmasa ber a lo ni ta a ni.
+
+---
+
+## Zofate Hmabak leh Inpumkhatna
+
+Vawiina kan zinkawng kan thlir hian:
+- **Lai Autonomous District Council (LADC)**
+- **Mara Autonomous District Council (MADC)**
+- **Chakma Autonomous District Council (CADC)**
+- Manipur, Assam, Tripura, leh Myanmar Chin State-a cheng Zofate zawng zawng nen thisen pumkhat kan nih zia kan hre thar leh a ni.
+
+Chhinlung aṭanga Khampat Bungpui, Tiau lui kân aṭanga vawiin Statehood thleng hian Zofate chu Khuavang leh Pathian venhimna hnuaiah kan dingchhuak ta zel a. Kan thlahtute sulhnu leh huaisenna hi theihnghilh lovin, khawvelah hnam dingchhuak, remna ngaina, leh fing kan nih zel a tul a ni.`;
