@@ -1,5 +1,13 @@
 import React from "react";
 import { motion } from "motion/react";
+import {
+  Flame,
+  Scroll,
+  ShieldCheck,
+  Video as VideoIcon,
+  Volume2,
+  Sparkles,
+} from "lucide-react";
 
 export interface ClickableEntity {
   id: string;
@@ -123,7 +131,11 @@ interface ParsedBlock {
     | "hr"
     | "list"
     | "paragraph"
-    | "image";
+    | "image"
+    | "video"
+    | "callout_history"
+    | "callout_tale"
+    | "callout_hlado";
   text: string;
   src?: string;
   title?: string;
@@ -145,6 +157,17 @@ function parseMarkdownBlocks(raw: string): ParsedBlock[] {
 
     if (/^---+$/.test(line) || /^\*\*\*+$/.test(line)) {
       blocks.push({ type: "hr", text: "" });
+      i++;
+      continue;
+    }
+
+    const videoMatch = line.match(/^!video\[([^\]]*)\]\(([^)\s]+)\)$/);
+    if (videoMatch) {
+      blocks.push({
+        type: "video",
+        text: videoMatch[1],
+        src: videoMatch[2],
+      });
       i++;
       continue;
     }
@@ -185,11 +208,43 @@ function parseMarkdownBlocks(raw: string): ParsedBlock[] {
         quoteLines.push(lines[i].trim().replace(/^>\s?/, ""));
         i++;
       }
-      blocks.push({
-        type: "quote",
-        text: quoteLines.join("\n"),
-        lines: quoteLines,
-      });
+      const firstLine = quoteLines[0]?.trim() || "";
+      if (firstLine.startsWith("[!HISTORY]")) {
+        quoteLines.shift();
+        blocks.push({
+          type: "callout_history",
+          text: quoteLines.join("\n"),
+          lines: quoteLines,
+        });
+      } else if (
+        firstLine.startsWith("[!TALE]") ||
+        firstLine.startsWith("[!FOLKLORE]") ||
+        firstLine.startsWith("[!PASALTHA]")
+      ) {
+        quoteLines.shift();
+        blocks.push({
+          type: "callout_tale",
+          text: quoteLines.join("\n"),
+          lines: quoteLines,
+        });
+      } else if (
+        firstLine.startsWith("[!HLADO]") ||
+        firstLine.startsWith("[!HLA]") ||
+        firstLine.startsWith("[!BAWHHLA]")
+      ) {
+        quoteLines.shift();
+        blocks.push({
+          type: "callout_hlado",
+          text: quoteLines.join("\n"),
+          lines: quoteLines,
+        });
+      } else {
+        blocks.push({
+          type: "quote",
+          text: quoteLines.join("\n"),
+          lines: quoteLines,
+        });
+      }
       continue;
     }
 
@@ -307,6 +362,109 @@ export const MizoProseRenderer: React.FC<MizoProseRendererProps> = ({
                 </figcaption>
               )}
             </motion.figure>
+          );
+        }
+
+        if (block.type === "video" && block.src) {
+          return (
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, y: 18 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.65, ease: "easeOut" }}
+              className="my-10 mx-auto max-w-2xl rounded-2xl overflow-hidden border border-[var(--border-hairline)] bg-[var(--bg-surface)] shadow-lg print-avoid-break"
+            >
+              <div className="relative aspect-video bg-black/90 flex items-center justify-center">
+                <video
+                  src={block.src}
+                  controls
+                  className="w-full h-full object-contain"
+                  poster="/images/bung1_chhinlung_migration.jpg"
+                />
+              </div>
+              {block.text && (
+                <div className="p-3 text-center text-xs sm:text-sm font-ui text-[var(--text-muted)] flex items-center justify-center gap-2 border-t border-[var(--border-hairline)] bg-[var(--bg-card)]">
+                  <VideoIcon className="w-4 h-4 text-[var(--accent-ink)]" />
+                  <span>{block.text}</span>
+                </div>
+              )}
+            </motion.div>
+          );
+        }
+
+        if (block.type === "callout_history") {
+          return (
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, x: -12 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              className="my-8 p-5 sm:p-6 rounded-2xl border-l-4 border-amber-800/80 bg-amber-950/10 shadow-sm print-avoid-break"
+            >
+              <div className="flex items-center gap-2 text-amber-900 dark:text-amber-300 font-ui text-xs font-semibold uppercase tracking-wider mb-2">
+                <ShieldCheck className="w-4 h-4" />
+                <span>CHHINCHHIAHNA DIK &bull; HISTORICAL ARCHIVE</span>
+              </div>
+              <div className="space-y-2 text-[16px] leading-relaxed text-[var(--text-ink)]">
+                {block.lines?.map((line, lIdx) => (
+                  <p key={lIdx}>
+                    {renderInlineFormatting(line, entityMap, entityRegex, onSelectEntity)}
+                  </p>
+                ))}
+              </div>
+            </motion.div>
+          );
+        }
+
+        if (block.type === "callout_tale") {
+          return (
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, x: 12 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              className="my-8 p-5 sm:p-6 rounded-2xl border-l-4 border-emerald-800/80 bg-emerald-950/10 shadow-sm print-avoid-break"
+            >
+              <div className="flex items-center gap-2 text-emerald-900 dark:text-emerald-300 font-ui text-xs font-semibold uppercase tracking-wider mb-2">
+                <Scroll className="w-4 h-4" />
+                <span>THAWNTHU HLUI &bull; ORAL FOLKLORE &amp; PASALTHA</span>
+              </div>
+              <div className="space-y-2 text-[16px] leading-relaxed text-[var(--text-ink)] italic">
+                {block.lines?.map((line, lIdx) => (
+                  <p key={lIdx}>
+                    {renderInlineFormatting(line, entityMap, entityRegex, onSelectEntity)}
+                  </p>
+                ))}
+              </div>
+            </motion.div>
+          );
+        }
+
+        if (block.type === "callout_hlado") {
+          return (
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, scale: 0.98 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.55 }}
+              className="my-8 py-6 px-6 sm:px-10 rounded-2xl border border-[var(--border-hairline)] bg-[var(--bg-surface)]/70 text-center shadow-inner print-avoid-break relative overflow-hidden"
+            >
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-ui font-semibold uppercase tracking-widest text-[var(--accent-ink)] bg-[var(--accent-ink)]/10 mb-3">
+                <Flame className="w-3.5 h-3.5 text-amber-600 animate-pulse" />
+                <span>HLADO &bull; BAWH HLA &bull; CHANTS</span>
+              </div>
+              <div className="space-y-1.5 font-display text-[1.12rem] sm:text-[1.2rem] italic leading-[2] text-[var(--text-ink)]">
+                {block.lines?.map((line, lIdx) => (
+                  <p key={lIdx}>
+                    {renderInlineFormatting(line, entityMap, entityRegex, onSelectEntity)}
+                  </p>
+                ))}
+              </div>
+            </motion.div>
           );
         }
 

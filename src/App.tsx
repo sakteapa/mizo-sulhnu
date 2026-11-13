@@ -85,7 +85,7 @@ function hydrateBooks(): BookProject[] {
           ...b,
           chapters: b.chapters.map((ch) => {
             const initial = INITIAL_CHAPTERS.find((init) => init.id === ch.id);
-            if (initial && (!ch.content || ch.content.trim() === "") && initial.content) {
+            if (initial && (!ch.content || ch.content.length < 50) && initial.content) {
               return {
                 ...ch,
                 content: initial.content,
