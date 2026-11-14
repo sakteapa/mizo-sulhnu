@@ -490,6 +490,8 @@ A hun lai hian sakei hian khaw mipuite a tibuai em em a; Zampuimanga chuan sakei
 ### 1. Thlanrawn Rawtna
 Lallula hovin Selesih daiah Pawi lalte laka phuba an lakna ropui.
 
+![Thlanrawn Rawtna leh Mizo Indona Hlui](/illustrations/bung8_thlanrawn_rawt_battle.jpg "Thlanrawn Rawtna — Selesih daia phuba lakna indona")
+
 ### 2. Chhak leh Thlang Indo
 Sailo unau lalte inthikna avanga chhak lam Sailo lalte leh thlang lam Sailo lalte kum tam tak an inbeihna; thisen tam tak a chhuah hnuah inremna an siam ta a ni.
 
@@ -553,6 +555,8 @@ September 13, 1890 zing khawvar hmain, Parvatui khaw pasaltha **Khuangchera** (R
 ---
 
 ## Lal Ropuiliani — Hmeichhe Lal Huaisen Sap Thu Duh Lo Tu
+
+![Lalnu Ropuiliani Denlung Kulh Zalenna](/illustrations/lalnu_ropuiliani_defiance.jpg "Chhim lam Lalnu huaisen Ropuiliani'n British sorkar chhiah pek a hnawl lai")
 
 Chhim lam Denlung khuaa Lalnu **Ropuiliani** (Vandula nupui) hi hmeichhe lal huaisen ber a ni. British Sawrkarin chhiah khawn an tum a, kuli hna thawh tir an tum khan, Ropuiliani chuan:
 > [!NOTE]

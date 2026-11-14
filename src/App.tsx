@@ -15,6 +15,8 @@ import { PrintableBookDocument } from "./components/PrintableBookDocument";
 import { PWAInstallButton } from "./components/PWAInstallButton";
 import { RolePortalModal } from "./components/RolePortalModal";
 import { UniversalSearchModal } from "./components/UniversalSearchModal";
+import { MizoAtmosphereCanvas } from "./components/MizoAtmosphereCanvas";
+import { MizoArtGalleryStudio } from "./components/MizoArtGalleryStudio";
 import {
   ALL_SEED_BOOKS,
   createSingleStoryBook,
@@ -46,13 +48,13 @@ import {
 } from "./utils/dnaGraph";
 
 const STORAGE_KEYS = {
-  books: "zofate_dna_books_v6",
+  books: "zofate_dna_books_v7",
   legacyChapters: "zofate_sulhnu_chapters_v2",
-  activeBookId: "zofate_dna_active_book_v6",
-  kb: "zofate_dna_kb_v6",
-  conflicts: "zofate_dna_conflicts_v6",
-  auditLogs: "zofate_dna_audit_v6",
-  submissions: "zofate_dna_submissions_v6",
+  activeBookId: "zofate_dna_active_book_v7",
+  kb: "zofate_dna_kb_v7",
+  conflicts: "zofate_dna_conflicts_v7",
+  auditLogs: "zofate_dna_audit_v7",
+  submissions: "zofate_dna_submissions_v7",
   userRole: "zofate_dna_role_v3",
   contributorName: "zofate_dna_contributor_name_v3",
   readerMaskMedical: "zofate_dna_reader_mask_v3",
@@ -98,9 +100,10 @@ function hydrateBooks(): BookProject[] {
           topicFocus: seedMatch.topicFocus,
           chapters: seedMatch.chapters.map((seedCh) => {
             const userCh = b.chapters?.find((c) => c.id === seedCh.id);
-            // If the cached chapter is empty, shorter than 100 characters, or missing,
+            // If the cached chapter is empty, shorter than seed content, or missing,
             // unconditionally replace with full authoritative seed content!
-            if (!userCh || !userCh.content || userCh.content.trim().length < 100) {
+            const seedLen = seedCh.content?.trim().length || 100;
+            if (!userCh || !userCh.content || userCh.content.trim().length < seedLen) {
               return deepClone(seedCh);
             }
             return userCh;
@@ -354,7 +357,8 @@ export default function App() {
         if (!seed) return b;
         const newChapters = b.chapters.map((ch) => {
           const seedCh = seed.chapters.find((sc) => sc.id === ch.id);
-          if (seedCh && (!ch.content || ch.content.trim().length < 100)) {
+          const seedLen = seedCh?.content?.trim().length || 100;
+          if (seedCh && (!ch.content || ch.content.trim().length < seedLen)) {
             changed = true;
             return deepClone(seedCh);
           }
@@ -1665,6 +1669,17 @@ export default function App() {
           >
             Thawnthu &amp; Codex
           </button>
+          <button
+            type="button"
+            onClick={() => setActiveView("gallery")}
+            className={`py-1 transition-colors whitespace-nowrap shrink-0 border-b-2 ${
+              activeView === "gallery"
+                ? "border-[var(--accent-ink)] text-[var(--text-ink)]"
+                : "border-transparent text-[var(--text-muted)] hover:text-[var(--text-ink)]"
+            }`}
+          >
+            Milem &amp; Animation
+          </button>
 
           {userRole !== "reader" && (
             <button
@@ -1833,6 +1848,16 @@ export default function App() {
           />
         )}
 
+        {activeView === "gallery" && (
+          <MizoArtGalleryStudio
+            onSelectChapter={(bookId, chapterId) => {
+              setActiveBookId(bookId);
+              setActiveChapterId(chapterId);
+              setActiveView("manuscript");
+            }}
+          />
+        )}
+
         {activeView === "upload" && userRole !== "reader" && (
           <DocumentUploadStudio
             kb={kb}
@@ -1952,6 +1977,9 @@ export default function App() {
 
       {/* Dedicated Full-Book Print Layout */}
       <PrintableBookDocument book={activeBook} glossary={bookGlossary} />
+
+      {/* Interactive Atmospheric Particle Canvas Engine */}
+      <MizoAtmosphereCanvas />
     </div>
   );
 }

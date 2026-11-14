@@ -11,7 +11,7 @@
 
 export const PASALTHA_BUNG_1_CONTENT = `## Bung 1: Pasaltha Taitesena (Ralthatchhûnga) — A Tlawmngaihna Leh A Huaisenna Ropui
 
-![Pasaltha Taitesena leh Mizo Pasalthate](/images/bung7_pasaltha_khuangchera.jpg)
+![Pasaltha Taitesena leh Mizo Pasalthate](/illustrations/pasaltha_taitesena_hero.jpg "Pasaltha Taitesena Mizo Tlawmngaihna")
 
 ### 1. Hmahruai: Ralthatchhûnga Tobul Leh A Naupan Lai
 Mizo hnam nunphung hlun leh ziarâng sang ber chu **"Tlawmngaihna"** a ni a. He tlawmngaihna ropui tak lanna sang ber, ṭhalaite tana tehfung lungpui ber chu **Pasalṭha Taitesena** (a hming tak chu **Ralthatchhûnga**) a ni. 
@@ -201,7 +201,7 @@ Khawruhlian khuaah Lal **Pâwibâwia (Lalnilena)** hnuaiah a seilian a. Saizahaw
 
 export const FOLK_BUNG_1_CONTENT = `## Bung 1: Chhura leh Nahaia — Fing Varpui leh Mawl Thilmak
 
-![Zawlbuk Thawnthu Sawi](/images/bung3_zawlbuk_storyteller.jpg)
+![Chhura leh Nahaia Sekibuhchhuak kengin](/illustrations/folk_chhura_sekibuhchhuak.jpg "Chhura leh Nahaia Sekibuhchhuak thawnthu")
 
 ### 1. Mizo Thawnthu Ropui Ber: Chhura Chanchin
 Zofate pi-pu thawnthua hriat hlawh ber leh nuihzatthlak ber, thutak ril tak pai bawk si chu **Pa Chhura** leh **Nahaia** thawnthu a ni. Chhura hi pa lian pui, tha chak tak, mahse rilru thianghlim leh a changa mawl em em mai a ni a; Nahaia erawh chu mi fing verther, Chhura tha chakna chhawr ṭangkai thiam em em a ni.
@@ -223,7 +223,7 @@ Zofate pi-pu thawnthua hriat hlawh ber leh nuihzatthlak ber, thutak ril tak pai 
 
 export const FOLK_BUNG_2_CONTENT = `## Bung 2: Mauruangi — Nu Hrawn Tuarna, Vamur Thuruk leh Phunchawng Par
 
-![Mauruangi leh Rih Dil](/images/bung2_rih_dil_tan_tlang.jpg)
+![Mauruangi leh Vamur Sava](/illustrations/folk_mauruangi_vamur.jpg "Fahrah Mauruangi leh Vamur sava Phunchawng par hnuaiah")
 
 ### 1. Fahrah Nula Mauruangi
 **Mauruangi** thawnthu chu Mizo nunphunga fahrah tuarna leh nuhrawn duhdahna tarlangtu thawnthu lungkuai ber a ni. Mauruangi chu nula hmelṭha leh fel tak a ni a, a nu dik tak boral hnuah a pain nuhrawn a rawn hruai a, chumi nuhrawn chuan fanu **Bingtaii** a rawn hruai tel bawk a. Nuhrawn chuan Mauruangi chu tihduhdah zawng zawng a pe a, Bingtaii erawh a duat em em a ni.
@@ -265,7 +265,7 @@ A tawpah chuan an vanneihna a lo inher a, **Thlangra Lian** rosum thuruk hmu chh
 
 export const FOLK_BUNG_4_CONTENT = `## Bung 4: Chepahakhata — Changêl Hmun, Belte-phai-thei-lo leh Vaiva & Vakul Finfiahna
 
-![Chepahakhata Thawnthu](/images/bung3_zawlbuk_storyteller.jpg)
+![Chepahakhata & Vakul Finna](/illustrations/chepahakhata_hornbill_wit.jpg "Chepahakhata, Changêl hmun, Belte-phai-thei-lo leh Vakul finna")
 
 ### 1. Tu Nge Chepahakhata?
 Mizo pi leh pu thawnthu zinga hmingthang leh thluak fing ber mai chu **Chepahakhata** a ni. A hming put chhan chu tlangval hmelchhe ve tak, a ha (chepa ha) a khat mawi lo leh chhuak deuh, inhmeh lo tak a neih avangin "Chepahakhata" tiin an ko va. Hmelchhia tia sawi a nih avangin nupui hmu zo lo tura ngaih a nih laiin, vanneihthlak takin nula hmelṭha tak, dawithiam (sangkungpui nei) chu nupuiah a nei hlauh mai a!
@@ -321,7 +321,7 @@ export const FOLK_BUNG_5_CONTENT = `## Bung 5: Rimenhawihi — Zoram Nula Hmel�
 
 export const FOLK_BUNG_6_CONTENT = `## Bung 6: Kungawrhi — Keimi Laka Zalenna leh Pasalthate Chhan Chhuah
 
-![Kungawrhi Chhanchhuah](/images/bung1_tiau_crossing.jpg)
+![Kungawrhi leh Keimi Puk](/illustrations/folk_kungawrhi_keimi_cave.jpg "Kungawrhi Phawngpui Blue Mountain puk thuka Keimi laka chhan chhuah lai")
 
 ### 1. Kutzungpui Aṭanga Piang Kungawrhi
 **Kungawrhi** hi a pa kutzungpui vung aṭanga lo piang hmeichhe naupang duhawm tak a ni a. A lo ṭhan len hnu chuan nula hmelṭha chungchuang a lo ni a. 

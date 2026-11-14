@@ -5,6 +5,7 @@ import {
   ChevronUp,
   FileCheck2,
   GitBranch,
+  Image as ImageIcon,
   Search,
   ShieldAlert,
   Sparkles,
@@ -90,6 +91,19 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({
         >
           <Sparkles className="w-4 h-4" />
           <span>Codex</span>
+        </button>
+
+        <button
+          type="button"
+          onClick={() => onSelectView("gallery")}
+          className={`flex-1 flex flex-col items-center justify-center gap-0.5 text-[11px] font-medium transition-colors ${
+            activeView === "gallery"
+              ? "text-[var(--accent-ink)] font-semibold"
+              : "text-[var(--text-muted)]"
+          }`}
+        >
+          <ImageIcon className="w-4 h-4" />
+          <span>Milem</span>
         </button>
 
         {onOpenSearch && (

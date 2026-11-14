@@ -44,6 +44,29 @@ import {
   LORE_REALM_METADATA,
 } from "../data/mizoMythologyLore";
 
+const LORE_IMAGES: Record<string, string> = {
+  "lore-chawngtinleri": "/illustrations/lasi_chawngtinleri_tantlang.jpg",
+  "lore-tan-tlang": "/illustrations/bung2_rih_dil_tan_tlang.jpg",
+  "lore-rih-dil": "/illustrations/afterlife_rih_dil_pialral.jpg",
+  "lore-pialral": "/illustrations/afterlife_rih_dil_pialral.jpg",
+  "lore-keimi": "/illustrations/folk_kungawrhi_keimi_cave.jpg",
+  "lore-chhura": "/illustrations/folk_chhura_sekibuhchhuak.jpg",
+  "lore-nahaia": "/illustrations/folk_chhura_sekibuhchhuak.jpg",
+  "lore-mauruangi": "/illustrations/folk_mauruangi_vamur.jpg",
+  "lore-kungawrhi": "/illustrations/folk_kungawrhi_keimi_cave.jpg",
+  "lore-chepahakhata": "/illustrations/chepahakhata_hornbill_wit.jpg",
+  "lore-darlalpuii": "/illustrations/bung4_sibuta_lung_darlalpuii.jpg",
+  "lore-thlanrawkpa": "/illustrations/bung8_thlanrawn_rawt_battle.jpg",
+  "lore-khampat-bungpui": "/illustrations/bung1_khampat_bungpui.jpg",
+  "lore-chhinlung": "/illustrations/bung1_chhinlung_migration.jpg",
+  "lore-lalruanga": "/illustrations/bung2_rih_dil_tan_tlang.jpg",
+  "lore-keichala": "/illustrations/folk_kungawrhi_keimi_cave.jpg",
+  "lore-vai-lal": "/illustrations/chepahakhata_hornbill_wit.jpg",
+  "lore-reng-lal": "/illustrations/bung5_sailo_lalte_council.jpg",
+  "lore-pu-vana": "/illustrations/afterlife_rih_dil_pialral.jpg",
+  "lore-khuanu": "/illustrations/afterlife_rih_dil_pialral.jpg",
+};
+
 interface MythologyCodexStudioProps {
   onNavigateToChapter?: (bookId: string, chapterId: number) => void;
   initialSelectedId?: string | null;
@@ -298,6 +321,19 @@ export function MythologyCodexStudio({
                       className="group relative flex flex-col justify-between p-5 rounded-2xl border border-[var(--border-hairline)] bg-[var(--bg-card)] hover:border-[var(--accent-ink)]/50 hover:shadow-lg transition-all duration-200 cursor-pointer overflow-hidden"
                       onClick={() => setActiveLoreId(item.id)}
                     >
+                      {/* Optional Artwork Thumbnail */}
+                      {LORE_IMAGES[item.id] && (
+                        <div className="relative -mx-5 -mt-5 mb-4 aspect-[16/9] overflow-hidden bg-stone-950">
+                          <img
+                            src={LORE_IMAGES[item.id]}
+                            alt={item.title}
+                            loading="lazy"
+                            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-108"
+                          />
+                          <div className="absolute inset-0 bg-gradient-to-t from-[var(--bg-card)] via-transparent to-transparent opacity-60" />
+                        </div>
+                      )}
+
                       {/* Top Badges */}
                       <div>
                         <div className="flex items-center justify-between gap-2 mb-3">
@@ -595,6 +631,29 @@ export function MythologyCodexStudio({
               exit={{ opacity: 0, scale: 0.95, y: 16 }}
               className="relative w-full max-w-3xl max-h-[90vh] flex flex-col bg-[var(--bg-card)] border border-[var(--border-hairline)] rounded-2xl shadow-2xl overflow-hidden"
             >
+              {/* Optional Hero Artwork Banner */}
+              {LORE_IMAGES[activeLore.id] && (
+                <div className="relative w-full h-44 sm:h-56 overflow-hidden bg-stone-950 shrink-0">
+                  <motion.img
+                    src={LORE_IMAGES[activeLore.id]}
+                    alt={activeLore.title}
+                    initial={{ scale: 1.06 }}
+                    animate={{ scale: 1.0 }}
+                    transition={{ duration: 0.7, ease: "easeOut" }}
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[var(--bg-card)] via-transparent to-black/40" />
+                  <button
+                    type="button"
+                    onClick={() => setActiveLoreId(null)}
+                    aria-label="Khâr rawh"
+                    className="absolute top-3 right-3 p-2 rounded-full bg-black/60 text-white hover:bg-black/80 transition-colors backdrop-blur-sm z-10"
+                  >
+                    <X className="w-5 h-5" />
+                  </button>
+                </div>
+              )}
+
               {/* Modal Header */}
               <div className="flex items-start justify-between p-6 border-b border-[var(--border-hairline)] bg-[var(--bg-elevated)]">
                 <div className="flex items-start gap-4">
@@ -621,13 +680,15 @@ export function MythologyCodexStudio({
                   </div>
                 </div>
 
-                <button
-                  type="button"
-                  onClick={() => setActiveLoreId(null)}
-                  className="p-1.5 text-[var(--text-muted)] hover:text-[var(--text-ink)] rounded-lg hover:bg-[var(--bg-canvas)] transition-colors"
-                >
-                  <X className="w-5 h-5" />
-                </button>
+                {!LORE_IMAGES[activeLore.id] && (
+                  <button
+                    type="button"
+                    onClick={() => setActiveLoreId(null)}
+                    className="p-1.5 text-[var(--text-muted)] hover:text-[var(--text-ink)] rounded-lg hover:bg-[var(--bg-canvas)] transition-colors"
+                  >
+                    <X className="w-5 h-5" />
+                  </button>
+                )}
               </div>
 
               {/* Modal Body - Scrollable */}

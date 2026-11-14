@@ -18,6 +18,28 @@ import {
 } from "lucide-react";
 import { COVER_ILLUSTRATION_PATH, countWords } from "../data/chapters";
 import { MIZO_MYTHOLOGY_LORE_DATABASE } from "../data/mizoMythologyLore";
+import { AnimatedSceneBanner } from "./AnimatedSceneBanner";
+
+const CHAPTER_HERO_IMAGES: Record<string, string> = {
+  "book-master-zofate-sulhnu-1": "/illustrations/bung1_chhinlung_migration.jpg",
+  "book-master-zofate-sulhnu-2": "/illustrations/bung2_rih_dil_tan_tlang.jpg",
+  "book-master-zofate-sulhnu-3": "/illustrations/bung3_zawlbuk_storyteller.jpg",
+  "book-master-zofate-sulhnu-4": "/illustrations/bung4_sibuta_lung_darlalpuii.jpg",
+  "book-master-zofate-sulhnu-5": "/illustrations/bung5_sailo_lalte_council.jpg",
+  "book-master-zofate-sulhnu-6": "/illustrations/bung6_lai_mara_warriors.jpg",
+  "book-master-zofate-sulhnu-7": "/illustrations/bung7_pasaltha_khuangchera.jpg",
+  "book-master-zofate-sulhnu-8": "/illustrations/bung8_thlanrawn_rawt_battle.jpg",
+  "book-master-zofate-sulhnu-9": "/illustrations/bung9_mary_winchester_expedition.jpg",
+  "book-master-zofate-sulhnu-10": "/illustrations/bung10_rambuai_aizawl_1966.jpg",
+  "book-story-mizo-pasalthate-1": "/illustrations/pasaltha_taitesena_hero.jpg",
+  "book-story-mizo-pasalthate-2": "/illustrations/bung7_pasaltha_khuangchera.jpg",
+  "book-story-mizo-pasalthate-3": "/illustrations/bung7_pasaltha_khuangchera.jpg",
+  "book-story-mizo-folktales-1": "/illustrations/folk_chhura_sekibuhchhuak.jpg",
+  "book-story-mizo-folktales-2": "/illustrations/folk_mauruangi_vamur.jpg",
+  "book-story-mizo-folktales-4": "/illustrations/chepahakhata_hornbill_wit.jpg",
+  "book-story-mizo-folktales-6": "/illustrations/folk_kungawrhi_keimi_cave.jpg",
+  "book-story-mizo-folktales-7": "/illustrations/bung2_rih_dil_tan_tlang.jpg",
+};
 import type {
   BookProject,
   CanvasMode,
@@ -418,6 +440,22 @@ export const ManuscriptWorkspace: React.FC<ManuscriptWorkspaceProps> = ({
             effectiveCanvasMode === "edit" ? "max-w-3xl" : "max-w-[68ch]"
           }`}
         >
+          {/* Animated Cinematic Scene Banner */}
+          {effectiveCanvasMode !== "edit" && (
+            <AnimatedSceneBanner
+              title={chapter.title}
+              bungLabel={chapter.bungLabel}
+              eraOrTheme={chapter.eraOrTheme}
+              imageUrl={
+                CHAPTER_HERO_IMAGES[`${book.id}-${chapter.id}`] ||
+                CHAPTER_HERO_IMAGES[`${chapter.id}`] ||
+                "/illustrations/bung1_chhinlung_migration.jpg"
+              }
+              imageAlt={chapter.title}
+              keyFigures={chapter.keyFigures}
+            />
+          )}
+
           {/* Chapter Masthead */}
           <header className="pb-8 border-b border-[var(--border-hairline)]">
             <div className="flex flex-wrap items-center justify-between gap-3">

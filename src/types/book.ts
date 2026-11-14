@@ -8,6 +8,7 @@ export type StudioView =
   | "manuscript"
   | "dna"
   | "codex"
+  | "gallery"
   | "upload"
   | "admin"
   | "submissions";
