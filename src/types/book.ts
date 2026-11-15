@@ -11,7 +11,8 @@ export type StudioView =
   | "gallery"
   | "upload"
   | "admin"
-  | "submissions";
+  | "submissions"
+  | "profile";
 
 export type LoreRealm =
   | "vanchung"

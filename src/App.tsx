@@ -1,8 +1,10 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { Printer, Search, Shield } from "lucide-react";
+import { Printer, Search, Shield, Star, User } from "lucide-react";
 import { AdminModerationDashboard } from "./components/AdminModerationDashboard";
 import { ChapterSidebar } from "./components/ChapterSidebar";
 import { ContributorSubmissionsView } from "./components/ContributorSubmissionsView";
+import { ContributorAuthModal } from "./components/ContributorAuthModal";
+import { ContributorProfileDashboard } from "./components/ContributorProfileDashboard";
 import { DnaChainStudio } from "./components/DnaChainStudio";
 import { DocumentUploadStudio } from "./components/DocumentUploadStudio";
 import { ManuscriptWorkspace } from "./components/ManuscriptWorkspace";
@@ -17,6 +19,9 @@ import { RolePortalModal } from "./components/RolePortalModal";
 import { UniversalSearchModal } from "./components/UniversalSearchModal";
 import { MizoAtmosphereCanvas } from "./components/MizoAtmosphereCanvas";
 import { MizoArtGalleryStudio } from "./components/MizoArtGalleryStudio";
+import type { ContributorProfile } from "./types/contributor";
+import { getStoredContributor, saveStoredContributor } from "./services/firebaseAuth";
+import { createDefaultContributorProfile } from "./data/contributorData";
 import {
   ALL_SEED_BOOKS,
   createSingleStoryBook,
@@ -254,15 +259,31 @@ export default function App() {
     loadJsonFromStorage<SubmissionRecord[]>(STORAGE_KEYS.submissions, [])
   );
 
-  const [userRole, setUserRole] = useState<UserRole>(() =>
-    loadJsonFromStorage<UserRole>(STORAGE_KEYS.userRole, "admin")
+  const [contributorProfile, setContributorProfile] = useState<ContributorProfile | null>(
+    () => getStoredContributor()
   );
-  const [contributorName, setContributorName] = useState<string>(() =>
-    loadJsonFromStorage<string>(
+  const [showAuthModal, setShowAuthModal] = useState<boolean>(false);
+
+  // Default role is "reader" (no login needed). Contributor role requires verified Firebase Phone Auth.
+  const [userRole, setUserRole] = useState<UserRole>(() => {
+    const saved = loadJsonFromStorage<UserRole | null>(STORAGE_KEYS.userRole, null);
+    if (saved === "contributor") {
+      const contrib = getStoredContributor();
+      if (contrib && contrib.isVerified) return "contributor";
+      return "reader";
+    }
+    if (saved === "admin") return "admin";
+    return "reader";
+  });
+
+  const [contributorName, setContributorName] = useState<string>(() => {
+    const contrib = getStoredContributor();
+    if (contrib && contrib.displayName) return contrib.displayName;
+    return loadJsonFromStorage<string>(
       STORAGE_KEYS.contributorName,
       "Mimal Contributor"
-    )
-  );
+    );
+  });
   const [readerMaskMedical, setReaderMaskMedical] = useState<boolean>(() =>
     loadJsonFromStorage<boolean>(STORAGE_KEYS.readerMaskMedical, true)
   );
@@ -438,16 +459,29 @@ export default function App() {
   // Enforce RBAC view & canvas boundaries whenever role changes
   const handleSelectRole = useCallback(
     (nextRole: UserRole, nextContributorName?: string) => {
+      if (nextRole === "contributor") {
+        if (!contributorProfile || !contributorProfile.isVerified) {
+          setShowAuthModal(true);
+          return;
+        }
+      }
       setUserRole(nextRole);
       if (nextContributorName && nextContributorName.trim()) {
-        setContributorName(nextContributorName.trim());
+        const trimmed = nextContributorName.trim();
+        setContributorName(trimmed);
+        if (contributorProfile) {
+          const updated = { ...contributorProfile, displayName: trimmed };
+          setContributorProfile(updated);
+          saveStoredContributor(updated);
+        }
       }
       if (nextRole === "reader") {
         setCanvasMode((prev) => (prev === "edit" ? "read" : prev));
         if (
           activeView === "upload" ||
           activeView === "admin" ||
-          activeView === "submissions"
+          activeView === "submissions" ||
+          activeView === "profile"
         ) {
           setActiveView("manuscript");
         }
@@ -461,8 +495,16 @@ export default function App() {
         }
       }
     },
-    [activeView]
+    [activeView, contributorProfile]
   );
+
+  const handleContributorLoginSuccess = useCallback((profile: ContributorProfile) => {
+    setContributorProfile(profile);
+    setContributorName(profile.displayName);
+    setUserRole("contributor");
+    setActiveView("profile");
+    setShowAuthModal(false);
+  }, []);
 
   const activeBook = useMemo(
     () => books.find((b) => b.id === activeBookId) ?? books[0],
@@ -1713,6 +1755,24 @@ export default function App() {
           {userRole === "contributor" && (
             <button
               type="button"
+              onClick={() => setActiveView("profile")}
+              className={`py-1 transition-colors whitespace-nowrap shrink-0 border-b-2 flex items-center gap-1.5 ${
+                activeView === "profile"
+                  ? "border-[var(--accent-ink)] text-[var(--text-ink)] font-semibold"
+                  : "border-transparent text-[var(--text-muted)] hover:text-[var(--text-ink)]"
+              }`}
+            >
+              <span>Profile &amp; Badges</span>
+              <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-amber-400/20 text-amber-300 font-bold font-code flex items-center gap-0.5">
+                <Star className="w-2.5 h-2.5 fill-amber-300" />
+                {(contributorProfile?.rating || 5.0).toFixed(1)}
+              </span>
+            </button>
+          )}
+
+          {userRole === "contributor" && (
+            <button
+              type="button"
               onClick={() => setActiveView("submissions")}
               className={`py-1 transition-colors whitespace-nowrap shrink-0 border-b-2 tabular-nums ${
                 activeView === "submissions"
@@ -1726,7 +1786,7 @@ export default function App() {
           )}
         </nav>
 
-        {/* Zone 3: Universal Search + PWA Install + Role Switcher + Primary Print Action */}
+        {/* Zone 3: Universal Search + PWA Install + Contributor Badge + Role Switcher + Primary Print Action */}
         <div className="flex items-center gap-2 shrink-0">
           <button
             type="button"
@@ -1740,6 +1800,36 @@ export default function App() {
               Ctrl+K
             </kbd>
           </button>
+
+          {/* Contributor Profile & Rating Pill */}
+          {userRole === "contributor" && (
+            <button
+              type="button"
+              onClick={() => setActiveView("profile")}
+              title="Contributor Profile & Rating Dashboard"
+              className="inline-flex items-center gap-1.5 px-2.5 py-1.5 text-xs font-medium border border-amber-500/30 bg-amber-500/10 hover:bg-amber-500/20 text-[var(--text-ink)] rounded-md transition-colors whitespace-nowrap shrink-0 shadow-sm"
+            >
+              <span className="text-sm">{contributorProfile?.avatarIcon || "🛡️"}</span>
+              <span className="hidden md:inline font-display font-semibold">{contributorName}</span>
+              <span className="inline-flex items-center gap-0.5 text-amber-400 font-code font-bold text-[11px]">
+                <Star className="w-3 h-3 fill-amber-400" />
+                {(contributorProfile?.rating || 5.0).toFixed(1)}
+              </span>
+            </button>
+          )}
+
+          {/* Reader Contributor Login button */}
+          {userRole === "reader" && (
+            <button
+              type="button"
+              onClick={() => setShowAuthModal(true)}
+              title="Contributor Ni Rawh (Firebase Phone Auth)"
+              className="hidden sm:inline-flex items-center gap-1.5 px-2.5 py-1.5 text-xs font-medium border border-[var(--accent-ink)]/30 bg-[var(--accent-ink)]/10 hover:bg-[var(--accent-ink)]/20 text-[var(--text-ink)] rounded-md transition-colors whitespace-nowrap shrink-0"
+            >
+              <User className="w-3.5 h-3.5 text-[var(--accent-ink)]" />
+              <span>Contributor Login</span>
+            </button>
+          )}
 
           <PWAInstallButton variant="header" />
 
@@ -1900,6 +1990,27 @@ export default function App() {
             submissions={submissions}
           />
         )}
+
+        {/* Contributor Profile Dashboard & 5-Star Rating Studio */}
+        {activeView === "profile" && (
+          <ContributorProfileDashboard
+            profile={
+              contributorProfile ||
+              createDefaultContributorProfile(contributorName)
+            }
+            onUpdateProfile={(updated) => {
+              setContributorProfile(updated);
+              setContributorName(updated.displayName);
+            }}
+            onLogout={() => {
+              setContributorProfile(null);
+              setUserRole("reader");
+              setActiveView("manuscript");
+            }}
+            submissions={submissions}
+            onNavigateToView={setActiveView}
+          />
+        )}
       </main>
 
       {/* Role Switcher / Login Portal Modal */}
@@ -1907,10 +2018,20 @@ export default function App() {
         <RolePortalModal
           currentRole={userRole}
           contributorName={contributorName}
+          isContributorAuthenticated={Boolean(contributorProfile?.isVerified)}
+          onRequestContributorAuth={() => setShowAuthModal(true)}
           onSelectRole={handleSelectRole}
           onClose={() => setShowRolePortal(false)}
         />
       )}
+
+      {/* Firebase Phone Authentication & Dual Login Modal */}
+      <ContributorAuthModal
+        isOpen={showAuthModal}
+        onClose={() => setShowAuthModal(false)}
+        onLoginSuccess={handleContributorLoginSuccess}
+        initialName={contributorName}
+      />
 
       {/* Inline Clickable Entity -> DNA Profile Dossier Modal */}
       {modalPerson && (

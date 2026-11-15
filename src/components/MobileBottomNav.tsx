@@ -10,6 +10,7 @@ import {
   ShieldAlert,
   Sparkles,
   Upload,
+  User,
 } from "lucide-react";
 import type { StudioView, UserRole } from "../types/book";
 
@@ -163,6 +164,21 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({
             <span className="tabular-nums">
               Thawn{contributorCount > 0 ? ` (${contributorCount})` : ""}
             </span>
+          </button>
+        )}
+
+        {userRole === "contributor" && (
+          <button
+            type="button"
+            onClick={() => onSelectView("profile")}
+            className={`flex-1 flex flex-col items-center justify-center gap-0.5 text-[11px] font-medium transition-colors ${
+              activeView === "profile"
+                ? "text-[var(--accent-ink)] font-semibold"
+                : "text-[var(--text-muted)]"
+            }`}
+          >
+            <User className="w-4 h-4" />
+            <span>Profile</span>
           </button>
         )}
 
